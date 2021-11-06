@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DÉlicat | Trang chủ</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/head_foot.css">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+</head>
+
+<body>
+    <!-- topbar -->
+    <div class="topbar">
+        <p>Miễn phí giao hàng cho hóa đơn từ 500k</p>
+    </div>
+
+    <!-- header -->
+    <div class="wide">
+
+    </div>
+    <div class="row wide header">
+        <div class="header--left">
+            <div class="social-media">
+                <img src="./hinh/icon/facebook.webp">
+                <img src="./Hinh/icon/instagram.webp" alt="lỗi">
+                <img src="./Hinh/icon/pinterest.webp" alt="lỗi">
+            </div>
+            <div class="search">
+                <i class="material-icons">search</i>
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="header--center">
+            <img src="./Hinh/LOGO.png" alt="Lỗi">
+        </div>
+        <div class="header--right">
+            <div class="cart"><i class="fas fa-shopping-cart"></i></div>
+            <div class="account"><i class="fas fa-user-circle"></i></div>
+        </div>
+    </div>
+
+    <!-- menubar -->
+    <div class="row wide navigation" id="nav">
+        <div class="nav-HOME">
+            <p>TRANG CHỦ</p>
+        </div>
+        <div class="nav-PRO">
+            <p>SẢN PHẨM</p>
+        </div>
+        <div class="nav-ABOUT">
+            <p>VỀ CHÚNG TÔI</p>
+        </div>
+        <div class="nav-BESTIE">
+            <p>#DÉBESTIE</p>
+        </div>
+        <div class="nav-OTHER">
+            <p>KHÁC</p>
+        </div>
+    </div>
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+        var navigation = document.getElementById("nav");
+        var sticky = navigation.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                navigation.classList.add("sticky");
+            } else {
+                navigation.classList.remove("sticky");
+            }
+        }
+    </script>
+
+    <br>
+    <div class="grid wide container">
+        <!-- body item 1 -->
+        <div class="row">
+            <div class="col l-7 m-12 c-12 bannerSale">
+            </div>
+            <div class="col l-5 m-12 c-12">
+                <div class="row">
+                    <div class="col l-6 m-6 group-pro group1">
+                        <div class="group-pro-item pro-item1">
+                            <div class="group-pro--img img1"></div>
+                            <div>
+                                <p class="group-pro--name">NỘI THẤT TIỆN ÍCH</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-6 group-pro group2">
+                        <div class="group-pro-item">
+                            <div class="group-pro--img img2"></div>
+                            <div>
+                                <p class="group-pro--name">CÂY GIẢ TRANG TRÍ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-6 group-pro group3">
+                        <div class="group-pro-item">
+                            <div class="group-pro--img img3"></div>
+                            <div>
+                                <p class="group-pro--name">PHỤ KIỆN TRANG TRÍ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-6 group-pro group4">
+                        <div class="group-pro-item">
+                            <div class="group-pro--img img4"></div>
+                            <div>
+                                <p class="group-pro--name">THẢM, RÈM CỬA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!-- body item 2 -->
+        <h2>#BESTSELLER</h2>
+        <div class="row">
+            <div class="col l-2-4 m-4 c-6 product">
+                <div class="pro-item">
+                    <div class="pro--img"></div>
+                    <div>
+                        <p class="pro--name">Tiêu đề sản phẩm</p>
+                        <p class="pro--price">250,000₫</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col l-2-4 m-4 c-6 pro">
+                <div class="pro-item">
+                    <div class="pro--img"></div>
+                    <div>
+                        <p class="pro--name">Tiêu đề sản phẩm</p>
+                        <p class="pro--price">250,000₫</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col l-2-4 m-4 c-6 pro">
+                <div class="pro-item">
+                    <div class="pro--img"></div>
+                    <div>
+                        <p class="pro--name">Tiêu đề sản phẩm</p>
+                        <p class="pro--price">250,000₫</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col l-2-4 m-4 c-6 pro">
+                <div class="pro-item">
+                    <div class="pro--img"></div>
+                    <div>
+                        <p class="pro--name">Tiêu đề sản phẩm</p>
+                        <p class="pro--price">250,000₫</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col l-2-4 m-4 c-6 pro">
+                <div class="pro-item">
+                    <div class="pro--img"></div>
+                    <div>
+                        <p class="pro--name">Tiêu đề sản phẩm</p>
+                        <p class="pro--price">250,000₫</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col l-2-4 m-4 c-6 pro">
+                <div class="pro-item">
+                    <div class="pro--img"></div>
+                    <div>
+                        <p class="pro--name">Tiêu đề sản phẩm</p>
+                        <p class="pro--price">250,000₫</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col l-2-4 m-4 c-6 pro">
+                <div class="pro-item">
+                    <div class="pro--img"></div>
+                    <div>
+                        <p class="pro--name">Tiêu đề sản phẩm</p>
+                        <p class="pro--price">250,000₫</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col l-2-4 m-4 c-6 pro">
+                <div class="pro-item">
+                    <div class="pro--img"></div>
+                    <div>
+                        <p class="pro--name">Tiêu đề sản phẩm</p>
+                        <p class="pro--price">250,000₫</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col l-2-4 m-4 c-0 pro">
+                <div class="pro-item">
+                    <div class="pro--img"></div>
+                    <div>
+                        <p class="pro--name">Tiêu đề sản phẩm</p>
+                        <p class="pro--price">250,000₫</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col l-2-4 m-0 c-0 pro">
+                <div class="pro-item">
+                    <div class="pro--img"></div>
+                    <div>
+                        <p class="pro--name">Tiêu đề sản phẩm</p>
+                        <p class="pro--price">250,000₫</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <h2>#DÉBESTIE</h2>
+        <!-- body item 3 -->
+        <div class="row debestie">
+            <div class="col l-8 m-12 c-12">
+                <div class="col l-5 m-12 c-12"></div>
+                <div class="bannerBlog">
+                    <div class="bannerBlog-img"></div>
+                    <div class="bannerBlog-content">
+                        <h2>DAILY INSPIRATION</h2>
+                        <p>Những không gian đầy cảm xúc DÉ muốn chia sẻ cùng các bạn</p>
+                    </div>
+                </div>
+            </div>
+            <div class="blognew">
+                <div class="blog-item">
+                    <div class="blog--img blog1"></div>
+                    <div class="blog--title">
+                        <p>Cách trang trí phòng trọ nhỏ, hẹp có gác lửng chỉ với 900k</p>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog--img blog2"></div>
+                    <div class="blog--title">
+                        <p>Cách trang trí phòng ngủ dễ thương đơn giản, rẻ, đẹp nhất.</p>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="blog--img blog3"></div>
+                    <div class="blog--title">
+                        <p>Top 10 đồ trang trí phòng khách đẹp, chi phí thấp</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+
+    <!-- footer -->
+    <div class="row wide footer ">
+        <div class="col l-4 m-12 c-12 email ">
+            <div class="icon ">
+                <i class="material-icons ">mail</i>
+            </div>
+            <p>Email: DE@gmail.com</p>
+        </div>
+        <div class="col l-4 m-12 c-12 phone ">
+            <div class="icon ">
+                <i class="material-icons ">phone</i>
+            </div>
+            <p>Phone: 093 555 666</p>
+        </div>
+        <div class="col l-4 m-12 c-12 address ">
+            <div class="icon ">
+                <i class="material-icons ">home</i>
+            </div>
+            <p>Address: 669 QL1A, kp 3, Thủ Đức, TP.HCM</p>
+        </div>
+    </div>
+</body>
+
+</html>

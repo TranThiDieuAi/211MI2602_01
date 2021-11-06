@@ -1,0 +1,442 @@
+            /* PC low */
+            
+            @media (min-width: 1239px) and (max-width: 1500px) {
+                .wide {
+                    width: 1200px
+                }
+                .wide .row {
+                    margin-left: -8px;
+                    margin-right: -8px;
+                }
+                .header--center img {
+                    width: 170px !important;
+                    margin-top: 5px;
+                }
+                /* nav */
+                .navigation {
+                    width: 100%;
+                }
+                .navigation div {
+                    width: 12.5%;
+                    font-size: 17px !important;
+                }
+                .nav-HOME {
+                    margin-left: 18.75%;
+                }
+                /* bannerSale */
+                .bannerSale {
+                    background-size: cover;
+                    background-position: initial;
+                    height: 515px;
+                    width: 100%;
+                }
+                .group-pro {
+                    width: 220px;
+                    flex-wrap: wrap;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                /* nhóm sp */
+                .group-pro {
+                    width: 220px;
+                    flex-wrap: wrap;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .group-pro-item {
+                    width: 240px;
+                    height: 240px;
+                    font-size: 14px;
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+                    padding-top: 15px;
+                }
+                .group-pro--img {
+                    height: 180px;
+                    width: 200px;
+                }
+                .pro-item {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                /* product */
+                .pro-item {
+                    width: 180px;
+                    height: 200px;
+                    font-size: 15px;
+                }
+                .pro--img {
+                    height: 120px;
+                    width: 140px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                /* bannerBlog */
+                .bannerBlog {
+                    flex-wrap: wrap;
+                    height: 450px;
+                }
+                .bannerBlog-img {
+                    width: 60%;
+                    margin-left: 15px;
+                    margin-top: 15px;
+                }
+                .bannerBlog-content {
+                    text-align: center;
+                    margin-left: 25px;
+                    margin-right: 20px;
+                    width: 30%;
+                }
+                /* blog */
+                .blog-item {
+                    width: 400px;
+                    margin-bottom: 15px;
+                }
+                .blog--img {
+                    margin-left: 14px;
+                    margin-top: 14px;
+                }
+                .blog--title {
+                    text-align: left;
+                    margin-top: 50px;
+                    margin-right: 10px;
+                }
+            }
+            /* PC low */
+            
+            @media (min-width: 1024px) and (max-width: 1239px) {
+                .wide {
+                    width: 984px
+                }
+                .wide .row {
+                    margin-left: -12px;
+                    margin-right: -12px;
+                }
+                .header--center img {
+                    width: 160px !important;
+                    margin-top: 5px;
+                }
+                /* nav */
+                .navigation {
+                    width: 100%;
+                }
+                .navigation div {
+                    width: 15% !important;
+                    font-size: 16px !important;
+                }
+                .nav-HOME {
+                    margin-left: 15% !important;
+                }
+                /* bannerSale */
+                .bannerSale {
+                    height: 440px;
+                }
+                /* nhóm sp */
+                .group-pro {
+                    width: 200px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .group-pro-item {
+                    width: 200px;
+                    height: 200px;
+                    font-size: 14px;
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+                    padding-top: 15px;
+                }
+                .group-pro--img {
+                    height: 150px;
+                    width: 160px;
+                }
+                .group-pro--name {
+                    padding-top: 10px;
+                }
+                /* product */
+                .pro-item {
+                    width: 180px;
+                    height: 200px;
+                    font-size: 15px;
+                }
+                .pro--img {
+                    height: 120px;
+                    width: 140px;
+                }
+                .blog--title {
+                    margin-top: 55px;
+                    font-size: 15px;
+                }
+                /* bannerBlog */
+                .bannerBlog {
+                    flex-wrap: wrap;
+                    height: 420px;
+                }
+                .bannerBlog-img {
+                    background-size: cover;
+                    background-position: initial;
+                    height: 300px;
+                    width: 100%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 0;
+                }
+                .bannerBlog-content {
+                    width: 100%;
+                    height: 100px;
+                    text-align: left;
+                    padding-top: 0%;
+                    line-height: 20px;
+                }
+                /* blog */
+                .blog-item {
+                    width: 330px;
+                    height: 130px;
+                    margin-bottom: 8px;
+                }
+                .blog--img {
+                    width: 40%;
+                }
+                .blog--title {
+                    font-size: 14px;
+                    text-align: left;
+                    margin-top: 40px;
+                    margin-left: 15px;
+                }
+            }
+            /* tablet - PC low */
+            
+            @media (min-width: 740px) and (max-width: 1023px) {
+                .wide {
+                    width: 644px
+                }
+                .wide .row {
+                    margin-left: -12px;
+                    margin-right: -12px;
+                }
+                /* header */
+                .header--left {
+                    width: 25% !important;
+                    margin-left: 12.5% !important;
+                }
+                .header--center {
+                    width: 25% !important;
+                    margin-top: 60px !important;
+                }
+                .header--center img {
+                    width: 150px !important;
+                }
+                .header--right {
+                    width: 25% !important;
+                }
+                .search input {
+                    width: 140px;
+                }
+                /* nav */
+                .navigation div {
+                    width: 18% !important;
+                    font-size: 15px !important;
+                }
+                .nav-HOME {
+                    margin-left: 5% !important;
+                }
+                /* bannerSale */
+                .bannerSale {
+                    height: 400px;
+                }
+                /* nhóm sp */
+                .group-pro {
+                    width: 240px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .group-pro-item {
+                    width: 220px;
+                    height: 200px;
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                }
+                .group-pro--img {
+                    height: 140px;
+                    width: 170px;
+                }
+                .group-pro--name {
+                    padding-top: 10px;
+                }
+                /* product */
+                .pro-item {
+                    width: 170px;
+                    height: 190px;
+                    font-size: 14px;
+                }
+                .pro--img {
+                    height: 110px;
+                    width: 130px;
+                }
+                /* bannerBlog */
+                .bannerBlog {
+                    flex-wrap: wrap;
+                    height: 420px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .bannerBlog-img {
+                    background-size: cover;
+                    background-position: initial;
+                    height: 300px;
+                    width: 100%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 0;
+                }
+                .bannerBlog-content {
+                    width: 100%;
+                    text-align: left;
+                    padding-top: 0%;
+                }
+                .bannerBlog-content p {
+                    margin-top: 15px;
+                }
+                /* blog */
+                .blog-item {
+                    width: 620px;
+                    height: 130px;
+                    margin-left: 25px;
+                    margin-bottom: 5px;
+                }
+                .blog--img {
+                    width: 25%;
+                    margin-left: 10px;
+                    margin-top: 10px;
+                }
+                .blog--title {
+                    margin-top: 55px;
+                    font-size: 15px;
+                }
+                /* footer */
+                .row.wide.footer {
+                    height: 220px;
+                    font-size: 15px;
+                }
+                .footer div.email,
+                .footer div.phone,
+                .footer div.address {
+                    justify-content: center !important;
+                    margin: 0;
+                    padding: 0;
+                    height: 50px;
+                }
+            }
+            
+            @media (max-width: 740px) {
+                .wide {
+                    width: 450px
+                }
+                .wide .row {
+                    margin-left: -12px;
+                    margin-right: -12px;
+                }
+                /* header */
+                .header--left {
+                    width: 30% !important;
+                    margin-left: 5% !important;
+                }
+                .header--center {
+                    width: 30% !important;
+                    margin-top: 60px !important;
+                }
+                .header--center img {
+                    width: 140px !important;
+                }
+                .header--right {
+                    width: 30% !important;
+                }
+                .search input {
+                    width: 120px;
+                }
+                /* nav */
+                .navigation div {
+                    width: 20% !important;
+                    font-size: 13.5px !important;
+                }
+                .nav-HOME {
+                    margin-left: 0% !important;
+                }
+                /* bannerSale */
+                .bannerSale {
+                    height: 350px;
+                }
+                /* nhóm sp */
+                .group-pro {
+                    width: 220px;
+                    flex-wrap: wrap;
+                    margin-left: auto;
+                    margin-right: auto;
+                    flex-direction: row;
+                }
+                .group-pro-item {
+                    width: 200px;
+                    height: 180px;
+                    font-size: 14px;
+                    padding-top: 15px;
+                }
+                .group-pro--img {
+                    height: 120px;
+                    width: 160px;
+                }
+                .group-pro--name {
+                    padding-top: 10px;
+                }
+                /* product */
+                .pro-item {
+                    width: 160px;
+                    height: 180px;
+                    font-size: 14px;
+                }
+                .pro--img {
+                    height: 100px;
+                    width: 120px;
+                }
+                /* bannerBlog */
+                .bannerBlog {
+                    flex-wrap: wrap;
+                    height: 420px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .bannerBlog-img {
+                    height: 300px;
+                    width: 100%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 0;
+                }
+                .bannerBlog-content {
+                    width: 100%;
+                    text-align: left;
+                    padding-top: 0%;
+                    font-size: 15px !important;
+                }
+                /* blog */
+                .blog-item {
+                    width: 440px;
+                    height: 130px;
+                    margin-left: 15px;
+                    margin-bottom: 5px;
+                }
+                .blog--title {
+                    margin-top: 50px;
+                    font-size: 14px;
+                }
+                /* footer */
+                .row.wide.footer {
+                    height: 220px;
+                    font-size: 15px;
+                }
+                .footer div.email,
+                .footer div.phone,
+                .footer div.address {
+                    justify-content: center !important;
+                    margin: 0;
+                    padding: 0;
+                }
+            }
