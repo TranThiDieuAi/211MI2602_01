@@ -81,6 +81,7 @@ h3 {
     border: none;
     margin-left: 150px;
     font-size: 20px;
+    opacity: 0.7;
 }
 
 .btnlogin:hover {
