@@ -1,0 +1,13 @@
+.container {
+    background-color: antiquewhite;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    padding: 100px 0;
+    text-align: center;
+    font-family: quick-san;
+}
