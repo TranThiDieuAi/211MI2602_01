@@ -1,0 +1,26 @@
+.img0 {
+    width: 250px;
+    height: 250px;
+}
+
+.hr1 {
+    margin: 20px 0px;
+}
+
+.img1 {
+    width: 50px;
+    height: 50px;
+}
+
+.button__TangGiam {
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 1px solid #E5E5E5;
+    font-size: 16px;
+    line-height: 10px;
+    font-family: Quicksand;
+    font-weight: 500;
+}
