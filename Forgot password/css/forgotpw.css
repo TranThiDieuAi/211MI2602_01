@@ -1,0 +1,42 @@
+    html,
+    body {
+        font-family: Quicksand, sans-serif;
+        color: white;
+        margin: 0;
+        padding: 0;
+        width: 1400px;
+        font-size: 20px;
+    }
+    /* Khung quên mật khẩu */
+    
+    #container {
+        width: 1400px;
+        margin: 0 auto;
+        position: relative;
+    }
+    /* Khung nội dung  */
+    
+    img {
+        width: 900px;
+        height: 600px;
+        margin: 150px 300px 100px;
+    }
+    
+    .frame {
+        position: absolute;
+        background-color: rgba(96, 92, 92, 0.8);
+        height: 350px;
+        width: 500px;
+        margin: -580px 500px 0;
+    }
+    
+    #title {
+        margin-top: 60px;
+        text-align: center;
+        font-size: 22px;
+    }
+    
+    #content {
+        margin: 50px 50px 30px;
+        text-align: center;
+    }
