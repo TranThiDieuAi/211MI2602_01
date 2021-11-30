@@ -1,7 +1,7 @@
 [{
         "id": "",
         "name": "Thảm lót sàn lông thỏ hình gấu",
-        "icon_url": "../img/products/TRC_Tham_01",
+        "icon_url": "../img/products/TRC_Tham_01.png",
         "url": "",
         "price": "150.000",
         "category": "Thảm, rèm cửa",
@@ -10,7 +10,7 @@
     {
         "id": "",
         "name": "Thảm lót sàn hoa hướng dương mặt cười",
-        "icon_url": "../img/products/TRC_Tham_02",
+        "icon_url": "../img/products/TRC_Tham_02.png",
         "url": "",
         "price": "120.000",
         "category": "Thảm, rèm cửa",
@@ -19,7 +19,7 @@
     {
         "id": "",
         "name": "Thảm lót sàn hình quả đào",
-        "icon_url": "../img/products/TRC_Tham_03",
+        "icon_url": "../img/products/TRC_Tham_03.png",
         "url": "",
         "price": "90.000",
         "category": "Thảm, rèm cửa",
@@ -28,7 +28,7 @@
     {
         "id": "",
         "name": "Thảm lót sàn hình mèo lười",
-        "icon_url": "../img/products/TRC_Tham_04",
+        "icon_url": "../img/products/TRC_Tham_04.png",
         "url": "",
         "price": "150.000",
         "category": "Thảm, rèm cửa",
@@ -37,7 +37,7 @@
     {
         "id": "",
         "name": "Thảm lót sàn hình mặt hổ ",
-        "icon_url": "../img/products/TRC_Tham_05",
+        "icon_url": "../img/products/TRC_Tham_05.png",
         "url": "",
         "price": "90.000",
         "category": "Thảm, rèm cửa",
@@ -46,7 +46,7 @@
     {
         "id": "",
         "name": "Thảm lót sàn hình hổ dễ thương",
-        "icon_url": "../img/products/TRC_Tham_06",
+        "icon_url": "../img/products/TRC_Tham_06.png",
         "url": "",
         "price": "150.000",
         "category": "Thảm, rèm cửa",
@@ -55,7 +55,7 @@
     {
         "id": "",
         "name": "Thảm lót sàn hình gấu dễ thuơng",
-        "icon_url": "../img/products/TRC_Tham_07",
+        "icon_url": "../img/products/TRC_Tham_07.png",
         "url": "",
         "price": "120.000",
         "category": "Thảm, rèm cửa",
@@ -64,7 +64,7 @@
     {
         "id": "",
         "name": "Thảm lót sàn hình cầu cồng màu sắc",
-        "icon_url": "../img/products/TRC_Tham_08",
+        "icon_url": "../img/products/TRC_Tham_08.png",
         "url": "",
         "price": "120.000",
         "category": "Thảm, rèm cửa",
@@ -76,7 +76,7 @@
     {
         "id": "",
         "name": "Rèm cửa sổ nền hồng hình thỏ",
-        "icon_url": "../img/products/TRC_Rem_01",
+        "icon_url": "../img/products/TRC_Rem_01.png",
         "url": "",
         "price": "85.000",
         "category": "Thảm, rèm cửa",
@@ -85,7 +85,7 @@
     {
         "id": "",
         "name": "Rèm cửa sổ hình mèo nằm lười",
-        "icon_url": "../img/products/TRC_Rem_02",
+        "icon_url": "../img/products/TRC_Rem_02.png",
         "url": "",
         "price": "85.000",
         "category": "Thảm, rèm cửa",
@@ -94,7 +94,7 @@
     {
         "id": "",
         "name": "Rèm cửa sổ hình mèo good night",
-        "icon_url": "../img/products/TRC_Rem_03",
+        "icon_url": "../img/products/TRC_Rem_03.png",
         "url": "",
         "price": "85.000",
         "category": "Thảm, rèm cửa",
@@ -103,7 +103,7 @@
     {
         "id": "",
         "name": "Rèm cửa sổ hình mặt gấu bự",
-        "icon_url": "../img/products/TRC_Rem_04",
+        "icon_url": "../img/products/TRC_Rem_04.png",
         "url": "",
         "price": "85.000",
         "category": "Thảm, rèm cửa",
@@ -112,7 +112,7 @@
     {
         "id": "",
         "name": "Rèm cửa sổ hình lọ hoa tím",
-        "icon_url": "../img/products/TRC_Rem_05",
+        "icon_url": "../img/products/TRC_Rem_05.png",
         "url": "",
         "price": "85.000",
         "category": "Thảm, rèm cửa",
@@ -121,7 +121,7 @@
     {
         "id": "",
         "name": "Rèm cửa sổ hình lọ hoa màu hồng",
-        "icon_url": "../img/products/TRC_Rem_06",
+        "icon_url": "../img/products/TRC_Rem_06.png",
         "url": "",
         "price": "85.000",
         "category": "Thảm, rèm cửa",
@@ -130,7 +130,7 @@
     {
         "id": "",
         "name": "Rèm cửa sổ hình gấu bơi phao vịt",
-        "icon_url": "../img/products/TRC_Rem_07",
+        "icon_url": "../img/products/TRC_Rem_07.png",
         "url": "",
         "price": "85.000",
         "category": "Thảm, rèm cửa",
@@ -139,7 +139,7 @@
     {
         "id": "",
         "name": "Rèm cửa sổ hình chú vịt con",
-        "icon_url": "../img/products/TRC_Rem_08",
+        "icon_url": "../img/products/TRC_Rem_08.png",
         "url": "",
         "price": "85.000",
         "category": "Thảm, rèm cửa",
@@ -151,7 +151,7 @@
     {
         "id": "",
         "name": "Khăn trải bàn tròn họa tiết zikzak màu be",
-        "icon_url": "../img/products/TRC_Khantraiban_01",
+        "icon_url": "../img/products/TRC_Khantraiban_01.png",
         "url": "",
         "price": "95.000",
         "category": "Thảm, rèm cửa",
@@ -160,7 +160,7 @@
     {
         "id": "",
         "name": "Khăn trải bàn tròn họa tiết trái táo",
-        "icon_url": "../img/products/TRC_Khantraiban_02",
+        "icon_url": "../img/products/TRC_Khantraiban_02.png",
         "url": "",
         "price": "95.000",
         "category": "Thảm, rèm cửa",
@@ -169,7 +169,7 @@
     {
         "id": "",
         "name": "Khăn trải bàn tròn họa tiết lá xanh mint",
-        "icon_url": "../img/products/TRC_Khantraiban_03",
+        "icon_url": "../img/products/TRC_Khantraiban_03.png",
         "url": "",
         "price": "95.000",
         "category": "Thảm, rèm cửa",
@@ -178,7 +178,7 @@
     {
         "id": "",
         "name": "Khăn trải bàn tròn caro đỏ",
-        "icon_url": "../img/products/TRC_Khantraiban_04",
+        "icon_url": "../img/products/TRC_Khantraiban_04.png",
         "url": "",
         "price": "95.000",
         "category": "Thảm, rèm cửa",
@@ -187,7 +187,7 @@
     {
         "id": "",
         "name": "Khăn trải bàn PVC họa tiết trái cây nhí",
-        "icon_url": "../img/products/TRC_Khantraiban_05",
+        "icon_url": "../img/products/TRC_Khantraiban_05.png",
         "url": "",
         "price": "75.000",
         "category": "Thảm, rèm cửa",
@@ -196,7 +196,7 @@
     {
         "id": "",
         "name": "Khăn trải bàn PVC họa tiết trái cây cắt lát",
-        "icon_url": "../img/products/TRC_Khantraiban_06",
+        "icon_url": "../img/products/TRC_Khantraiban_06.png",
         "url": "",
         "price": "75.000",
         "category": "Thảm, rèm cửa",
@@ -205,7 +205,7 @@
     {
         "id": "",
         "name": "Khăn trải bàn PVC họa tiết lá mùa thu",
-        "icon_url": "../img/products/TRC_Khantraiban_07",
+        "icon_url": "../img/products/TRC_Khantraiban_07.png",
         "url": "",
         "price": "75.000",
         "category": "Thảm, rèm cửa",
@@ -214,7 +214,7 @@
     {
         "id": "",
         "name": "Khăn trải bàn PVC họa tiết dâu tây",
-        "icon_url": "../img/products/TRC_Khantraiban_08",
+        "icon_url": "../img/products/TRC_Khantraiban_08.png",
         "url": "",
         "price": "75.000",
         "category": "Thảm, rèm cửa",
