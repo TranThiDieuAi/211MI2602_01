@@ -1,0 +1,27 @@
+.footer {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+}
+
+.footer__contact {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.footer__contact-icon {
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+    margin-top: -4px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.footer__contact-icon i {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5.5px;
+}
