@@ -1,0 +1,79 @@
+html,
+body {
+    font-family: quicksand, sans-serif;
+    font-size: 14px;
+}
+
+.box {
+    margin-top: 100px;
+    border: 0.5px solid rgba(131, 121, 121, 0.5);
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+#form-container {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#phone,
+#pw,
+#retypepw {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#phone {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#pw {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#retypepw {
+    margin-top: 10px;
+}
+
+#signin {
+    margin: 20px auto;
+    display: block;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 100px;
+}
+
+#or {
+    text-align: center;
+}
+
+.other {
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    border: none;
+    height: 35px;
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.fb {
+    margin-left: 10px;
+    margin-right: 80px;
+}
