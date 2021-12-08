@@ -1,6 +1,11 @@
+.row {
+    text-align: start;
+}
+
 .footer {
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
+    margin-top: 50px;
 }
 
 .footer__contact {
@@ -9,19 +14,32 @@
     height: 40px;
     font-size: 16px;
     margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 .footer__contact-icon {
-    margin-right: 15px;
+    margin-right: 10px;
     width: 30px;
     height: 30px;
     margin-top: -4px;
     border-radius: 50%;
     border: 1px solid white;
+    text-align: center;
 }
 
 .footer__contact-icon i {
     position: absolute;
     margin-top: 5px;
-    margin-left: 5.5px;
+    margin-left: -8.5px;
+}
+
+.footer__contact img {
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width: 334px) {
+    .footer__contact {
+        justify-content: start;
+    }
 }

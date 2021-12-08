@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+    <!-- Import Boostrap css, js, font awesome here -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="../css/home.css">
+    <title>Home</title>
+
+</head>
+
+<body>
+    <!-- topbar -->
+    <div w3-include-html="topbar.html"></div>
+
+    <!-- header -->
+    <div w3-include-html="header.html"></div>
+
+    <!-- navbar -->
+    <div w3-include-html="navbar.html"></div>
+
+    <!-- banner -->
+    <div w3-include-html="banner.html"></div>
+
+    <!-- body -->
+    <!-- <div class="body">
+        <div class="container">
+            <div class="row" id="category_row">
+                <div class="col-xs-6 col-md-3 col-lg-3 col-xl-3" id="category_column">
+                    <div id="category_product"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>Product Page</h2>
+        <div id="category"></div>
+    </div>
+
+
+    <script>
+        var xmlHTTP = new XMLHttpRequest();
+        var url = "../data/category_product.json"
+        xmlHTTP.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var myArr = JSON.parse(this.responseText);
+                myFunction(myArr);
+            }
+        }
+        xmlHTTP.open("GET", url, true); //Ra lệnh, chứa thực hiện
+        xmlHTTP.send(); //Thực hiện thực sự
+        function myFunction(arr) {
+            var div = "";
+            var i;
+            for (i = 0; i < arr.length; i++) {
+                div += "<div class='col-xs-6 col-md-3 col-lg-3 col-xl-3'><a href='" + arr[i].url + "'><div class='card'><img src='" + arr[i].icon_url + "'><div class='name'>" + arr[i].name + "</div></div></a></div>"
+            }
+            // div += "</div>";
+            document.getElementById("category_row").innerHTML = div;
+        }
+    </script> -->
+
+    <!-- footer -->
+    <div w3-include-html="footer.html"></div>
+
+    <script>
+        w3.includeHTML()
+    </script>
+
+    </div>
+</body>
+
+</html>
