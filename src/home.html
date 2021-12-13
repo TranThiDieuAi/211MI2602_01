@@ -29,47 +29,52 @@
     <!-- navbar -->
     <div w3-include-html="navbar.html"></div>
 
-    <!-- banner -->
-    <div w3-include-html="banner.html"></div>
+    <!-- HOME -->
+    <div class="container home-banner">
+        <a href="">
+            <div class="banner"></div>
+        </a>
+    </div>
 
-    <!-- body -->
-    <!-- <div class="body">
-        <div class="container">
-            <div class="row" id="category_row">
-                <div class="col-xs-6 col-md-3 col-lg-3 col-xl-3" id="category_column">
-                    <div id="category_product"></div>
-                </div>
-            </div>
+    <!-- category -->
+    <div class="container home-category">
+        <div class="row" id="category_row">
         </div>
     </div>
+    <script src="../javascript/render-category.js"></script>
 
-    <div class="content">
-        <h2>Product Page</h2>
-        <div id="category"></div>
+    <!-- bestseller -->
+    <div class="container home-bestseller">
+        <h4>#BESTSELLER</h4>
+        <div class="row" id="bestseller_row">
+        </div>
     </div>
+    <script src="../javascript/render-best-seller.js"></script>
 
-
-    <script>
-        var xmlHTTP = new XMLHttpRequest();
-        var url = "../data/category_product.json"
-        xmlHTTP.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                var myArr = JSON.parse(this.responseText);
-                myFunction(myArr);
-            }
-        }
-        xmlHTTP.open("GET", url, true); //Ra lệnh, chứa thực hiện
-        xmlHTTP.send(); //Thực hiện thực sự
-        function myFunction(arr) {
-            var div = "";
-            var i;
-            for (i = 0; i < arr.length; i++) {
-                div += "<div class='col-xs-6 col-md-3 col-lg-3 col-xl-3'><a href='" + arr[i].url + "'><div class='card'><img src='" + arr[i].icon_url + "'><div class='name'>" + arr[i].name + "</div></div></a></div>"
-            }
-            // div += "</div>";
-            document.getElementById("category_row").innerHTML = div;
-        }
-    </script> -->
+    <!-- DEbestie -->
+    <div class="container home-debestie">
+        <h4>#DÉBESTIE</h4>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                <a href="">
+                    <div class="debestie--banner">
+                        <img src="../img/homepage/debestie.png" alt="">
+                        <div class="debestie--banner--title">
+                            <h4>DAILY INSPIRATION</h4>
+                            <p>Những không gian đầy cảm xúc DÉ muốn chia sẻ cùng bạn</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4" id="deblog_col">
+                <a href="">
+                    <div class="deblog--item" id="deblog">
+                    </div>
+                </a>
+            </div> -->
+        </div>
+    </div>
+    <!--     <script src="../javascript/render-deblog.js"></script> -->
 
     <!-- footer -->
     <div w3-include-html="footer.html"></div>
