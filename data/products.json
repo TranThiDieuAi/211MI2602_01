@@ -9,7 +9,7 @@
     },
     {
         "id": "",
-        "name": "Thảm lót sàn hoa hướng dương mặt cười",
+        "name": "Thảm lót sàn hoa hướng dương",
         "icon_url": "../img/products/TRC_Tham_02.png",
         "url": "",
         "price": "120.000",
@@ -444,6 +444,238 @@
         "price": "200.000",
         "category": "Phụ kiện trang trí",
         "sub_category": "Tượng"
+    },
+    {
+        "id": "",
+        "name": "Hộp đựng khăn giấy hình tivi",
+        "icon_url": "../img/products/NTTI_Dungculuutru_01.png",
+        "url": "",
+        "price": "100.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Dụng cụ lưu trữ"
+    },
+    {
+        "id": "",
+        "name": "Hộp đựng khăn giấy hình minion dễ thương",
+        "icon_url": "../img/products/NTTI_Dungculuutru_02.png",
+        "url": "",
+        "price": "150.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Dụng cụ lưu trữ"
+    },
+    {
+        "id": "",
+        "name": "Hộp đựng khăn giấy hình chú heo",
+        "icon_url": "../img/products/NTTI_Dungculuutru_03.png",
+        "url": "",
+        "price": "120.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Dụng cụ lưu trữ"
+    },
+    {
+        "id": "",
+        "name": "Hộp đựng khăn giấy phong cách basic",
+        "icon_url": "../img/products/NTTI_Dungculuutru_04.png",
+        "url": "",
+        "price": "200.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Dụng cụ lưu trữ"
+    },
+    {
+        "id": "",
+        "name": "Khay nhựa đựng đồ hoạ tiết bàn cờ",
+        "icon_url": "../img/products/NTTI_Dungculuutru_05.png",
+        "url": "",
+        "price": "100.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Dụng cụ lưu trữ"
+    },
+    {
+        "id": "",
+        "name": "Khay đựng đồ 3 tầng tiện dụng",
+        "icon_url": "../img/products/NTTI_Dungculuutru_06.png",
+        "url": "",
+        "price": "300.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Dụng cụ lưu trữ"
+    },
+    {
+        "id": "",
+        "name": "Khay đựng đồ Ballet",
+        "icon_url": "../img/products/NTTI_Dungculuutru_07.png",
+        "url": "",
+        "price": "250.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Dụng cụ lưu trữ"
+    },
+    {
+        "id": "",
+        "name": "Khay nhựa đựng đồ đa chức năng",
+        "icon_url": "../img/products/NTTI_Dungculuutru_08.png",
+        "url": "",
+        "price": "80.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Dụng cụ lưu trữ"
+    },
+
+
+
+    {
+        "id": "",
+        "name": "Móc treo đồ I love my home",
+        "icon_url": "../img/products/NTTI_Moctreodo.png",
+        "url": "",
+        "price": "90.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Móc treo đồ"
+    },
+    {
+        "id": "",
+        "name": "Móc treo đồ chữ HOME",
+        "icon_url": "../img/products/NTTI_Moctreodo.png",
+        "url": "",
+        "price": "120.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Móc treo đồ"
+    },
+    {
+        "id": "",
+        "name": "Móc nhựa tròn dán tường hình hoa quả cute",
+        "icon_url": "../img/products/NTTI_Moctreodo.png",
+        "url": "",
+        "price": "20.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Móc treo đồ"
+    },
+    {
+        "id": "",
+        "name": "Móc treo đồ hình đám mây",
+        "icon_url": "../img/products/NTTI_Moctreodo.png",
+        "url": "",
+        "price": "90.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Móc treo đồ"
+    },
+    {
+        "id": "",
+        "name": "Móc gỗ treo đồ mini",
+        "icon_url": "../img/products/NTTI_Moctreodo.png",
+        "url": "",
+        "price": "300.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Móc treo đồ"
+    },
+    {
+        "id": "",
+        "name": "Móc treo đồ hình chìa khoá",
+        "icon_url": "../img/products/NTTI_Moctreodo.png",
+        "url": "",
+        "price": "99.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Móc treo đồ"
+    },
+    {
+        "id": "",
+        "name": "Móc treo đồ hình trái tim",
+        "icon_url": "../img/products/NTTI_Moctreodo.png",
+        "url": "",
+        "price": "180.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Móc treo đồ"
+    },
+    {
+        "id": "",
+        "name": "Móc treo đồ hình chú chim",
+        "icon_url": "../img/products/NTTI_Moctreodo.png",
+        "url": "",
+        "price": "250.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Móc treo đồ"
+    },
+
+
+
+     {
+        "id": "",
+        "name": "Kệ thanh gỗ phong cách đơn giản",
+        "icon_url": "../img/products/NTTI_Ketu_0.png",
+        "url": "",
+        "price": "250.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Kệ, tủ"
+    },
+    {
+        "id": "",
+        "name":"Kệ đựng đồ hình ngôi nhà",
+        "icon_url": "../img/products/NTTI_Ketu_0.png",
+        "url": "",
+        "price": "250.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Kệ, tủ"
+    },
+    {
+        "id": "",
+        "name": "Kệ đựng đồ hình mũi tên",
+        "icon_url": "../img/products/NTTI_Ketu_0.png",
+        "url": "",
+        "price": "250.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Kệ, tủ"
+    },
+    {
+        "id": "",
+        "name": "Kệ đựng đồ hình chữ V",
+        "icon_url": "../img/products/NTTI_Ketu_0.png",
+        "url": "",
+        "price": "250.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Kệ, tủ"
+    },
+    {
+        "id": "",
+        "name": "Tủ đựng đồ nhiều ngăn nhiều kích cỡ",
+        "icon_url": "../img/products/NTTI_Ketu_0.png",
+        "url": "",
+        "price": "250.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Kệ, tủ"
+    },
+    {
+        "id": "",
+        "name": "Kệ đựng đồ 5 tầng basic",
+        "icon_url": "../img/products/NTTI_Ketu_0.png",
+        "url": "",
+        "price": "250.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Kệ, tủ"
+    },
+    {
+        "id": "",
+        "name": "Tủ đựng đồ bằng gỗ 4 ngăn kéo",
+        "icon_url": "../img/products/NTTI_Ketu_0.png",
+        "url": "",
+        "price": "250.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Kệ, tủ"
+    },
+    {
+        "id": "",
+        "name": "Kệ đựng đồ phân cách nhiều ngăn",
+        "icon_url": "../img/products/NTTI_Ketu_0.png",
+        "url": "",
+        "price": "250.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Kệ, tủ"
+    },
+    {
+        "id": "",
+        "name": "Tủ đựng đồ bằng gỗ 6 ngăn màu trắng đơn giản",
+        "icon_url": "../img/products/NTTI_Ketu_0.png",
+        "url": "",
+        "price": "250.000",
+        "category": "Nội thất tiện ích",
+        "sub_category": "Kệ, tủ"
     }
+
 
 ]
