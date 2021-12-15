@@ -5,14 +5,13 @@ body {
 }
 
 .box {
-    margin-top: 100px;
+    margin-top: 75px;
     border: 0.5px solid rgba(131, 121, 121, 0.5);
     box-sizing: border-box;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
     margin-left: auto;
     margin-right: auto;
     width: 95%;
-    margin-bottom: 10px;
 }
 
 #form-container {
@@ -73,6 +72,12 @@ body {
     margin-right: 80px;
 }
 
+@media(max-width:540px) {
+    .box {
+        margin: 15px;
+    }
+}
+
 @media(max-width:320px) {
     #form-container {
         width: 220px;
@@ -80,5 +85,12 @@ body {
     .fb {
         margin-left: 0px;
         margin-right: 15px;
+    }
+}
+
+@media(max-width:1024px) {
+    .box {
+        margin-bottom: 185px;
+        margin-top: 200px;
     }
 }
