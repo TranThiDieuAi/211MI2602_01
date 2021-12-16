@@ -1,0 +1,196 @@
+html,
+body {
+    font-size: 16px;
+    font-family: quicksand, sans-serif;
+}
+
+.box {
+    border: 1px solid rgba(112, 96, 96, 0.2);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.box1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+hr {
+    border: #C4C4C4 solid 0.2px;
+}
+
+.row-title {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    /* font-family: quicksand, sans-serif; */
+}
+
+.address .btn {
+    float: right;
+}
+
+.address,
+.product {
+    margin-bottom: 30px;
+}
+
+.address-content,
+.bill-content {
+    display: flex;
+}
+
+.address-content>p:first-child,
+.bill-content>p:first-child {
+    min-width: 150px;
+}
+
+.bill-content>p:last-child {
+    text-align: right;
+    width: 400px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btn {
+    height: 40px;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+}
+
+.checkbox,
+.radio {
+    height: 20px;
+    width: 20px;
+}
+
+.product-img {
+    text-align: center;
+}
+
+.product-img img {
+    width: 150px;
+    height: 150px;
+}
+
+.product-name {
+    color: rgba(0, 0, 0, 0.75);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.img-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.pagination {
+    margin: 0;
+}
+
+.page-link {
+    color: black;
+    font-size: 16px;
+}
+
+.page-link i {
+    font-size: 10px;
+}
+
+.quantity_container {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.quantity-container input {
+    width: 50px;
+    text-align: center;
+}
+
+.discount {
+    margin-bottom: 20px;
+}
+
+.discount input {
+    width: 100%;
+}
+
+.discount span {
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+
+/* The popup form */
+
+#myForm {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    z-index: 1;
+}
+
+.form-container {
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.form-container h4 {
+    text-align: center;
+}
+
+.form-container input[type=text] {
+    width: 100%;
+    height: 30px;
+    padding: 15px;
+    border: none;
+    background: #f1f1f1;
+    margin-bottom: 10px;
+}
+
+.form-container input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.form-container select {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.form-container .btn {
+    width: 100%;
+}
+
+@media only screen and (max-width: 575px) {
+    .box,
+    .box1 {
+        padding: 15px;
+    }
+    .product-container.box {
+        box-shadow: none;
+    }
+    .product-detail {
+        display: flex;
+        justify-content: center;
+    }
+}
