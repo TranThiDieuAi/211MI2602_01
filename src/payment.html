@@ -12,42 +12,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <script src="https://www.w3schools.com/lib/w3.js"></script>
     <script src="../javascript/base.js"></script>
+    <script type="text/javascript" src="../javascript/base.js"></script>
     <link rel="stylesheet" href="../css/payment.css">
 
     <title>Payment</title>
-
-    <script type="text/javascript">
-        function decreaseNumber() {
-            var quantity = document.getElementById("quantity");
-            var price = document.getElementById("price")
-            var total_amount = document.getElementById("amount");
-
-            if (quantity.value <= 0) {
-                quantity.value = 0;
-            } else {
-                quantity.value = parseInt(quantity.value) - 1;
-            }
-
-            // total amount
-            total_amount.innerHTML = quantity.value * parseInt(price.innerText) + ".000 đ"
-        }
-
-        function increaseNumber() {
-            var quantity = document.getElementById("quantity");
-            var price = document.getElementById("price")
-            var total_amount = document.getElementById("amount");
-            quantity.value = parseInt(quantity.value) + 1;
-            total_amount.innerHTML = quantity.value * parseInt(price.innerText)
-        }
-
-        function openForm() {
-            document.getElementById('myForm').style.display = 'flex';
-        }
-
-        function closeForm() {
-            document.getElementById("myForm").style.display = "none";
-        }
-    </script>
 </head>
 
 <body ng-app="AngularApp">
@@ -140,7 +108,7 @@
                                 <p>{{u.full_name}}</p>
                             </div>
                             <div class="address-content">
-                                <p>Sô điện thoại:</p>
+                                <p>Số điện thoại:</p>
                                 <p>{{u.phone}}</p>
                             </div>
                             <div class="address-content">
