@@ -33,7 +33,8 @@
 
 /* products */
 
-.home-bestseller h4 {
+.home-bestseller h5,
+.home-debestie h5 {
     font-family: quicksand;
     font-weight: bold;
     margin-top: 50px;
