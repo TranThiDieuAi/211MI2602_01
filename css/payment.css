@@ -1,4 +1,3 @@
-html,
 body {
     font-size: 16px;
     font-family: quicksand, sans-serif;
@@ -10,6 +9,7 @@ body {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
     margin: 0 auto;
     padding: 20px;
+    font-family: quicksand, sans-serif;
 }
 
 .box1 {
@@ -96,9 +96,12 @@ hr {
     margin: 0;
 }
 
-.page-link {
+.pagination>li>button {
     color: black;
-    font-size: 16px;
+}
+
+.pagination>li>input {
+    color: black;
 }
 
 .page-link i {
@@ -144,6 +147,7 @@ hr {
     align-items: center;
     display: none;
     z-index: 1;
+    font-family: quicksand, sans-serif;
 }
 
 .form-container {
