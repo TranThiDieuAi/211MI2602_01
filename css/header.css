@@ -5,66 +5,64 @@
 
 /* socialmed */
 
-.header-left__socialmed {
+.header--left__socialmed {
     height: 80px;
-    line-height: 100px;
-    display: flex;
+    line-height: 120px;
 }
 
-.header-left__socialmed a img {
-    width: 26px;
-    height: 26px;
-    margin-right: 5px;
+.header--left__socialmed a img {
+    width: 24px;
+    margin-right: 4px;
 }
 
 
 /* search */
 
-.header-left-mobile__search {
-    height: 140px;
+.header--left__search {
+    position: relative;
+    padding-top: 16px;
+}
+
+.header--left__search i {
+    position: absolute;
+    margin: 12px 16px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.15);
+}
+
+.header--left__search input {
+    width: 180px;
+    height: 40px;
+    margin-left: 5px;
+    padding-left: 35px;
+    border-radius: 3px;
+    border: 1px solid #c4c4c4c4;
+}
+
+input[type="text"]::placeholder {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.3);
+    font-family: quicksand, sans-serif;
+}
+
+
+/* search mobile */
+
+.header--left-mobile__search {
+    height: 150px;
     line-height: 150px;
     display: none;
 }
 
-.header-left-mobile__search i {
+.header--left-mobile__search i {
     font-size: 26px;
-    color: rgba(0, 0, 0, 0.8);
-}
-
-.header-left__search {
-    display: flex;
-    position: relative;
-    padding-top: 20px;
-}
-
-.header-left__search i {
-    position: absolute;
-    margin: 12px 16px;
-    font-size: 20px;
-    color: #c4c4c4c4;
-}
-
-.header-left__search input {
-    width: 180px;
-    height: 40px;
-    margin-left: 5px;
-    border-radius: 3px;
-    border: 1px solid #c4c4c4c4;
-    font-size: 15px;
-    font-family: quicksand, sans-serif;
-    padding-left: 35px;
-}
-
-input[type="text"]::placeholder {
-    padding-left: 0px;
-    font-size: 14px;
-    color: #c4c4c4c4
+    color: rgba(0, 0, 0, 0.75);
 }
 
 
 /* logo */
 
-.header-logo {
+.header--center {
     height: 180px;
     background-image: url(../img/homepage/logo.png);
     background-repeat: no-repeat;
@@ -74,33 +72,33 @@ input[type="text"]::placeholder {
 
 /* cart, account */
 
-.header-right {
+.header--right {
     display: flex;
     justify-content: end;
     height: 180px;
     line-height: 185px;
 }
 
-.header-right a i {
+.header--right a i {
     font-size: 24px;
-    margin-left: 20px;
-    color: rgba(0, 0, 0, 0.8);
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.75);
 }
 
 @media (max-width:1023px) {
     .header {
         height: 120px;
     }
-    .header-logo,
-    .header-right {
+    .header--center,
+    .header--right {
         height: 140px;
         line-height: 145px;
     }
-    .header-left__socialmed,
-    .header-left__search {
+    .header--left__socialmed,
+    .header--left__search {
         display: none;
     }
-    .header-left-mobile__search {
+    .header--left-mobile__search {
         display: flex;
         justify-content: start;
     }
@@ -110,11 +108,11 @@ input[type="text"]::placeholder {
     .header {
         height: 100px;
     }
-    .header-left-mobile__search,
-    .header-right {
+    .header--left-mobile__search,
+    .header--right {
         display: none;
     }
-    .header-logo {
+    .header--center {
         height: 120px;
     }
 }
