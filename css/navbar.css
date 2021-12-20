@@ -51,19 +51,20 @@ article img {
 }
 
 .nav__cart-btn i {
-    font-size: 26px;
+    font-size: 1.45rem;
     color: rgba(0, 0, 0, 0.75);
     display: none;
 }
 
 .nav__bars-btn i {
-    font-size: 28px;
+    font-size: 1.45rem;
     color: rgba(0, 0, 0, 0.75);
     margin-left: 8px;
     display: none;
 }
 
 .nav__overplay {
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
