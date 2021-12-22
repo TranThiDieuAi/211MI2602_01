@@ -6114,10 +6114,10 @@ button.close {
     -ms-flex-align: center;
     align-items: center;
     width: 100%;
-    -webkit-backface-visibility: hidden;
+    /* -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     -webkit-perspective: 1000px;
-    perspective: 1000px
+    perspective: 1000px */
 }
 
 .carousel-item-next,
