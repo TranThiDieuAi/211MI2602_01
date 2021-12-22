@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết sản phẩm</title>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+    <!--Boostrap css -->
+    <link rel="stylesheet" type="text/css" href="../css/libs/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../css/home.css">
+
+    <link rel="stylesheet" href="../css/productdetail.css">
+
+    <link rel="stylesheet" href="../css/payment.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js?fbclid=IwAR08_prufY-iqEwc4vj1AH9zaGtEQE8BUcawjBQlvBYWNWNHI_JaxzGpH30"></script>
+
+    <script>
+        let urlparams = new URLSearchParams(location.search);
+        var id = urlparams.get('productID');
+    </script>
+    <script>
+        let app = angular.module("AngularApp", []);
+        app.controller("DetailController", function($scope, $http) {
+            $http({
+                method: "GET",
+                url: "../data/products.json"
+            }).then(
+                function success(response) {
+                    $scope.selectProduct = response.data.find(function(value) {
+                        return value.name == id;
+                    })
+                },
+                function error(response) {
+                    $scope.error = response.statusText;
+                }
+            )
+        })
+    </script>
+    <!-- <script>
+        let app = angular.module("AngularApp", []);
+        app.controller("productController", function($scope, $http) {
+            $http({
+                method: "GET",
+                url: "../data/products.json",
+            }).then(
+                function success(response) {
+                    $scope.products = response.data;
+                },
+                function error(response) {
+                    $scope.error = response.statusText;
+                });
+        })
+    </script> -->
+</head>
+
+<body ng-app="AngularApp" ng-controller="DetailController" style="font-family: quicksand, sans-serif;">
+    <!-- topbar -->
+    <div w3-include-html="topbar.html"></div>
+
+    <!-- header -->
+    <div w3-include-html="header.html"></div>
+
+    <!-- navbar -->
+    <div w3-include-html="navbar.html"></div>
+    <div class="container">
+        <div class="container--information">
+            <div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="{{selectProduct.icon_url}}" width="300">
+                    </div>
+                    <div class="col-lg-8">
+                        <div>{{selectProduct.name}}</div>
+                        <div>Danh mục: {{selectProduct.category}}</div>
+                        <div>Mã:</div>
+                        <hr>
+                        <div>Giá: {{selectProduct.price}}</div>
+                        <hr>
+                        <div class="quantity-container">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <button onclick="decreaseNumber()" class="page-link">
+                                        <i class="fas fa-minus"></i> 
+                                    </button>
+                                </li>
+                                <li class="page-item">
+                                    <input name="quantity" value="1" class="page-link" id="quantity">
+                                </li>
+                                <li class="page-item">
+                                    <button class="page-link" onclick="increaseNumber()">
+                                        <i class="fas fa-plus"></i> 
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="quantity-container distance">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <button onclick="decreaseNumber()" class="page-link">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                    Thêm vào giỏ hàng
+                                    </button>
+                                </li>
+                                <li class="page-item">
+                                    <button class="page-link" onclick="increaseNumber()">
+                                        Mua ngay
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="container--information">
+                    <h4> <b>MÔ TẢ SẢN PHẨM</b></h4>
+                    <hr>
+                    <p>
+                        Cốc nhựa hokori được làm từ chất liệu nhựa việt nhật cao cấp, an toàn cho người sử dụng, không mùi nhựa, dễ dàng vệ sinh cọ rửa. Cốc nhựa có thể chịu nhiệt độ cao lên tới 120 độ C, cứng và khó vỡ khi va đập mạnh. Miệng cốc được thiết kế tỉ mỉ, miệng cốc
+                        nhẵn mịn tạo cảm giác thoải mái khi uống nước. Thiết kế độc đáo có hình chú hươu ở bề mặt nổi bật .Cốc có quai tay cầm chống trượt giúp cầm nắm dễ dàng chỉ với một tay <br> Tác dụng: Được sử dụng làm cốc
+                        uống nước, sử dụng và trang trí trong gia đình, văn phòng làm việc ngoài ra bạn có thể sử dụng cốc đựng nước khi đánh răng, cắm bàn chải, kem đánh răng Giúp nhà tắm luôn gọn gàng. <br> THÔNG TIN CHI TIẾT: <br> - Chất liệu : Nhựa
+                        PP <br> - Kích thước : 8.8 x 8.8 cm <br> - Màu sắc : Trắng,hồng,xanh <br> - Sản xuất : Nhựa Việt Nhật chất <br> – Hàng VN chất lượng cao
+
+                    </p>
+                </div>
+            </div>
+            <!-- <div class="col-12" ng-controller="productController">
+                <div class="container home-bestseller">
+                    <h4>Tất cả sản phẩm</h4>
+                    <div class="row" id="bestseller_row">
+                        <div ng-repeat="p in selectProduct |limitTo :5" class="col-8 col-sm-4 col-md-3 col-lg-2dot4">
+                            <div class="card bestseller--item">
+                                <img src="{{p.icon_url}}" class="card-img-top bestseller--item-img">
+                                <div class="card-body bestseller--item-content">
+                                    <p class="card-text bestseller--item-name"><a href="productdetail.html?productID={{p.name}}">{{p.name}}</a></p>
+                                    <p class="card-text bestseller--item-price">{{p.price}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <!-- footer -->
+    <div w3-include-html="footer.html"></div>
+
+    <script>
+        w3.includeHTML()
+    </script>
+
+    </div>
+</body>
+
+</html>

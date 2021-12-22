@@ -5429,7 +5429,8 @@ tbody.collapse.show {
     -ms-flex-direction: column;
     flex-direction: column;
     padding-left: 0;
-    margin-bottom: 0
+    margin-bottom: 0;
+    margin-top: 50px
 }
 
 .list-group-item-action {
