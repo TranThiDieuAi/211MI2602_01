@@ -1,45 +1,35 @@
-.row {
-    text-align: start;
-}
-
 .footer {
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
     margin-top: 50px;
 }
 
+.row {
+    padding: 0.75rem 0;
+}
+
 .footer__contact {
     display: flex;
     justify-content: center;
-    height: 40px;
-    font-size: 16px;
-    margin-top: 15px;
-    margin-bottom: 5px;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 0.925rem;
 }
 
 .footer__contact-icon {
-    margin-right: 10px;
-    width: 30px;
-    height: 30px;
-    margin-top: -4px;
+    position: relative;
+    margin: 0.5rem;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
     border: 1px solid white;
     text-align: center;
-}
-
-.footer__contact-icon i {
-    position: absolute;
-    margin-top: 5px;
-    margin-left: -8.5px;
-}
-
-.footer__contact img {
-    width: 40px;
-    height: 40px;
+    line-height: 1.85rem;
 }
 
 @media (max-width: 334px) {
     .footer__contact {
         justify-content: start;
+        margin: 0 -1.875rem;
     }
 }

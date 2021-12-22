@@ -1,0 +1,8 @@
+.page1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container--col {
+    margin-top: 50px;
+}

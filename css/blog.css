@@ -26,15 +26,16 @@
 
 .slider__body {
     position: absolute;
-    height: 100px;
-    width: 860px;
+    max-height: 200px;
+    max-width: 800px;
     left: 10%;
-    top: calc(50% - 100px/2 + 207px);
+    top: calc(50% - 300px/2 + 200px);
     font-style: normal;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 28px;
     line-height: 50px;
     color: #fff;
+    margin: 0 auto 10px;
 }
 
 
@@ -52,7 +53,7 @@
 }
 
 .container__new-post {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .container__new-post-item,
@@ -69,14 +70,14 @@
 }
 
 .container__new-post-content {
-    margin: 15px 0 20px 0;
+    margin: 15px 0 15px 0;
 }
 
 .container__new-post-description {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 22px;
-    width: 242px;
+    max-width: 300px;
     text-align: center;
     display: block;
     margin: 0 auto 10px;
@@ -97,7 +98,13 @@
 
 .container__post-wrap {
     justify-content: space-between;
+    /* -ms-flex-direction: column; */
 }
+
+
+/* .flex--drirection {
+    display: flex;
+} */
 
 .container__post {}
 
@@ -159,7 +166,7 @@
     line-height: 22px;
     font-family: 'Quicksand';
     font-weight: 400;
-    width: 800px;
+    max-width: 700px;
     display: block;
     margin: 0 auto 25px;
 }
@@ -190,10 +197,10 @@
 }
 
 .container__main-post-description {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     line-height: 22px;
-    width: 242px;
+    max-width: 300px;
     text-align: center;
     display: block;
     margin: 0 auto 10px;
@@ -218,6 +225,7 @@
 
 .container__sidebar-about {
     margin-bottom: 100px;
+    text-align: center;
 }
 
 .container__sidebar-about-wrap {}
@@ -245,6 +253,7 @@
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 12px;
+    text-align: center;
 }
 
 .container__sidebar-about-img {
@@ -346,7 +355,7 @@
 .container__pagination {
     border: 1px solid #e5e5e5;
     padding: 20px 0;
-    width: 600px;
+    max-width: 600px;
     margin-left: calc((100% - 600px)/2);
 }
 
@@ -380,4 +389,9 @@
 .pagination-item--active .pagination-item__link {
     background-color: var(--main-color);
     color: #171717;
+}
+
+.container__page {
+    margin: 40px 5px 10px 5px;
+    padding: 5px;
 }

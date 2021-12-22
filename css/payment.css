@@ -71,6 +71,10 @@ hr {
     width: 20px;
 }
 
+.product-container:hover {
+    background-color: rgba(246, 243, 243, 0.7);
+}
+
 .product-img {
     text-align: center;
 }
@@ -83,7 +87,7 @@ hr {
 .product-name {
     color: rgba(0, 0, 0, 0.75);
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .img-icon {

@@ -13,7 +13,7 @@ function myFunction(x) {
                 var i;
 
                 for (i = 0; i < 10; i++) {
-                    div += "<div class='col-12 col-sm-4 col-md-3 col-lg-2dot4 col-xl-2'><a href='" + arr[i].url + "'><div class='card bestseller--item'><div class='card-img-container'><img class='card-img-top bestseller--item-img' src='" + arr[i].icon_url + "'></div><div class='card-body bestseller--item-content'><p class='card-text bestseller--item-name'>" + arr[i].name + "</p><p class='card-text bestseller--item-price'>" + arr[i].price + "₫" + "</p></div></div></a></div>"
+                    div += "<div class='col-12 col-sm-4 col-md-3 col-lg-2dot4 col-xl-2'><a href='" + arr[i].url + "'><div class='card bestseller--item'><img class='card-img-top bestseller--item-img' src='" + arr[i].icon_url + "'><div class='card-body bestseller--item-content'><p class='card-text bestseller--item-name'>" + arr[i].name + "</p><p class='card-text bestseller--item-price'>" + arr[i].price + "</p></div></div></a></div>"
                 }
                 // div += "</div>";
                 document.getElementById("bestseller_row").innerHTML = div;
@@ -34,8 +34,8 @@ function myFunction(x) {
                 var div = "";
                 var i;
 
-                for (i = 0; i < 12; i++) {
-                    div += "<div class='col-12 col-sm-4 col-md-3 col-lg-2dot4 col-xl-2'><a href='" + arr[i].url + "'><div class='card bestseller--item'><div class='card-img-container'><img class='card-img-top bestseller--item-img' src='" + arr[i].icon_url + "'></div><div class='card-body bestseller--item-content'><p class='card-text bestseller--item-name'>" + arr[i].name + "</p><p class='card-text bestseller--item-price'>" + arr[i].price + "₫" + "</p></div></div></a></div>"
+                for (i = 0; i < 25; i++) {
+                    div += "<div class='col-8 col-sm-4 col-md-3 col-lg-2dot4'><a href='" + arr[i].url + "'><div class='card bestseller--item'><img class='card-img-top bestseller--item-img' src='" + arr[i].icon_url + "'><div class='card-body bestseller--item-content'><p class='card-text bestseller--item-name'>" + arr[i].name + "</p><p class='card-text bestseller--item-price'>" + arr[i].price + "</p></div></div></a></div>"
                 }
                 // div += "</div>";
                 document.getElementById("bestseller_row").innerHTML = div;
