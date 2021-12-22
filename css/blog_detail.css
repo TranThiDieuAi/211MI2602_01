@@ -1,0 +1,22 @@
+.entry-thumbnail {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body {
+    font-family: quicksand, sans-serif;
+}
+
+.entry-title {
+    text-align: center;
+}
+
+.img-thumbnail {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: "750";
+    height: "499"; */
+    max-width: 750px 100vw, 750px;
+}

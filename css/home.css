@@ -1,22 +1,21 @@
 /* banner */
 
-.home-banner {
-    background-color: pink;
-    height: 500px;
-    margin-top: 40px;
-}
-
 
 /* category */
 
 .home-category {
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 .category--item {
     width: 100%;
     height: 100%;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    transition: all .1s ease;
+}
+
+.category--item:hover {
+    transform: scale(1.025);
 }
 
 .category--item img {
@@ -30,64 +29,58 @@
     font-family: quicksand;
     background-color: white;
     color: rgba(0, 0, 0, 0.75);
+    font-size: 0.9375rem;
     font-weight: bold;
-    height: 70px;
     text-align: center;
+    height: 70px;
     line-height: 70px;
 }
 
 
 /* products */
 
-.home-bestseller h4 {
+.home-bestseller h5,
+.home-debestie h5 {
     font-family: quicksand;
     font-weight: bold;
-    margin-top: 50px;
-    margin-bottom: 25px;
-}
-
-.bestseller--item-content p {
-    margin-left: -10px;
-    margin-top: -10px;
-    margin-bottom: 15px;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .bestseller--item {
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
-    height: 250px;
+    margin-bottom: 1.5rem;
     width: 165px;
-    margin-bottom: 25px;
+    height: 250px;
+    display: block;
+    transition: all .1s ease;
+}
+
+.bestseller--item:hover {
+    transform: scale(1.025);
+}
+
+.bestseller--item-content p {
+    font-family: quicksand;
+    font-size: 0.9375rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.75);
+    margin-bottom: 0.5rem;
 }
 
 .bestseller--item img {
     width: 100%;
     height: 150px;
-    object-fit: cover;
-}
-
-.bestseller--item-name {
-    font-family: quicksand;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.75);
-    width: 150px;
 }
 
 @media (max-width: 575px) {
     .bestseller--item {
         flex-direction: row !important;
-        height: 120px;
+        height: 8rem;
         width: 100%;
-        margin-bottom: 25px;
     }
-    .bestseller--item img {
-        width: 250px;
-        height: 120px;
-        object-fit: cover;
-    }
-    .bestseller--item-name {
-        width: 100%;
-        margin-top: 0px !important;
-        ;
+    .card-img-container img {
+        width: 9rem !important;
+        height: 100%;
     }
 }
 
@@ -95,11 +88,11 @@
 /* debestie */
 
 .home-debestie {
-    margin-top: 50px;
+    margin-top: 3rem;
 }
 
 .home-debestie h4 {
-    margin-bottom: 25px;
+    margin-bottom: 1.5rem;
     font-family: quicksand;
     font-weight: bold;
 }
@@ -108,10 +101,15 @@
     border: 1px solid rgba(0, 0, 0, 0.08);
     box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.25);
     display: flex;
+    transition: all .1s ease;
+}
+
+.debestie--banner:hover {
+    transform: scale(1.025);
 }
 
 .debestie--banner img {
-    width: 60%;
+    width: 55%;
 }
 
 .debestie--banner--title {
@@ -120,6 +118,8 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding: 1rem;
+    font-size: 0.9375rem;
 }
 
 @media (max-width: 575px) {
