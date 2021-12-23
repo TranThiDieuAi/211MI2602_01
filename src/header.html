@@ -18,6 +18,7 @@
     <!-- css -->
     <link rel="stylesheet" href="../css/header.css">
     <title>Home</title>
+
 </head>
 
 <body>
@@ -30,24 +31,32 @@
                         <a href="#"><img src="../img/homepage/socialmed/ins.webp" alt=""></a>
                         <a href="#"><img src="../img/homepage/socialmed/pin.webp" alt=""></a>
                     </div>
-                    <div class="header--left__search">
-                        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a><input type="text" placeholder="Search">
-                    </div>
-                    <div class="header--left-mobile__search">
-                        <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    <form>
+                        <div class="header--left__search">
+                            <a class="menu--search">
+                                <i class="fa fa-search" aria-hidden="true"></i></a>
+                            <input onkeyup="searchFunc();" id="menu__search" placeholder="Search" onclick="loadDataSearch();" type="text">
+                            <div id="search__list"></div>
+                        </div>
+
+                    </form>
+                    <script src="../javascript/search.js "></script>
+                    <div class="header--left-mobile__search ">
+                        <a href="# "><i class="fa fa-search " aria-hidden="true "></i></a>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                <div class="header--center"></div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 ">
+                <div class="header--center "></div>
             </div>
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                <div class="header--right">
-                    <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-user-circle" aria-hidden="true"></i></a></div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 ">
+                <div class="header--right ">
+                    <a href="# "><i class="fa fa-shopping-cart " aria-hidden="true "></i></a>
+                    <a href="# "><i class="fa fa-user-circle " aria-hidden="true "></i></a></div>
             </div>
         </div>
     </div>
+
 </body>
 
 </html>
