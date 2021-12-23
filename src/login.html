@@ -39,8 +39,8 @@
                     <label id="fgpw"><a href="../src/forgotpw.html" id="forgot">Quên mật khẩu?</a></label><br>
                     <button id="signin" onclick="lgsc();" type="button">ĐĂNG NHẬP</button>
                     <p id="or">HOẶC</p>
-                    <button class="other fb" onclick="sc();" type="button">Facebook</button>
-                    <button class="other gg " onclick="sc();" type="button">Google</button><br>
+                    <button class="other fb" href="account.html" onclick="sc();" type="button">Facebook</button>
+                    <button class="other gg " href="account.html" onclick="sc();" type="button">Google</button><br>
                     <label id="regis"><a href="../src/registration.html " class="dk ">Bạn chưa có tài khoản?</a></label>
                 </form>
             </div>
@@ -54,17 +54,17 @@
         w3.includeHTML()
 
         function formValidate() {
-            var phone = document.getElementById("phone ").value;
+            var phone = document.getElementById("phone").value;
             var regExp = /^(0[0-9]{9})$/;
             if (!regExp.test(phone))
                 alert('SĐT không hợp lệ! Mời nhập lại!');
         }
 
         function lgsc() {
-            var phone = document.getElementById("phone ").value;
-            var password = document.getElementById("pw ").value;
+            var phone = document.getElementById("phone").value;
+            var password = document.getElementById("pw").value;
             if (password != " " && phone != " ") {
-                if (phone == '0946376675' && password == '123') {
+                if (phone == '0123456789' && password == '123') {
                     alert("Đăng nhập thành công!");
                     location.replace("../src/account.html");
                 } else {

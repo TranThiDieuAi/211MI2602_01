@@ -72,6 +72,10 @@ body {
     margin-right: 80px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 @media(max-width:540px) {
     .box {
         margin: 15px;
