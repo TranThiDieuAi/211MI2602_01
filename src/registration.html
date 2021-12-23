@@ -40,8 +40,8 @@
                     <input type="text" id="retypepw"><br>
                     <button id="signin" onclick="susc();" type="button">ĐĂNG KÝ</button>
                     <p id="or">HOẶC</p>
-                    <button class="other fb" href="#">Facebook</button>
-                    <button class="other gg" href="#">Google</button><br>
+                    <button class="other fb" type="button" onclick="sc();">Facebook</button>
+                    <button class="other gg" type="button" onclick="sc();">Google</button><br>
                 </form>
             </div>
             <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
@@ -73,6 +73,11 @@
             } else {
                 alert("Nhập thiếu thông tin! Mời nhập đủ thông tin đăng ký!");
             }
+        }
+
+        function sc() {
+            alert("Đăng ký thành công!");
+            location.replace("../src/account.html");
         }
     </script>
     <script src="../javascript/search.js "></script>
