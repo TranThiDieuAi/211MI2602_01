@@ -10,18 +10,10 @@
 
 /* products */
 
-.home-bestseller h5,
-.home-debestie h5 {
-    font-family: quicksand;
-    font-weight: bold;
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
-}
-
 .bestseller--item {
     margin-bottom: 1.5rem;
     width: 100%;
-    max-height: 230px;
+    height: 230px;
     display: block;
     transition: all .1s ease;
 }
@@ -40,19 +32,17 @@
 
 .bestseller--item img {
     width: 100%;
-    max-height: 135px;
+    height: 135px;
 }
 
 @media (max-width: 575px) {
     .bestseller--item {
-        display: flex;
         flex-direction: row !important;
-        min-height: 8rem;
+        height: 8rem;
         width: 100%;
-        flex-wrap: nowrap;
     }
     .card-img-container img {
-        max-width: 9rem !important;
+        width: 9rem !important;
         height: 100%;
     }
 }
