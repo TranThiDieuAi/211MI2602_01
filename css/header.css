@@ -23,11 +23,44 @@
     padding-top: 0.5rem;
 }
 
+.menu--search {
+    position: absolute;
+    margin: 0.35rem 0.5rem;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.menu__item {
+    margin-top: 0.1rem;
+    height: 1.5rem;
+    background-color: rgba(114, 110, 110, 0.75);
+}
+
+#search__list {
+    height: 150px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
+    margin: 0.3rem;
+    width: auto;
+}
+
+#sname {
+    margin: 0 0.5rem;
+    color: white;
+}
+
+#sname:hover {
+    cursor: pointer;
+    transform: scale(1.025);
+    color: black;
+}
+
 .header--left__search i {
     position: absolute;
-    margin: 0.75rem 1rem;
+    margin: 0.35rem;
     font-size: 1.125rem;
-    color: rgba(0, 0, 0, 0.15);
+    color: #c4c4c4c4;
 }
 
 .header--left__search input {
