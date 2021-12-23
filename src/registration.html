@@ -33,12 +33,12 @@
                 <form id="form-container">
                     <p id="header">ĐĂNG KÝ</p>
                     <label id="sdt" for="phone">Số điện thoại:</label><br>
-                    <input type="text" id="phone" autofocus><br>
+                    <input type="text" id="phone" onfocusout="formValidate()"><br>
                     <label for="pw" id="password">Mật khẩu:</label><br>
                     <input type="text" id="pw"><br>
                     <label for="retypepw" id="retypepassword">Nhập lại mật khẩu:</label><br>
                     <input type="text" id="retypepw"><br>
-                    <button id="signin" href="#" onclick="sisc();">ĐĂNG KÝ</button>
+                    <button id="signin" onclick="susc();" type="button">ĐĂNG KÝ</button>
                     <p id="or">HOẶC</p>
                     <button class="other fb" href="#">Facebook</button>
                     <button class="other gg" href="#">Google</button><br>
@@ -51,12 +51,31 @@
     <div w3-include-html="footer.html"></div>
     <script>
         w3.includeHTML()
-    </script>
-    <script>
-        function sisc() {
-            alert("Đăng ký thành công!");
+
+        function formValidate() {
+            var regExp = /^(0[0-9]{9})$/;
+            var phone = document.getElementById("phone").value;
+            if (!regExp.test(phone))
+                alert('SĐT không hợp lệ! Mời nhập lại!');
+        }
+
+        function susc() {
+            var phone = document.getElementById("phone").value;
+            var password = document.getElementById("pw").value;
+            var retypepassword = document.getElementById("retypepw").value;
+            if (password != "" && phone != "" && retypepassword != "") {
+                if (password == retypepassword) {
+                    alert("Đăng ký thành công!");
+                    location.replace("../src/home.html");
+                } else {
+                    alert("Mật khẩu nhập lại không trùng khớp!");
+                }
+            } else {
+                alert("Nhập thiếu thông tin! Mời nhập đủ thông tin đăng ký!");
+            }
         }
     </script>
+    <script src="../javascript/search.js "></script>
 </body>
 
 </html>

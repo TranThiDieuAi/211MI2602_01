@@ -5,7 +5,7 @@ body {
 }
 
 .box {
-    margin-top: 75px;
+    margin-top: 30px;
     border: 0.5px solid rgba(131, 121, 121, 0.5);
     box-sizing: border-box;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
