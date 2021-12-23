@@ -6,3 +6,9 @@
 .container--col {
     margin-top: 50px;
 }
+
+.list--item {}
+
+body {
+    font-family: quicksand, sans-serif;
+}

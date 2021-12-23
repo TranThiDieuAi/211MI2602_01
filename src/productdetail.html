@@ -25,46 +25,8 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js?fbclid=IwAR08_prufY-iqEwc4vj1AH9zaGtEQE8BUcawjBQlvBYWNWNHI_JaxzGpH30"></script>
 
-    <script>
-        let urlparams = new URLSearchParams(location.search);
-        var id = urlparams.get('productID');
-    </script>
-    <script>
-        let app = angular.module("AngularApp", []);
-        app.controller("DetailController", function($scope, $http) {
-            $http({
-                method: "GET",
-                url: "../data/products.json"
-            }).then(
-                function success(response) {
+    <script type="text/javascript" src="../javascript/render-products.js"></script>
 
-                    $scope.products = response.data;
-
-                    $scope.selectProduct = response.data.find(function(value) {
-                        return value.name == id;
-                    })
-                },
-                function error(response) {
-                    $scope.error = response.statusText;
-                }
-            )
-        })
-    </script>
-    <script>
-        let app = angular.module("AngularApp", []);
-        app.controller("productController", function($scope, $http) {
-            $http({
-                method: "GET",
-                url: "../data/products.json",
-            }).then(
-                function success(response) {
-                    $scope.products = response.data;
-                },
-                function error(response) {
-                    $scope.error = response.statusText;
-                });
-        })
-    </script>
 </head>
 
 <body ng-app="AngularApp" ng-controller="DetailController" style="font-family: quicksand, sans-serif;">
@@ -76,6 +38,20 @@
 
     <!-- navbar -->
     <div w3-include-html="navbar.html"></div>
+    <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            A list item
+            <span class="badge bg-primary rounded-pill">14</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            A second list item
+            <span class="badge bg-primary rounded-pill">2</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            A third list item
+            <span class="badge bg-primary rounded-pill">1</span>
+        </li>
+    </ul>
     <div class="container">
         <div class="container--information">
             <div>
@@ -142,15 +118,17 @@
                 <h4>Tất cả sản phẩm</h4>
                 <div class="row">
                     <div ng-repeat="p in products |limitTo : 6" class="col-12 col-sm-4 col-md-3 col-lg-2dot4 col-xl-2">
-                        <div class="card bestseller--item">
-                            <div class="card-img-container">
-                                <img src="{{p.icon_url}}" class="card-img-top bestseller--item-img">
+                        <a href="productdetail.html?productID={{p.name}}">
+                            <div class="card bestseller--item">
+                                <div class="card-img-container">
+                                    <img src="{{p.icon_url}}" class="card-img-top bestseller--item-img">
+                                </div>
+                                <div class="card-body bestseller--item-content">
+                                    <p class="card-text bestseller--item-name">{{p.name}}</p>
+                                    <p class="card-text bestseller--item-price">{{p.price}}</p>
+                                </div>
                             </div>
-                            <div class="card-body bestseller--item-content">
-                                <p class="card-text bestseller--item-name"><a href="productdetail.html?productID={{p.name}}">{{p.name}}</a></p>
-                                <p class="card-text bestseller--item-price">{{p.price}}</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
