@@ -20,8 +20,6 @@
     <!--Import font awesome -->
     <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="../css/home.css">
-
     <link rel="stylesheet" href="../css/product.css">
 
     <title>Tất cả sản phẩm</title>
@@ -55,7 +53,7 @@
 
     <!-- navbar -->
     <div w3-include-html="navbar.html"></div>
-    <div class=" container home-bestseller">
+    <div class="container home-bestseller">
         <div class="col-12 container--col">
             <h4>Tất cả sản phẩm</h4>
             <div class="col-12">
@@ -85,23 +83,22 @@
                     </div>
                 </nav>
             </div>
-            <div class="row">
-                <div ng-repeat="p in products |limitTo : 25" class="col-12 col-sm-4 col-md-3 col-lg-2dot4 col-xl-2">
-                    <div class="card bestseller--item">
-                        <a href="productdetail.html?productID={{p.name}}">
-                            <div class="card-img-container">
-                                <img src="{{p.icon_url}}" class="card-img-top bestseller--item-img">
-                            </div>
-                            <div class="card-body bestseller--item-content">
-                                <p class="card-text bestseller--item-name">{{p.name}}</p>
-                                <p class="card-text bestseller--item-price">{{p.price}}</p>
-                            </div>
-                        </a>
-                    </div>
+        </div>
+        <div class="row">
+            <div ng-repeat="p in products |limitTo : 30" class="col-12 col-sm-4 col-md-3 col-lg-2dot4 col-xl-2">
+                <div class="card bestseller--item">
+                    <a href="productdetail.html?productID={{p.name}}">
+                        <div class="card-img-container">
+                            <img src="{{p.icon_url}}" class="card-img-top bestseller--item-img">
+                        </div>
+                        <div class="card-body bestseller--item-content">
+                            <p class="card-text bestseller--item-name">{{p.name}}</p>
+                            <p class="card-text bestseller--item-price">{{p.price}}</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
-
         <!-- </div> -->
         <div class="quantity-container distance page1">
             <ul class="pagination">
