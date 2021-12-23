@@ -19,6 +19,18 @@ app.controller("DetailController", function($scope, $http) {
         }
     )
 })
+app.controller("productController", function($scope, $http) {
+    $http({
+        method: "GET",
+        url: "../data/products.json",
+    }).then(
+        function success(response) {
+            $scope.products = response.data;
+        },
+        function error(response) {
+            $scope.error = response.statusText;
+        });
+})
 
 function decreaseNumber() {
     var quantity = document.getElementById("quantity");
