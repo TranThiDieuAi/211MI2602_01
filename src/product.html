@@ -14,7 +14,6 @@
     <!--Boostrap css -->
     <link rel="stylesheet" type="text/css" href="../css/libs/bootstrap.min.css">
 
-    <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/product.css">
     <title>Home</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js?fbclid=IwAR08_prufY-iqEwc4vj1AH9zaGtEQE8BUcawjBQlvBYWNWNHI_JaxzGpH30"></script>
@@ -60,7 +59,7 @@
                 <div class="container container--col">
                     <h4>Tất cả sản phẩm</h4>
                     <div class="row">
-                        <div ng-repeat="p in products |limitTo : 25" class="col-8 col-sm-6 col-md-4 col-lg-2dot4">
+                        <div ng-repeat="p in products |limitTo : 25" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2dot4">
                             <div class="card bestseller--item">
                                 <a href="productdetail.html?productID={{p.name}}">
                                     <div class="card-img-container">

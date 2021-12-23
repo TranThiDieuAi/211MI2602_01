@@ -705,6 +705,7 @@ pre code {
 .col-xl-11,
 .col-xl-12,
 .col-xl-2,
+.col-xl-2dot4,
 .col-xl-3,
 .col-xl-4,
 .col-xl-5,
@@ -1486,6 +1487,11 @@ pre code {
         -ms-flex: 0 0 16.666667%;
         flex: 0 0 16.666667%;
         max-width: 16.666667%
+    }
+    .col-xl-2dot4 {
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%
     }
     .col-xl-3 {
         -ms-flex: 0 0 25%;
@@ -4623,7 +4629,7 @@ input[type=submit].btn-block {
     background-color: #fff;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, .125);
-    border-radius: .1875rem
+    /* border-radius: .1875rem */
 }
 
 .card>hr {
@@ -4721,8 +4727,8 @@ input[type=submit].btn-block {
 
 .card-img-top {
     width: 100%;
-    border-top-left-radius: calc(.25rem - 1px);
-    border-top-right-radius: calc(.25rem - 1px)
+    /*     border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px) */
 }
 
 .card-img-bottom {

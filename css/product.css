@@ -6,3 +6,51 @@
 .container--col {
     margin-top: 50px;
 }
+
+
+/* products */
+
+.home-bestseller h5,
+.home-debestie h5 {
+    font-family: quicksand;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.bestseller--item {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    height: 230px;
+    display: block;
+    transition: all .1s ease;
+}
+
+.bestseller--item:hover {
+    transform: scale(1.025);
+}
+
+.bestseller--item-content p {
+    font-family: quicksand;
+    font-size: 0.9375rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.75);
+    margin-bottom: 0.4rem;
+}
+
+.bestseller--item img {
+    width: 100%;
+    height: 135px;
+}
+
+@media (max-width: 575px) {
+    .bestseller--item {
+        flex-direction: row !important;
+        height: 8rem;
+        width: 100%;
+    }
+    .card-img-container img {
+        width: 9rem !important;
+        height: 100%;
+    }
+}
