@@ -45,6 +45,7 @@
 
 @media (max-width: 575px) {
     .bestseller--item {
+        display: flex;
         flex-direction: row !important;
         min-height: 8rem;
         width: 100%;
@@ -54,8 +55,6 @@
         height: 100%;
     }
 }
-
-.list--item {}
 
 body {
     font-family: quicksand, sans-serif;
