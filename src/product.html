@@ -40,7 +40,7 @@
     <!-- navbar -->
     <div w3-include-html="navbar.html"></div>
     <div class="container home-bestseller">
-        <div class="col-12 container--col">
+        <!-- <div class="col-12 container--col">
             <h4>Tất cả sản phẩm</h4>
             <div class="col-12">
                 <nav class="navbar navbar-expand-md navbar-light">
@@ -69,7 +69,8 @@
                     </div>
                 </nav>
             </div>
-        </div>
+<<<<<<< Updated upstream
+        </div> -->
         <div class="row">
             <div ng-repeat="p in products |limitTo : 25" class="col-12 col-sm-4 col-md-3 col-lg-2dot4 col-xl-2">
                 <a href="productdetail.html?productID={{p.name}}">
@@ -86,10 +87,51 @@
             </div>
         </div>
         <!-- </div> -->
+        <!-- <div class="quantity-container distance page1">
+            <ul class="pagination">
+                <li class="page-item">
+                    <button onclick="" class="page-link">
+
+
+            <div class="col-10">
+                <div class="container container--col">
+                    <h4>Tất cả sản phẩm</h4>
+                    <div class="row">
+                        <div ng-repeat="p in products |limitTo : 25" class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2dot4">
+                            <div class="card bestseller--item">
+                                <a href="productdetail.html?productID={{p.name}}">
+                                    <div class="card-img-container">
+                                        <img src="{{p.icon_url}}" class="card-img-top bestseller--item-img">
+                                    </div>
+                                    <div class="card-body bestseller--item-content">
+                                        <p class="card-text bestseller--item-name">{{p.name}}</p>
+                                        <p class="card-text bestseller--item-price">{{p.price}}</p>
+                                    </div>
+                                </a>
+
+                                <div class="row">
+                                    <div ng-repeat="p in products |limitTo : 25" class="col-12 col-sm-4 col-md-3 col-lg-2dot4 col-xl-2">
+                                        <div class="card bestseller--item">
+                                            <a href="productdetail.html?productID={{p.name}}">
+                                                <div class="card-img-container">
+                                                    <img src="{{p.icon_url}}" class="card-img-top bestseller--item-img">
+                                                </div>
+                                                <div class="card-body bestseller--item-content">
+                                                    <p class="card-text bestseller--item-name">{{p.name}}</p>
+                                                    <p class="card-text bestseller--item-price">{{p.price}}</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- </div> -->
         <div class="quantity-container distance page1">
             <ul class="pagination">
                 <li class="page-item">
                     <button onclick="" class="page-link">
+
                     Trang trước
                     </button>
                 </li>
@@ -117,9 +159,25 @@
                     <button class="page-link" onclick="">
                     Trang sau
                     </button>
+
                 </li>
             </ul>
         </div>
+    </div> -->
+    <!-- footer -->
+    <div w3-include-html="footer.html"></div>
+
+    <script>
+        w3.includeHTML()
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+    <script src="../javascript/search.js"></script>
+    </div>
+
+    </li>
+    </ul>
+    </div>
     </div>
     <!-- footer -->
     <div w3-include-html="footer.html"></div>
@@ -131,6 +189,7 @@
     </script>
     <script src="../javascript/search.js"></script>
     </div>
+
 </body>
 
 
