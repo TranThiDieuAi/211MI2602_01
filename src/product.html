@@ -26,21 +26,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js?fbclid=IwAR08_prufY-iqEwc4vj1AH9zaGtEQE8BUcawjBQlvBYWNWNHI_JaxzGpH30"></script>
 
-    <script>
-        let app = angular.module("AngularApp", []);
-        app.controller("productController", function($scope, $http) {
-            $http({
-                method: "GET",
-                url: "../data/products.json",
-            }).then(
-                function success(response) {
-                    $scope.products = response.data;
-                },
-                function error(response) {
-                    $scope.error = response.statusText;
-                });
-        })
-    </script>
+    <script type="text/javascript" src="../javascript/render-products.js"></script>
 
 </head>
 

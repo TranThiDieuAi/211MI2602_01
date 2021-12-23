@@ -49,6 +49,7 @@
         flex-direction: row !important;
         min-height: 8rem;
         width: 100%;
+        flex-wrap: nowrap;
     }
     .card-img-container img {
         max-width: 9rem !important;
