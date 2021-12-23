@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+    <!--Boostrap css -->
+    <link rel="stylesheet" type="text/css" href="../css/libs/bootstrap.min.css">
+
+    <!--Import font awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/product.css">
+
+    <title>Tất cả sản phẩm</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js?fbclid=IwAR08_prufY-iqEwc4vj1AH9zaGtEQE8BUcawjBQlvBYWNWNHI_JaxzGpH30"></script>
+
+    <script type="text/javascript" src="../javascript/render-products.js"></script>
+
+</head>
+
+<body ng-app="AngularApp" ng-controller="productController" style="font-family: quicksand, sans-serif;">
+    <!-- topbar -->
+    <div w3-include-html="topbar.html"></div>
+
+    <!-- header -->
+    <div w3-include-html="header.html"></div>
+
+    <!-- navbar -->
+    <div w3-include-html="navbar.html"></div>
+    <div class="container">
+        <div class="col-12 container--col">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a href="#" class="navbar-brand"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-expanded="false" aria-controls="toggleMobileMenu" aria-label="Toggle navigation">
+                        <span class="">Danh mục</span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                        <ul class="navbar-nav">
+                            <li class="list-group-item">
+                                <a class="nav-link" href="#">Tất cả sản phẩm</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link" href="#">Nội thất tiện ích</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link" href="#">Phụ kiện trang trí</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link" href="#">Cây giả trang trí</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link" href="#">Thảm rèm cửa</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link" href="#">Vật dụng khác</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div ng-repeat="p in products |limitTo : 30" class="col-12 col-sm-4 col-md-3 col-lg-2dot4 col-xl-2">
+                <a href="productdetail.html?productID={{p.name}}">
+                    <div class="card bestseller--item">
+                        <div class="card-img-container">
+                            <img src="{{p.icon_url}}" class="card-img-top bestseller--item-img">
+                        </div>
+                        <div class="card-body bestseller--item-content">
+                            <p class="card-text bestseller--item-name">{{p.name}}</p>
+                            <p class="card-text bestseller--item-price">{{p.price}}</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- </div> -->
+        <div class="quantity-container distance page1">
+            <ul class="pagination">
+                <li class="page-item">
+                    <button onclick="" class="page-link">
+                    Trước
+                    </button>
+                </li>
+                <li class="page-item">
+                    <button onclick="" class="page-link">
+                    1
+                    </button>
+                </li>
+                <li class="page-item">
+                    <button onclick="" class="page-link">
+                    2
+                    </button>
+                </li>
+                <li class="page-item">
+                    <button onclick="" class="page-link">
+                    ...
+                    </button>
+                </li>
+                <li class="page-item">
+                    <button onclick="" class="page-link">
+                    8
+                    </button>
+                </li>
+                <li class="page-item">
+                    <button class="page-link" onclick="">
+                    Sau
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- footer -->
+    <div w3-include-html="footer.html"></div>
+
+    <script>
+        w3.includeHTML()
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+    <script src="../javascript/search.js"></script>
+    </div>
+</body>
+
+</html>

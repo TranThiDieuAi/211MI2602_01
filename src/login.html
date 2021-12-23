@@ -13,15 +13,15 @@
     <!--Boostrap css -->
     <link rel="stylesheet" href="https://www.w3schools.com/bootstrap5/bootstrap_offcanvas.php">
 
-
     <script src="https://www.w3schools.com/lib/w3.js"></script>
 
     <!-- css -->
     <link rel="stylesheet" href="../css/login.css">
+
     <title>Delicat</title>
 </head>
 
-<body>
+<body style="font-family: quicksand, sans-serif;">
     <div w3-include-html="topbar.html"></div>
     <div w3-include-html="header.html"></div>
     <div w3-include-html="navbar.html"></div>
@@ -33,31 +33,55 @@
                 <form id="form-container">
                     <p id="header">ĐĂNG NHẬP</p>
                     <label id="sdt" for="phone">Số điện thoại:</label><br>
-                    <input type="text" id="phone" autofocus><br>
+                    <input type="text" id="phone" onfocusout="formValidate()"><br>
                     <label for="pw" id="password">Mật khẩu:</label><br>
-                    <input type="text" id="pw"><br>
+                    <input type="password" id="pw"><br>
                     <label id="fgpw"><a href="../src/forgotpw.html" id="forgot">Quên mật khẩu?</a></label><br>
-                    <button id="signin" href="#" onclick="sgsc();">ĐĂNG NHẬP</button>
+                    <button id="signin" onclick="lgsc();" type="button">ĐĂNG NHẬP</button>
                     <p id="or">HOẶC</p>
-                    <button class="other fb" href="#">Facebook</button>
-                    <button class="other gg" href="#">Google</button><br>
-                    <label id="regis"><a href="../src/registration.html" class="dk">Bạn chưa có tài khoản?</a></label>
+                    <button class="other fb" href="account.html" onclick="sc();" type="button">Facebook</button>
+                    <button class="other gg " href="account.html" onclick="sc();" type="button">Google</button><br>
+                    <label id="regis"><a href="../src/registration.html " class="dk ">Bạn chưa có tài khoản?</a></label>
                 </form>
             </div>
-            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2">
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 ">
             </div>
         </div>
     </div>
     </div>
-    <div w3-include-html="footer.html"></div>
+    <div w3-include-html="footer.html "></div>
     <script>
         w3.includeHTML()
-    </script>
-    <script>
-        function sgsc() {
+
+        function formValidate() {
+            var phone = document.getElementById("phone").value;
+            var regExp = /^(0[0-9]{9})$/;
+            if (!regExp.test(phone))
+                alert('SĐT không hợp lệ! Mời nhập lại!');
+        }
+
+        function lgsc() {
+            var phone = document.getElementById("phone").value;
+            var password = document.getElementById("pw").value;
+            if (password != " " && phone != " ") {
+                if (phone == '0123456789' && password == '123') {
+                    alert("Đăng nhập thành công!");
+                    location.replace("../src/account.html");
+                } else {
+                    alert("Tài khoản không tồn tại!");
+                }
+            } else {
+                alert("Nhập thiếu thông tin! Mời nhập đủ thông tin đăng nhập!");
+
+            }
+        }
+
+        function sc() {
             alert("Đăng nhập thành công!");
+            location.replace("../src/account.html");
         }
     </script>
+    <script src="../javascript/search.js "></script>
 </body>
 
 </html>

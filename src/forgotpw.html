@@ -19,7 +19,7 @@
     <title>Delicat</title>
 </head>
 
-<body>
+<body style="font-family: quicksand, sans-serif;">
     <div w3-include-html="topbar.html"></div>
     <div w3-include-html="header.html"></div>
     <div w3-include-html="navbar.html"></div>
@@ -31,7 +31,7 @@
                 <form id="form-container">
                     <p id="header">QUÊN MẬT KHẨU</p>
                     <p id="content">Nhấn vào nút ở phía dưới, nhân viên chăm sóc khách hàng của DÉlicat sẽ gọi vào số điện thoại quý khách và cung cấp lại mật khẩu mới cho quý khách. Xin cảm ơn quý khách.</p>
-                    <button href="#" id="fg" onclick="fgsc();">Cấp lại mật khẩu</button></form>
+                    <button type="button" id="fg" onclick="fgsc();">Cấp lại mật khẩu</button></form>
             </div>
             <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
             </div>
@@ -40,12 +40,13 @@
     <div w3-include-html="footer.html"></div>
     <script>
         w3.includeHTML()
-    </script>
-    <script>
+
         function fgsc() {
             alert("Cấp lại mật khẩu thành công!");
+            location.replace("../src/login.html");
         }
     </script>
+    <script src="../javascript/search.js "></script>
 </body>
 
 </html>

@@ -1,17 +1,17 @@
     html,
     body {
-        font-family: quicksand, sans-serif;
         font-size: 14px;
     }
     
     .box {
-        margin-top: 60px;
+        margin-top: 30px;
         border: 0.5px solid rgba(131, 121, 121, 0.5);
         box-sizing: border-box;
         box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
         margin-left: auto;
         margin-right: auto;
         width: 95%;
+        height: 460px;
     }
     
     #form-container {
@@ -83,14 +83,12 @@
         margin-right: 80px;
     }
     
-    .gg_icon {
-        width: 30px;
-        height: 30px;
+    #regis {
+        margin-top: 25px;
     }
     
-    #regis {
-        margin-top: 40px;
-        margin-bottom: 30px;
+    button:hover {
+        cursor: pointer;
     }
     
     .dk {
