@@ -84,13 +84,12 @@
         margin-right: 80px;
     }
     
-    .gg_icon {
-        width: 30px;
-        height: 30px;
-    }
-    
     #regis {
         margin-top: 25px;
+    }
+    
+    button:hover {
+        cursor: pointer;
     }
     
     .dk {
