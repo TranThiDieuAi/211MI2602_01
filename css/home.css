@@ -56,7 +56,7 @@
     
     .bestseller--item-content p {
         font-family: quicksand;
-        font-size: 0.9375rem;
+        font-size: 0.9rem;
         font-weight: bold;
         color: rgba(0, 0, 0, 0.75);
         margin-bottom: 0.4rem;
@@ -149,7 +149,7 @@
         padding: 1rem 1rem 0rem;
         color: rgba(0, 0, 0, 0.5);
         text-align: start;
-        font-size: 0.9375rem;
+        font-size: 0.9rem;
     }
     
     .home-debestie-blog--title p {
