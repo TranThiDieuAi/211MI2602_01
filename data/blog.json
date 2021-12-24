@@ -10,17 +10,16 @@
     },
     {
 
-        "name": "Cách trang trí phòng ngủ dễ thương đơn giản, rẻ, đẹp nhất",
-        "image": "../img/blog/container__newpost2.jpg",
         "name": "Bắt đầu cuộc sống mới bằng việc dọn dẹp phòng",
         "image": "../img/blog/container__mainpost1.jpg",
-
         "url": "",
         "date": "July 6, 2021",
         "detail": "Bắt đầu một cuộc sống mới, tiếp tục duy trì lối sống tối giản. Việc đầu tiên chúng ta cần làm chính là dọn dẹp căn phòng mình đang ở. Hãy tin mình đi, sau khi dọn dẹp chắc chắn rằng bạn sẽ có rất nhiều cảm hứng để làm việc cũng như bắt đầu mỗi ngày một cách ý nghĩa hơn....",
-        "id": "2"
+        "id": "5"
 
     },
+
+
     {
 
         "name": "Top 10 món đồ trang trí bàn làm việc cho dân công sở",
@@ -41,31 +40,27 @@
         "id": "4"
 
     },
-    {
-
-        "name": "Bắt đầu cuộc sống mới bằng việc tổng hợp dọn dẹp căn phòng.",
-        "image": "../img/blog/container__mainpost1.jpg",
-        "url": "",
-        "date": "July 6, 2021",
-        "detail": "Bắt đầu một cuộc sống mới, tiếp tục duy trì lối sống tối giản. Việc đầu tiên chúng ta cần làm chính là dọn dẹp căn phòng mình đang ở. Hãy tin mình đi, sau khi dọn dẹp chắc chắn rằng bạn sẽ có rất nhiều cảm hứng để làm việc cũng như bắt đầu mỗi ngày một cách ý nghĩa hơn....",
-        "id": "5"
-
-    },
-
 
     {
-
 
         "name": "Góc làm việc và học tập theo phong cách tối giản",
         "image": "../img/blog/container__mainpost2.jpg",
-        "name": "Cách trang trí phòng ngủ dễ thương đơn giản",
-        "image": "../img/blog/container__newpost2.jpg",
-
         "url": "",
         "date": "June 8, 2021",
         "detail": "Bắt đầu một cuộc sống mới, tiếp tục duy trì lối sống tối giản. Việc đầu tiên chúng ta cần làm chính là dọn dẹp căn phòng mình đang ở. Hãy tin mình đi, sau khi dọn dẹp chắc chắn rằng bạn sẽ có rất nhiều cảm hứng để làm việc cũng như bắt đầu mỗi ngày một cách ý nghĩa hơn....",
         "id": "6"
     },
+    {
+
+        "name": "Cách trang trí phòng ngủ dễ thương đơn giản",
+        "image": "../img/blog/container__newpost2.jpg",
+        "url": "",
+        "date": "July 6, 2021",
+        "detail": "Bắt đầu một cuộc sống mới, tiếp tục duy trì lối sống tối giản. Việc đầu tiên chúng ta cần làm chính là dọn dẹp căn phòng mình đang ở. Hãy tin mình đi, sau khi dọn dẹp chắc chắn rằng bạn sẽ có rất nhiều cảm hứng để làm việc cũng như bắt đầu mỗi ngày một cách ý nghĩa hơn....",
+        "id": "2"
+
+    },
+
     {
 
         "name": "Đi tìm phong cách sống tối giản riêng cho bản thân",
@@ -132,24 +127,6 @@
     {
 
         "name": "Mẫu đèn trang trí phòng ngủ đẹp lung linh phần 2",
-        "image": "../contain__sidebar3.jpg",
-        "url": "",
-        "date": "June 8, 2021",
-        "detail": "Bắt đầu một cuộc sống mới, tiếp tục duy trì lối sống tối giản. Việc đầu tiên chúng ta cần làm chính là dọn dẹp căn phòng mình đang ở. Hãy tin mình đi, sau khi dọn dẹp chắc chắn rằng bạn sẽ có rất nhiều cảm hứng để làm việc cũng như bắt đầu mỗi ngày một cách ý nghĩa hơn....",
-        "id": "14"
-    },
-    {
-
-        "name": "Mẫu đèn trang trí phòng ngủ dễ thương và đẹp lung linh phần 2",
-        "image": "../contain__sidebar3.jpg",
-        "url": "",
-        "date": "June 8, 2021",
-        "detail": "Bắt đầu một cuộc sống mới, tiếp tục duy trì lối sống tối giản. Việc đầu tiên chúng ta cần làm chính là dọn dẹp căn phòng mình đang ở. Hãy tin mình đi, sau khi dọn dẹp chắc chắn rằng bạn sẽ có rất nhiều cảm hứng để làm việc cũng như bắt đầu mỗi ngày một cách ý nghĩa hơn....",
-        "id": "14"
-    },
-    {
-
-        "name": "Mẫu đèn trang trí phòng ngủ dễ thương và đẹp lung linh phần 2",
         "image": "../contain__sidebar3.jpg",
         "url": "",
         "date": "June 8, 2021",
