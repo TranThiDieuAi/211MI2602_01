@@ -1,12 +1,11 @@
     html,
     body {
-        font-family: quicksand, sans-serif;
         font-size: 14px;
     }
     
     .box {
         width: 70%;
-        margin-top: 180px;
+        margin-top: 135px;
         margin-left: auto;
         margin-right: auto;
         background-color: rgba(0, 0, 0, 0.75);

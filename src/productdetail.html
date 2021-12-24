@@ -19,47 +19,14 @@
 
     <link rel="stylesheet" href="../css/productdetail.css">
 
+    <link rel="stylesheet" href="../css/product.css">
+
     <link rel="stylesheet" href="../css/payment.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js?fbclid=IwAR08_prufY-iqEwc4vj1AH9zaGtEQE8BUcawjBQlvBYWNWNHI_JaxzGpH30"></script>
 
-    <script>
-        let urlparams = new URLSearchParams(location.search);
-        var id = urlparams.get('productID');
-    </script>
-    <script>
-        let app = angular.module("AngularApp", []);
-        app.controller("DetailController", function($scope, $http) {
-            $http({
-                method: "GET",
-                url: "../data/products.json"
-            }).then(
-                function success(response) {
-                    $scope.selectProduct = response.data.find(function(value) {
-                        return value.name == id;
-                    })
-                },
-                function error(response) {
-                    $scope.error = response.statusText;
-                }
-            )
-        })
-    </script>
-    <!-- <script>
-        let app = angular.module("AngularApp", []);
-        app.controller("productController", function($scope, $http) {
-            $http({
-                method: "GET",
-                url: "../data/products.json",
-            }).then(
-                function success(response) {
-                    $scope.products = response.data;
-                },
-                function error(response) {
-                    $scope.error = response.statusText;
-                });
-        })
-    </script> -->
+    <script type="text/javascript" src="../javascript/render-products.js"></script>
+
 </head>
 
 <body ng-app="AngularApp" ng-controller="DetailController" style="font-family: quicksand, sans-serif;">
@@ -76,10 +43,10 @@
             <div>
                 <div class="row">
                     <div class="col-lg-4">
-                        <img src="{{selectProduct.icon_url}}" width="300">
+                        <img class="card--1" src="{{selectProduct.icon_url}}">
                     </div>
                     <div class="col-lg-8">
-                        <div>{{selectProduct.name}}</div>
+                        <div><b>{{selectProduct.name}}</b></div>
                         <div>Danh mục: {{selectProduct.category}}</div>
                         <div>Mã:</div>
                         <hr>
@@ -131,22 +98,26 @@
                     </p>
                 </div>
             </div>
-            <!-- <div class="col-12" ng-controller="productController">
-                <div class="container home-bestseller">
-                    <h4>Tất cả sản phẩm</h4>
-                    <div class="row" id="bestseller_row">
-                        <div ng-repeat="p in selectProduct |limitTo :5" class="col-8 col-sm-4 col-md-3 col-lg-2dot4">
+        </div>
+        <div class="">
+            <div class="container container--col">
+                <h4>Tất cả sản phẩm</h4>
+                <div class="row">
+                    <div ng-repeat="p in products |limitTo : 6" class="col-12 col-sm-4 col-md-3 col-lg-2dot4 col-xl-2">
+                        <a href="productdetail.html?productID={{p.name}}">
                             <div class="card bestseller--item">
-                                <img src="{{p.icon_url}}" class="card-img-top bestseller--item-img">
+                                <div class="card-img-container">
+                                    <img src="{{p.icon_url}}" class="card-img-top bestseller--item-img">
+                                </div>
                                 <div class="card-body bestseller--item-content">
-                                    <p class="card-text bestseller--item-name"><a href="productdetail.html?productID={{p.name}}">{{p.name}}</a></p>
+                                    <p class="card-text bestseller--item-name">{{p.name}}</p>
                                     <p class="card-text bestseller--item-price">{{p.price}}</p>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
-            </div> -->
+            </div>
         </div>
     </div>
     <!-- footer -->
@@ -155,7 +126,7 @@
     <script>
         w3.includeHTML()
     </script>
-
+    <script src="../javascript/search.js"></script>
     </div>
 </body>
 
