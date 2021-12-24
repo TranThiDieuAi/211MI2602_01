@@ -136,6 +136,10 @@ hr {
     vertical-align: middle;
 }
 
+.modal-footer a {
+    color: white;
+}
+
 
 /* The popup form */
 
@@ -187,9 +191,10 @@ hr {
 
 .form-container .btn {
     width: 100%;
+    margin-top: 10px;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 768px) {
     .box,
     .box1 {
         padding: 15px;

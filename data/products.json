@@ -3,7 +3,7 @@
         "name": "Thảm lót sàn lông thỏ hình gấu",
         "icon_url": "../img/products/TRC_Tham_01.png",
         "url": "",
-        "price": "150.000",
+        "price": "150000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Thảm lót sàn"
     },
@@ -12,7 +12,7 @@
         "name": "Thảm lót sàn hoa hướng dương",
         "icon_url": "../img/products/TRC_Tham_02.png",
         "url": "",
-        "price": "120.000",
+        "price": "120000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Thảm lót sàn"
     },
@@ -21,7 +21,7 @@
         "name": "Thảm lót sàn hình quả đào",
         "icon_url": "../img/products/TRC_Tham_03.png",
         "url": "",
-        "price": "90.000",
+        "price": "90000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Thảm lót sàn"
     },
@@ -30,16 +30,7 @@
         "name": "Thảm lót sàn hình mèo lười",
         "icon_url": "../img/products/TRC_Tham_04.png",
         "url": "",
-        "price": "150.000",
-        "category": "Thảm, rèm cửa",
-        "sub_category": "Thảm lót sàn"
-    },
-    {
-        "id": "",
-        "name": "Thảm lót sàn hình mặt hổ ",
-        "icon_url": "../img/products/TRC_Tham_05.png",
-        "url": "",
-        "price": "90.000",
+        "price": "150000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Thảm lót sàn"
     },
@@ -48,7 +39,7 @@
         "name": "Thảm lót sàn hình hổ dễ thương",
         "icon_url": "../img/products/TRC_Tham_06.png",
         "url": "",
-        "price": "150.000",
+        "price": "150000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Thảm lót sàn"
     },
@@ -57,7 +48,7 @@
         "name": "Thảm lót sàn hình gấu dễ thuơng",
         "icon_url": "../img/products/TRC_Tham_07.png",
         "url": "",
-        "price": "120.000",
+        "price": "120000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Thảm lót sàn"
     },
@@ -66,7 +57,7 @@
         "name": "Thảm lót sàn hình cầu cồng màu sắc",
         "icon_url": "../img/products/TRC_Tham_08.png",
         "url": "",
-        "price": "120.000",
+        "price": "120000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Thảm lót sàn"
     },
@@ -78,7 +69,7 @@
         "name": "Rèm cửa sổ nền hồng hình thỏ",
         "icon_url": "../img/products/TRC_Rem_01.png",
         "url": "",
-        "price": "85.000",
+        "price": "85000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Rèm cửa sổ"
     },
@@ -87,7 +78,7 @@
         "name": "Rèm cửa sổ hình mèo nằm lười",
         "icon_url": "../img/products/TRC_Rem_02.png",
         "url": "",
-        "price": "85.000",
+        "price": "85000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Rèm cửa sổ"
     },
@@ -96,7 +87,7 @@
         "name": "Rèm cửa sổ hình mèo good night",
         "icon_url": "../img/products/TRC_Rem_03.png",
         "url": "",
-        "price": "85.000",
+        "price": "85000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Rèm cửa sổ"
     },
@@ -105,7 +96,7 @@
         "name": "Rèm cửa sổ hình mặt gấu bự",
         "icon_url": "../img/products/TRC_Rem_04.png",
         "url": "",
-        "price": "85.000",
+        "price": "85000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Rèm cửa sổ"
     },
@@ -114,7 +105,7 @@
         "name": "Rèm cửa sổ hình lọ hoa tím",
         "icon_url": "../img/products/TRC_Rem_05.png",
         "url": "",
-        "price": "85.000",
+        "price": "85000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Rèm cửa sổ"
     },
@@ -123,7 +114,7 @@
         "name": "Rèm cửa sổ hình lọ hoa màu hồng",
         "icon_url": "../img/products/TRC_Rem_06.png",
         "url": "",
-        "price": "85.000",
+        "price": "85000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Rèm cửa sổ"
     },
