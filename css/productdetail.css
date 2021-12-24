@@ -20,3 +20,29 @@ hr {
     margin-right: auto;
     width: 300px;
 }
+
+.button--cancel {
+    height: 30px;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+}
+
+.font--color2 {
+    color: white;
+}
+
+.font--color1 {
+    color: black;
+}
+
+.button--cart {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border: none;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}

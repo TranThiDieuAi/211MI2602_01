@@ -19,11 +19,17 @@
     <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
 
     <link rel="stylesheet" href="../css/home.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js?fbclid=IwAR08_prufY-iqEwc4vj1AH9zaGtEQE8BUcawjBQlvBYWNWNHI_JaxzGpH30"></script>
+
+    <script type="text/javascript" src="../javascript/render-products.js"></script>
+
     <title>Home</title>
+
 
 </head>
 
-<body>
+<body ng-app="AngularApp" ng-controller="productController">
     <!-- topbar -->
     <div w3-include-html="topbar.html"></div>
 
@@ -45,7 +51,20 @@
     <!-- bestseller -->
     <div class="container home-bestseller">
         <h5>#BESTSELLER</h5>
-        <div class="row" id="bestseller_row">
+        <div class="row">
+            <div ng-repeat="p in products |limitTo : 12" class="col-12 col-sm-4 col-md-3 col-lg-2dot4 col-xl-2">
+                <a href="productdetail.html?productID={{p.name}}">
+                    <div class="card bestseller--item">
+                        <div class="card-img-container">
+                            <img src="{{p.icon_url}}" class="card-img-top bestseller--item-img">
+                        </div>
+                        <div class="card-body bestseller--item-content">
+                            <p class="card-text bestseller--item-name">{{p.name}}</p>
+                            <p class="card-text bestseller--item-price">{{p.price}}₫</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
     <script src="../javascript/render-best-seller.js"></script>
