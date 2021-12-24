@@ -92,13 +92,13 @@
     }
     
     @media(max-width:768px) {
-        #img1 {
-            width: 90%;
-            margin-left: 5%;
+        #img1,
+        #img2 {
+            width: 98%;
+            margin-left: 1%;
         }
         #img2 {
-            width: 90%;
-            margin-right: 5%;
+            margin-right: 1%;
         }
         #header1,
         #header2 {
