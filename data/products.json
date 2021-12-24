@@ -955,5 +955,97 @@
         "price": "251.000",
         "category": "Phụ kiện khác",
         "sub_category": "Khác"
+    },
+    {
+        "id": "",
+        "name": "Cây để bàn_ Cẩm Nhung xanh ( Fittonia)",
+        "icon_url": "../img/products/CC_XuongRong2.png",
+        "url": "",
+        "price": "50000",
+        "category": "Cây giả trang trí",
+        "sub_category": "Cây cảnh để bàn"
+    },
+    {
+        "id": "",
+        "name": "Cây để bàn_Sen đá xương rồng",
+        "icon_url": "../img/products/CC_XuongRong6.png",
+        "url": "",
+        "price": "50000",
+        "category": "Cây giả trang trí",
+        "sub_category": "Cây cảnh để bàn"
+    },
+    {
+        "id": "",
+        "name": "Cây để bàn_Xương rồng nông dân",
+        "icon_url": "../img/products/CC_XuongRong3.png",
+        "url": "",
+        "price": "100000",
+        "category": "Cây giả trang trí",
+        "sub_category": "Cây cảnh để bàn"
+    },
+    {
+        "id": "",
+        "name": "Cây để bàn_Cây ngọc ngân",
+        "icon_url": "../img/products/CC_XuongRong4.png",
+        "url": "",
+        "price": "200000",
+        "category": "Cây giả trang trí",
+        "sub_category": "Cây cảnh để bàn"
+    },
+    {
+        "id": "",
+        "name": "Cây để bàn_Bạc hà – chocomint (bầu)",
+        "icon_url": "../img/products/CC_XuongRong5.png",
+        "url": "",
+        "price": "90000",
+        "category": "Cây giả trang trí",
+        "sub_category": "Cây cảnh để bàn"
+    },
+    {
+        "id": "",
+        "name": "Cây để bàn_Xương rồng tai thỏ",
+        "icon_url": "../img/products/CC_XuongRong01.png",
+        "url": "",
+        "price": "90000",
+        "category": "Cây giả trang trí",
+        "sub_category": "Cây cảnh để bàn"
+    },
+    {
+        "id": "",
+        "name": "CÂY BÀNG SINGAPORE cỡ to cao trên 130cm",
+        "icon_url": "../img/products/CC_Caybang4.png",
+        "url": "",
+        "price": "900000",
+        "category": "Cây giả trang trí",
+        "sub_category": "Cây cảnh trang trí phòng"
+    },
+    {
+        "id": "",
+        "name": "CÂY BÀNG SINGAPORE cỡ to cao trên 80cm",
+        "icon_url": "../img/products/CC_Caybang1.png",
+        "url": "",
+        "price": "90000",
+        "category": "Cây giả trang trí",
+        "sub_category": "Cây cảnh trang trí phòng"
+    },
+    {
+        "id": "",
+        "name": "Chậu lá cẩm nhung",
+        "icon_url": "../img/products/CC_Caybang2.png",
+        "url": "",
+        "price": "90000",
+        "category": "Cây giả trang trí",
+        "sub_category": "Cây cảnh trang trí phòng"
+    },
+    {
+        "id": "",
+        "name": "Trầu bà lá lỗ",
+        "icon_url": "../img/products/CC_Caybang3.png",
+        "url": "",
+        "price": "90000",
+        "category": "Cây giả trang trí",
+        "sub_category": "Cây cảnh trang trí phòng"
     }
+
+
 ]
