@@ -72,7 +72,7 @@
         display: none;
     }
     
-    @media only screen and (max-width: 575px) {
+    @media only screen and (max-width: 768px) {
         #title,
         .box1,
         .content-desktop {
