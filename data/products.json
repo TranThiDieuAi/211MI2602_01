@@ -823,24 +823,6 @@
     },
     {
         "id": "",
-        "name": "Nến thơm cao cấp Candles Cup",
-        "icon_url": "../img/products/PKK_Nenthom_03.png",
-        "url": "",
-        "price": "100.000",
-        "category": "Phụ kiện khác",
-        "sub_category": "Nến thơm"
-    },
-    {
-        "id": "",
-        "name": "Nến thơm Elum Home",
-        "icon_url": "../img/products/PKK_Nenthom_04.png",
-        "url": "",
-        "price": "250.000",
-        "category": "Phụ kiện khác",
-        "sub_category": "Nến thơm"
-    },
-    {
-        "id": "",
         "name": "Nến thơm hoa khô tự nhiên",
         "icon_url": "../img/products/PKK_Nenthom_05.png",
         "url": "",

@@ -30,6 +30,36 @@ app.controller("DetailController", function($scope, $http) {
                     $scope.total -= cart.price;
                 }
             }
+            $scope.type2 = false;
+            $scope.type1 = true;
+            $scope.selectCategory0 = function() {
+                $scope.code = '';
+                $scope.type2 = false;
+                $scope.type1 = true;
+            }
+            $scope.selectCategory1 = function() {
+                $scope.code = 'Thảm, rèm cửa';
+            }
+            $scope.selectCategory2 = function() {
+                $scope.code = 'Phụ kiện trang trí';
+                $scope.type2 = true;
+                $scope.type1 = false;
+            }
+            $scope.selectCategory3 = function() {
+                $scope.code = 'Nội thất tiện ích';
+                $scope.type2 = true;
+                $scope.type1 = false;
+            }
+            $scope.selectCategory4 = function() {
+                $scope.code = 'Phụ kiện khác';
+                $scope.type2 = true;
+                $scope.type1 = false;
+            }
+            $scope.selectCategory5 = function() {
+                $scope.code = "Cây giả trang trí";
+                $scope.type2 = true;
+                $scope.type1 = false;
+            }
         },
         function error(response) {
             $scope.error = response.statusText;
