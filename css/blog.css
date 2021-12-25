@@ -1,3 +1,10 @@
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +13,11 @@
 
 .main {
     overflow-y: auto;
+}
+
+.content--box {
+    color: black;
+    text-decoration: underline white;
 }
 
 
@@ -22,6 +34,7 @@
     background-size: cover;
     height: 550px;
     width: 100%;
+    margin-top: 50px;
 }
 
 .slider__body {
@@ -387,6 +400,10 @@
 .container__page {
     margin: 40px 5px 10px 5px;
     padding: 5px;
+}
+
+.page {
+    margin-top: 10px;
 }
 
 

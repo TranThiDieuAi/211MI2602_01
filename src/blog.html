@@ -8,20 +8,17 @@
     <title>Blog_Délicat</title>
     <link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <script src="https://www.w3schools.com/lib/w3.js"></script>
-    <script src="../javascript/base.js"></script>
-    <script type="text/javascript" src="../javascript/base.js"></script>
     <link rel="stylesheet" href="../css/payment.css">
     <link rel="stylesheet" href="../css/blog.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js?fbclid=IwAR08_prufY-iqEwc4vj1AH9zaGtEQE8BUcawjBQlvBYWNWNHI_JaxzGpH30"></script>
+    <script type="text/javascript" src="../javascript/render-blog.js"></script>
+    <script type="text/javascript" src="../javascript/dirPagination.js"></script>
 </head>
 
-<body>
-
+<body ng-app="AngularApp" ng-controller="DetailController" style="font-family: quicksand, sans-serif;">
     <!-- topbar -->
     <div w3-include-html="topbar.html"></div>
 
@@ -29,13 +26,13 @@
     <div w3-include-html="header.html"></div>
 
     <!-- navbar -->
+
     <div w3-include-html="navbar.html"></div>
 
-
+    <div class="sticky" w3-include-html="navbar.html"></div>
 
     <div class="container">
         <!--Slider-->
-
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner slider">
                 <div class="carousel-item active">
@@ -43,13 +40,11 @@
                     <div class="row">
                         <div class="col-lg-12 container__heading slider__body ">Bạn mơ ước một ngôi nhà xinh xắn? Hãy để DÉLICAT giúp bạn điều đó!</div>
                     </div>
-
                 </div>
             </div>
         </div>
         <div class="row container__post-special">
             <div class="col-lg-12 row container__post">
-
                 <div class="col-lg-9 container__post-special-item-wrap">
                     <div class="container__post-special-item">
                         <img src="../img/blog/container__mainpost1.jpg" alt="" class="container__post-special-img">
@@ -67,7 +62,6 @@
                             </p>
                         </div>
                     </div>
-
                 </div>
                 <div class="col-lg-3 container__sidebar-about-wrap">
                     <div class="row container__sidebar-about-btn-wrap">
@@ -75,7 +69,6 @@
                             <button class="container__sidebar-btn">ABOUT DÉLICAT</button>
                         </div>
                     </div>
-
                     <div class="row container__sidebar-about-item-wrap">
                         <div class="col-lg-12 container__sidebar-about-item">
                             <img src="../img/blog/contain__sidebar1.jpg" alt="" class="container__sidebar-about-img">
@@ -88,104 +81,36 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-
         </div>
-        <script>
-            var xmlhttp = new XMLHttpRequest();
-            var url = "../data/blog.json";
-            xmlhttp.onreadystatechange = function() {
-                if (this.readyState == 4 && this.status == 200) {
-                    var myArr = JSON.parse(this.responseText);
-                    myFunction(myArr);
-                }
-            }
-            xmlhttp.open("GET", url, true);
-            xmlhttp.send();
-
-            function myFunction(arr) {
-                var div = "<div class='row container__new-post'>";
-                var i;
-                for (i = 0; i < arr.length; i++) {
-                    if (arr[i].id > 1 && arr[i].id < 14) {
-                        div += "<div class='col-lg-3 container__new-post-item-wrap'><div class='container__new-post-item'><img src='" + arr[i].image + "' alt='' class='container__new-post-img'><div class='container__new-post-content'><p class='container__new-post-description'>" + arr[i].name + "</p><p class='container__new-post-time'>" + arr[i].date + "</p></div></div></div>"
-                    }
-                }
-                div += "</div>";
-                document.getElementById("new-post").innerHTML = div;
-            }
-        </script>
-
         <div class="row ">
             <div class="col-lg-12 container__heading">
-
                 Xem bài viết mới nhất tại đây!
             </div>
         </div>
-        <div id="new-post">
+        <div class="row container__new-post">
+            <div dir-paginate="p in blogs| itemsPerPage:8" class="col-lg-3 container__new-post-item-wrap page">
+                <a href="blog_detail.html?productID={{p.name}}">
+                    <div class="container__new-post-item">
+                        <span class="content--box">
+                        <img src="{{p.image}}" class="container__new-post-img">
+                        <div class="container__new-post-content">
+                            <p class="container__new-post-description">{{p.name}}</p>
+                            <p class="container__new-post-time">{{p.date}}</p>
+                        </div>
+                        </span>
+                    </div>
+                </a>
+            </div>
         </div>
         <div class="col-lg-12  ">
-            <ul class=" pagination container__pagination">
-                <li class="pagination-item">
-                    <a href="" class="pagination-item__link">
-                        <i class="pagination-item__icon fas fa-angle-left"></i> Trang trước
-                    </a>
-                </li>
-
-                <li class="pagination-item pagination-item--active">
-                    <a href="" class="pagination-item__link">
-                        1
-                    </a>
-                </li>
-                <li class="pagination-item">
-                    <a href="" class="pagination-item__link">
-                        2
-                    </a>
-                </li>
-                <li class="pagination-item">
-                    <a href="" class="pagination-item__link">
-                        3
-                    </a>
-                </li>
-                <li class="pagination-item">
-                    <a href="" class="pagination-item__link">
-                        ...
-                    </a>
-                </li>
-                <li class="pagination-item">
-                    <a href="" class="pagination-item__link">
-                        8
-                    </a>
-                </li>
-                <li class="pagination-item">
-                    <a href="" class="pagination-item__link">
-                        Trang sau
-                        <i class="pagination-item__icon fas fa-angle-right"></i>
-                    </a>
-                </li>
-            </ul>
+            <div class="quantity-container distance page1">
+                <dir-pagination-controls max-size="4" direction-links="true" boundary-links="true"></dir-pagination-controls>
+            </div>
         </div>
-
-    </div>
-
-
-    </div>
-
-
-
-
-
-    </div>
-
-
-
-
-    </div>
     </div>
     <div w3-include-html="footer.html "></div>
-
     <script>
         w3.includeHTML()
     </script>
