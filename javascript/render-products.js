@@ -30,6 +30,7 @@ app.controller("DetailController", function($scope, $http) {
                     $scope.total -= cart.price;
                 }
             }
+            $scope.bs = 'bestseller';
             $scope.type2 = false;
             $scope.type1 = true;
             $scope.selectCategory0 = function() {
