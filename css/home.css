@@ -14,6 +14,7 @@
 
 .slideshow {
     padding-top: 30px;
+    transition: all .1s ease;
 }
 
 .mySlides1 {
@@ -27,6 +28,11 @@ img {
 .slideshow {
     position: relative;
     margin: auto;
+    transition: all .1s ease;
+}
+
+.slideshow :hover {
+    transform: scale(1.005);
 }
 
 .prev,
