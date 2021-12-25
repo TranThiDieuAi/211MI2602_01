@@ -6,7 +6,7 @@
         "price": "150.000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Thảm lót sàn",
-        "note": "bestseller"
+        "note": "none"
     },
     {
         "id": "",
@@ -370,7 +370,7 @@
         "price": "145.000",
         "category": "Phụ kiện trang trí",
         "sub_category": "Đồng hồ",
-        "note": 0
+        "note": "bestseller"
     },
     {
         "id": "",
@@ -847,7 +847,9 @@
         "url": "",
         "price": "70.000",
         "category": "Phụ kiện khác",
-        "sub_category": "Sáp thơm"
+        "sub_category": "Sáp thơm",
+        "note": "bestseller"
+
     },
     {
         "id": "",
