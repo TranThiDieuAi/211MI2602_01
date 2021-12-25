@@ -44,8 +44,17 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    color: rgba(0, 0, 0, 0.75);
 }
 
-h6:first-child {
+.content h6 {
+    font-weight: bold;
+}
+
+.content h6:first-child {
     padding-top: 1.2rem;
+}
+
+body {
+    font-family: quicksand, sans-serif;
 }
