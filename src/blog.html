@@ -38,24 +38,26 @@
 
     <div class="container">
         <!--Slider-->
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+
+        <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner slider">
                 <div class="carousel-item active">
                     <img class="d-block w-100 slider__background mt-7 container col-lg-12" src="../img/blog/slider.jpg" alt="First slide">
-                    <div class="row">
-                        <div class="col-lg-12 container__heading slider__body ">Bạn mơ ước một ngôi nhà xinh xắn? Hãy để DÉLICAT giúp bạn điều đó!</div>
-                    </div>
                 </div>
             </div>
         </div>
-        <div class="row container__post-special">
-            <div class="col-lg-12 row container__post">
-                <div class="col-lg-9 container__post-special-item-wrap content--box" ng-repeat="p in blogs| limitTo : 1:2">
+    </div>
+    <div class="row">
+        <div class="col-lg-12 container__heading slider__body">Bạn mơ ước một ngôi nhà xinh xắn? Hãy để DÉLICAT giúp bạn điều đó!</div>
+    </div> -->
+        <!-- special post -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 post-special" ng-repeat="p in blogs| limitTo : 1:2">
                     <a href="blog_detail.html?productID={{p.name}}">
-                        <div class="container__post-special-item content--box">
+                        <div class="content--box card">
                             <img src="{{p.image}}" alt="" class="container__post-special-img">
                             <div class="container__post-special-content">
-                                <span class="container__post-special-logo">Delicat</span>
                                 <p class="container__post-special-heading">
                                     <!-- Bắt đầu cuộc sống mới bằng việc tổng hợp dọn dẹp căn phòng. -->
                                     {{p.name}}
@@ -64,61 +66,63 @@
                                     {{p.date}} <span>By</span> DieuAi 8 comments
                                 </p>
                                 <p class="container__post-special-description">
-                                    Bắt đầu một cuộc sống mới, tiếp tục duy trì lối sống tối giản. Việc đầu tiên chúng ta cần làm chính là dọn dẹp căn phòng mình đang ở. Hãy tin mình đi, sau khi dọn dẹp chắc chắn rằng bạn sẽ có rất nhiều cảm hứng để làm việc cũng như bắt đầu mỗi ngày một
-                                    cách ý nghĩa hơn....
+                                    Bắt đầu một cuộc sống mới, tiếp tục duy trì lối sống tối giản. Việc đầu tiên chúng ta cần làm chính là dọn dẹp căn phòng mình đang ở. Hãy tin mình đi, sau khi dọn dẹp...
                                 </p>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-3 container__sidebar-about-wrap content--box" ng-repeat="p in blogs| limitTo : 1:5">
-                    <div class="row container__sidebar-about-btn-wrap">
-                        <div class="col-lg-12 container__sidebar-about-btn">
-                            <button class="container__sidebar-btn">ABOUT DÉLICAT</button>
+
+
+                <div class="col-lg-4 container__sidebar-about-wrap content--box" ng-repeat="p in blogs| limitTo : 1:5">
+                    <div class="container__sidebar-about-btn-wrap">
+                        <div class="col-lg-12">
+                            <div class="container__sidebar-title">#ABOUT US</div>
                         </div>
                     </div>
                     <a href="blog_detail.html?productID={{p.name}}">
-                        <div class="row container__sidebar-about-item-wrap content--box">
-                            <div class="col-lg-12 container__sidebar-about-item">
-                                <img src="{{p.image}}" alt="" class="container__sidebar-about-img">
-                                <div class="container__sidebar-about-content">
-                                    <p class="container__sidebar-about-logo">DÉLICAT</p>
-                                    <p class="container__sidebar-about-time">{{p.name}}</p>
-                                    <p class="container__sidebar-about-description content--box">
-                                        Hi. Chúng mình là DÉLICAT. Đây là nơi chia sẻ kinh nghiệm nho nhỏ trong việc trang trí và làm mới không gian sống.
-                                    </p>
-                                </div>
+                        <div class="col-lg-12  card">
+                            <img src="{{p.image}}" alt="" class="container__sidebar-about-img">
+                            <div class="container__sidebar-about-content">
+                                <p class="container__sidebar-about-logo">DÉLICAT</p>
+                                <p class="container__sidebar-about-description content--box">
+                                    Hi. Chúng mình là DÉLICAT. Đây là nơi chia sẻ kinh nghiệm nho nhỏ trong việc trang trí và làm mới không gian sống.
+                                </p>
                             </div>
                         </div>
                     </a>
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- new post -->
+    <div class="container">
         <div class="row ">
             <div class="col-lg-12 container__heading">
                 Xem bài viết mới nhất tại đây!
             </div>
         </div>
-        <div class="row container__new-post">
-            <div dir-paginate="p in blogs| itemsPerPage:8" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 container__new-post-item-wrap page">
+        <div class="row">
+            <div dir-paginate="p in blogs| itemsPerPage:8" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
                 <a href="blog_detail.html?productID={{p.name}}" class="bl">
                     <div class="card">
-                        <span class="content--box">
                         <img src="{{p.image}}" class="container__new-post-img">
                         <div class="container__new-post-content">
                             <p class="container__new-post-description">{{p.name}}</p>
                             <p class="container__new-post-time">{{p.date}}</p>
                         </div>
-                        </span>
                     </div>
                 </a>
             </div>
         </div>
-        <div class="col-lg-12  ">
-            <div class="quantity-container distance page1">
-                <dir-pagination-controls max-size="4" direction-links="true" boundary-links="true"></dir-pagination-controls>
-            </div>
+    </div>
+
+    <div class="col-lg-12  ">
+        <div class="quantity-container distance page1">
+            <dir-pagination-controls max-size="4" direction-links="true" boundary-links="true"></dir-pagination-controls>
         </div>
+    </div>
     </div>
     <div w3-include-html="footer.html "></div>
     <script>
