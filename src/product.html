@@ -15,22 +15,25 @@
     <script src="https://www.w3schools.com/lib/w3.js"></script>
 
     <!--Boostrap css -->
-    <link rel="stylesheet" type="text/css" href="../css/libs/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap.min.css">
 
     <!--Import font awesome -->
     <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/product.css">
 
-    <title>Tất cả sản phẩm</title>
-
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js?fbclid=IwAR08_prufY-iqEwc4vj1AH9zaGtEQE8BUcawjBQlvBYWNWNHI_JaxzGpH30"></script>
 
     <script type="text/javascript" src="../javascript/render-products.js"></script>
 
+    <script type="text/javascript" src="../javascript/dirPagination.js"></script>
+
+    <title>Tất cả sản phẩm</title>
+
 </head>
 
-<body ng-app="AngularApp" ng-controller="productController" style="font-family: quicksand, sans-serif;">
+<body ng-app="AngularApp" ng-controller="DetailController" style="font-family: quicksand, sans-serif;">
     <!-- topbar -->
     <div w3-include-html="topbar.html"></div>
 
@@ -73,7 +76,7 @@
             </div>
         </div>
         <div class="row">
-            <div ng-repeat="p in products |limitTo : 30" class="col-12 col-sm-4 col-md-3 col-lg-2dot4 col-xl-2">
+            <div dir-paginate="p in products|itemsPerPage:30" class="col-12 col-sm-4 col-md-3 col-lg-2dot4 col-xl-2">
                 <a href="productdetail.html?productID={{p.name}}">
                     <div class="card bestseller--item">
                         <div class="card-img-container">
@@ -87,40 +90,10 @@
                 </a>
             </div>
         </div>
+
         <!-- </div> -->
         <div class="quantity-container distance page1">
-            <ul class="pagination">
-                <li class="page-item">
-                    <button onclick="" class="page-link">
-                    Trước
-                    </button>
-                </li>
-                <li class="page-item">
-                    <button onclick="" class="page-link">
-                    1
-                    </button>
-                </li>
-                <li class="page-item">
-                    <button onclick="" class="page-link">
-                    2
-                    </button>
-                </li>
-                <li class="page-item">
-                    <button onclick="" class="page-link">
-                    ...
-                    </button>
-                </li>
-                <li class="page-item">
-                    <button onclick="" class="page-link">
-                    8
-                    </button>
-                </li>
-                <li class="page-item">
-                    <button class="page-link" onclick="">
-                    Sau
-                    </button>
-                </li>
-            </ul>
+            <dir-pagination-controls max-size="4" direction-links="true" boundary-links="true"></dir-pagination-controls>
         </div>
     </div>
     <!-- footer -->

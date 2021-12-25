@@ -24,12 +24,13 @@
 
     <script type="text/javascript" src="../javascript/render-products.js"></script>
 
-    <title>Home</title>
+    <script type="text/javascript" src="../javascript/dirPagination.js"></script>
 
+    <title>Home</title>
 
 </head>
 
-<body ng-app="AngularApp" ng-controller="productController">
+<body ng-app="AngularApp" ng-controller="DetailController" style="font-family: quicksand, sans-serif;">
     <!-- topbar -->
     <div w3-include-html="topbar.html"></div>
 
@@ -38,8 +39,16 @@
 
     <!-- navbar -->
     <div w3-include-html="navbar.html"></div>
-
     <!-- HOME -->
+
+    <!-- bestseller -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 home-salebanner">
+                <a href="#"><img src="../img/homepage/Christmas Sale Banner.png" alt=""></a>
+            </div>
+        </div>
+    </div>
 
     <!-- category -->
     <div class="container home-category">
@@ -52,7 +61,7 @@
     <div class="container home-bestseller">
         <h5>#BESTSELLER</h5>
         <div class="row">
-            <div ng-repeat="p in products |limitTo : 12" class="col-12 col-sm-4 col-md-3 col-lg-2dot4 col-xl-2">
+            <div ng-repeat="p in products | limitTo : 12" class="col-12 col-sm-4 col-md-3 col-lg-2dot4 col-xl-2">
                 <a href="productdetail.html?productID={{p.name}}">
                     <div class="card bestseller--item">
                         <div class="card-img-container">
@@ -67,14 +76,13 @@
             </div>
         </div>
     </div>
-    <script src="../javascript/render-best-seller.js"></script>
 
     <!-- DEbestie -->
     <div class="container home-debestie">
         <h5>#DÉBESTIE</h5>
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                <a href="#">
+                <a href="blog.html">
                     <div class="home-debestie-banner">
                         <img src="../img/homepage/debestie.png" alt="">
                         <div class="debestie--banner--title">
@@ -87,9 +95,8 @@
             <div class="col-lg-4 col-xl-4">
                 <a href="#">
                     <div class="home-debestie-blog">
-                        <img src="../img/blog/container__mainpost1.jpg" alt="">
+                        <img src="../img/blog/1.jpg" alt="">
                         <div class="home-debestie-blog--title">
-                            <span>Delicat</span>
                             <p>
                                 Bắt đầu cuộc sống mới bằng việc tổng hợp dọn dẹp căn phòng...
                             </p>
@@ -107,7 +114,22 @@
         w3.includeHTML()
     </script>
     <script src="../javascript/search.js "></script>
-    </div>
+
+    <!--     <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script> -->
 </body>
 
 </html>

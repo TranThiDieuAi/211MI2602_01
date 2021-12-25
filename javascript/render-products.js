@@ -1,6 +1,6 @@
 let urlparams = new URLSearchParams(location.search);
 var id = urlparams.get('productID');
-let app = angular.module("AngularApp", []);
+let app = angular.module("AngularApp", ['angularUtils.directives.dirPagination']);
 app.controller("DetailController", function($scope, $http) {
     $http({
         method: "GET",
@@ -10,7 +10,6 @@ app.controller("DetailController", function($scope, $http) {
             $scope.carts = [];
             var quantity = document.getElementById("quantity");
             $scope.products = response.data;
-
             $scope.selectProduct = response.data.find(function(value) {
                 return value.name == id;
             })
@@ -19,17 +18,12 @@ app.controller("DetailController", function($scope, $http) {
                     $scope.carts.push({ name: product.name, price: product.price * quantity.value });
                 }
             }
-
             $scope.total = 0;
-
-
-
             $scope.setTotals = function(cart) {
                 if (cart) {
                     $scope.total += (cart.price * 1);
                 }
             }
-
             $scope.remove_cart = function(cart) {
                 if (cart) {
                     $scope.carts.splice($scope.carts.indexOf(cart), 1);
@@ -41,18 +35,6 @@ app.controller("DetailController", function($scope, $http) {
             $scope.error = response.statusText;
         }
     )
-})
-app.controller("productController", function($scope, $http) {
-    $http({
-        method: "GET",
-        url: "../data/products.json",
-    }).then(
-        function success(response) {
-            $scope.products = response.data;
-        },
-        function error(response) {
-            $scope.error = response.statusText;
-        });
 })
 
 function decreaseNumber() {

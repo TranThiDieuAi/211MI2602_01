@@ -22,9 +22,11 @@ hr {
 }
 
 .button--cancel {
-    height: 30px;
+    height: 25px;
     background: rgba(0, 0, 0, 0.75);
     color: white;
+    line-height: 20px;
+    border-radius: 5px;
 }
 
 .font--color2 {
