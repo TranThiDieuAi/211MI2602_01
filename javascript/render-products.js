@@ -67,6 +67,22 @@ app.controller("DetailController", function($scope, $http) {
         }
     )
 })
+app.controller("CategoryController", function($scope, $http) {
+    $http({
+        method: "GET",
+        url: "../data/category_product.json"
+    }).then(
+        function success(response) {
+            $scope.categorys = response.data;
+            // $scope.selectProduct = response.data.find(function(value) {
+            //     return value.name == id;
+            // })
+        },
+        function error(response) {
+            $scope.error = response.statusText;
+        }
+    )
+})
 
 function decreaseNumber() {
     var quantity = document.getElementById("quantity");
