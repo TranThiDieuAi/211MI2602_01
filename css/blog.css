@@ -15,6 +15,7 @@
     overflow-y: auto;
 }
 
+.content--box:hover,
 .content--box {
     color: black;
     text-decoration: underline white;
