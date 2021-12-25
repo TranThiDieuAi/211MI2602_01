@@ -20,10 +20,11 @@
 
     <link rel="stylesheet" href="../css/home.css">
 
+    <!--Angular -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js?fbclid=IwAR08_prufY-iqEwc4vj1AH9zaGtEQE8BUcawjBQlvBYWNWNHI_JaxzGpH30"></script>
 
+    <!--JS -->
     <script type="text/javascript" src="../javascript/render-products.js"></script>
-
     <script type="text/javascript" src="../javascript/dirPagination.js"></script>
 
     <title>Home</title>
@@ -38,8 +39,7 @@
     <div w3-include-html="header.html"></div>
 
     <!-- navbar -->
-    <div w3-include-html="navbar.html"></div>
-    <!-- HOME -->
+    <div class="sticky" w3-include-html="navbar.html"></div>
 
     <!-- bestseller -->
     <div class="container">
@@ -115,21 +115,6 @@
     </script>
     <script src="../javascript/search.js "></script>
 
-    <!--     <script>
-        window.onscroll = function() {
-            myFunction()
-        };
-        var header = document.getElementById("myHeader");
-        var sticky = header.offsetTop;
-
-        function myFunction() {
-            if (window.pageYOffset > sticky) {
-                header.classList.add("sticky");
-            } else {
-                header.classList.remove("sticky");
-            }
-        }
-    </script> -->
 </body>
 
 </html>
