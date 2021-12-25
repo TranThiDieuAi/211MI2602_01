@@ -1,3 +1,8 @@
+html,
+body {
+    font-family: quicksand;
+}
+
 .sticky {
     position: -webkit-sticky;
     position: sticky;
@@ -13,19 +18,7 @@
 /* slideshow */
 
 .slideshow {
-    padding-top: 30px;
-    transition: all .1s ease;
-}
-
-.mySlides1 {
-    display: none
-}
-
-img {
-    vertical-align: middle;
-}
-
-.slideshow {
+    padding-top: 50px;
     position: relative;
     margin: auto;
     transition: all .1s ease;
@@ -40,19 +33,14 @@ img {
     cursor: pointer;
     position: absolute;
     top: 50%;
-    width: auto;
     padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
     font-size: 20px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
-    user-select: none;
 }
 
 .next {
-    right: 1rem;
+    right: 0.875rem;
     border-radius: 3px 0 0 3px;
 }
 
@@ -70,8 +58,6 @@ img {
 }
 
 .category--item {
-    width: 100%;
-    height: 100%;
     border: 1px solid rgba(0, 0, 0, .125);
     transition: all .1s ease;
 }
@@ -88,7 +74,6 @@ img {
 }
 
 .category--item-name {
-    font-family: quicksand;
     color: rgba(0, 0, 0, 0.75);
     font-size: 0.9375rem;
     font-weight: bold;
@@ -102,14 +87,12 @@ img {
 
 .home-bestseller h5,
 .home-debestie h5 {
-    font-family: quicksand;
     font-weight: bold;
     margin-top: 3rem;
-    margin-bottom: 1.5rem;
 }
 
 .bestseller--item {
-    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
     width: 100%;
     height: 230px;
     display: block;
@@ -122,7 +105,7 @@ img {
 
 .bestseller--item-content p {
     font-family: quicksand;
-    font-size: 0.9rem;
+    font-size: 0.875rem;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.75);
     margin-bottom: 0.4rem;
@@ -137,7 +120,6 @@ img {
     .bestseller--item {
         flex-direction: row !important;
         height: 8rem;
-        width: 100%;
     }
     .card-img-container img {
         width: 9rem !important;
@@ -148,19 +130,7 @@ img {
 
 /* debestie */
 
-.home-debestie {
-    margin-top: 3rem;
-}
-
-.home-debestie h4 {
-    margin-bottom: 1.5rem;
-    font-family: quicksand;
-    font-weight: bold;
-}
-
 .home-debestie-banner {
-    /* border: 1px solid rgba(0, 0, 0, 0.08);
-    box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.25); */
     border: 1px solid rgba(0, 0, 0, .125);
     display: flex;
     transition: all .1s ease;
@@ -171,16 +141,16 @@ img {
 }
 
 .home-debestie-banner img {
-    width: 55%;
+    width: 60%;
 }
 
 .debestie--banner--title {
-    color: rgba(0, 0, 0, 0.75);
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     padding: 1rem;
+    color: rgba(0, 0, 0, 0.75);
     font-size: 0.9375rem;
 }
 
@@ -201,7 +171,6 @@ img {
 /* deblog */
 
 .home-debestie-blog {
-    width: 100%;
     height: 100%;
     border: 1px solid rgba(0, 0, 0, .125);
     transition: all .1s ease;
@@ -216,18 +185,10 @@ img {
 }
 
 .home-debestie-blog--title {
-    padding: 1rem 1rem 0rem;
+    padding: 1rem;
     color: rgba(0, 0, 0, 0.75);
     text-align: start;
     font-size: 0.9375rem;
-}
-
-.home-debestie-blog--title p {
-    padding-top: 0.5rem;
-}
-
-.home-debestie-blog--title span {
-    color: rgba(0, 0, 0, 0.75);
 }
 
 @media (max-width:992px) {
