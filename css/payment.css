@@ -207,3 +207,10 @@ hr {
         justify-content: center;
     }
 }
+
+@media (max-width: 990px) {
+    .box,
+    .box1 {
+        width: 100%;
+    }
+}

@@ -1,6 +1,6 @@
 [{
 
-        "name": "Cách trang trí phòng trọ nhỏ, hẹp có gác lửng chỉ với 900k",
+        "name": "Cách trang trí phòng trọ nhỏ có gác lửng chỉ với 900k",
         "image": "../img/blog/container__newpost1.jpg",
         "url": "",
         "date": "June 6, 2020",
@@ -124,23 +124,19 @@
         "id": "13"
     },
     {
-
         "name": "Mẫu đèn trang trí phòng ngủ đẹp lung linh phần 2",
-        "image": "../contain__sidebar3.jpg",
+        "image": "../img/blog/contain__sidebar3.jpg",
         "url": "",
         "date": "June 8, 2021",
         "detail": "Bắt đầu một cuộc sống mới, tiếp tục duy trì lối sống tối giản. Việc đầu tiên chúng ta cần làm chính là dọn dẹp căn phòng mình đang ở. Hãy tin mình đi, sau khi dọn dẹp chắc chắn rằng bạn sẽ có rất nhiều cảm hứng để làm việc cũng như bắt đầu mỗi ngày một cách ý nghĩa hơn....",
         "id": "14"
     },
     {
-
         "name": "Đi tìm phong cách sống tối giản riêng cho bản thân",
-        "image": "../img/blog/contain__sidebar3.jpg",
+        "image": "../img/blog/container__mainpost7.jpg",
         "url": "",
         "date": "June 8, 2021",
         "detail": "Bắt đầu một cuộc sống mới, tiếp tục duy trì lối sống tối giản. Việc đầu tiên chúng ta cần làm chính là dọn dẹp căn phòng mình đang ở. Hãy tin mình đi, sau khi dọn dẹp chắc chắn rằng bạn sẽ có rất nhiều cảm hứng để làm việc cũng như bắt đầu mỗi ngày một cách ý nghĩa hơn....",
         "id": "15"
     }
-
-
 ]

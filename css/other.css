@@ -1,3 +1,15 @@
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.other {
+    margin-top: 35px;
+    min-height: 465px;
+}
+
 .collapsible {
     background-color: #777;
     color: white;
@@ -10,6 +22,18 @@
     font-size: 15px;
 }
 
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
 .active,
 .collapsible:hover {
     background-color: #555;
@@ -20,5 +44,17 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color: #f1f1f1;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.content h6 {
+    font-weight: bold;
+}
+
+.content h6:first-child {
+    padding-top: 1.2rem;
+}
+
+body {
+    font-family: quicksand, sans-serif;
 }

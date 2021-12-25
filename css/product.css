@@ -1,3 +1,10 @@
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
 .page1 {
     display: flex;
     justify-content: center;
@@ -24,6 +31,10 @@
 
 .bestseller--item:hover {
     transform: scale(1.025);
+}
+
+.sp:hover {
+    text-decoration: none;
 }
 
 .bestseller--item-content p {

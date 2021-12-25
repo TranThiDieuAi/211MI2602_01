@@ -6,6 +6,10 @@
     padding: 20px;
 }
 
+.sp {
+    text-decoration: none;
+}
+
 hr {
     border: #C4C4C4 solid 0.2px;
 }

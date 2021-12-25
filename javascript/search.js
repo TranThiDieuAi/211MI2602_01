@@ -1,17 +1,17 @@
-function searchFunc() {
-    let menusearch = document.querySelector("#menu__search");
-    let menuitems = Array.from(document.querySelectorAll(".menu__item"));
+function search() {
+    let menusearch = document.querySelector("#menu--search");
+    let menuitems = Array.from(document.querySelectorAll(".item"));
     menusearch.value = menusearch.value.toLowerCase();
     menuitems.forEach(function(el) {
         let text = el.innerText.toLowerCase();
         if (text.indexOf(menusearch.value) > -1) {
-            document.querySelector("#search__list").style.display = "block";
+            document.querySelector("#search--list").style.display = "block";
             el.style.display = "flex";
         } else el.style.display = "none";
 
         if (menusearch.value == "") {
             el.style.display = "none";
-            document.getElementById("search__list").style.display = "none";
+            document.getElementById("search--list").style.display = "none";
         }
     });
 }
@@ -22,26 +22,26 @@ function loadDataSearch() {
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             var myArr = JSON.parse(this.responseText);
-            loadSearch(myArr);
+            lsearch(myArr);
         }
     };
-    xmlhttp.open("GET", url, true); //ra lệnh
-    xmlhttp.send(); //thực hiện;
+    xmlhttp.open("GET", url, true);
+    xmlhttp.send();
 
 }
 
-function loadSearch(arr) {
+function lsearch(arr) {
     var i;
     var div = "";
     for (i = 0; i < arr.length; i++) {
         div +=
-            '<div onclick="gotoChiTiet(' + "'" + arr[i].name + "'" + ')" class="menu__item"><p id="sname">' +
+            '<div onclick="detail(' + "'" + arr[i].name + "'" + ')" class="item"><p id="sname">' +
             arr[i].name + '</p>' + "</div>";
     }
     div += "</div>";
-    document.getElementById("search__list").innerHTML = div;
+    document.getElementById("search--list").innerHTML = div;
 }
 
-function gotoChiTiet(name) {
+function detail(name) {
     window.location.href = "productdetail.html?productID=" + name;
 }

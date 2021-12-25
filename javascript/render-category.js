@@ -11,7 +11,7 @@ fetch("../data/category_product.json")
         var i;
 
         for (i = 0; i < arr.length; i++) {
-            div += "<div class='col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3'><a href='" + arr[i].url + "'><div class='category--item'><img src='" + arr[i].icon_url + "'><div class='category--item-name'>" + arr[i].name + "</div></div></a></div>"
+            div += "<div class='col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3'><a class='sp' href='" + arr[i].url + "'><div class='category--item'><img src='" + arr[i].icon_url + "'><div class='category--item-name'>" + arr[i].name + "</div></div></a></div>"
         }
         // div += "</div>";
         document.getElementById("category_row").innerHTML = div;
@@ -19,3 +19,22 @@ fetch("../data/category_product.json")
     .catch(function(error) {
         alert("Error: " + error.message);
     });
+// let urlparams = new URLSearchParams(location.search);
+// var id = urlparams.get('productID');
+let app = angular.module("angularApp", []);
+app.controller("CategoryController", function($scope, $http) {
+    $http({
+        method: "GET",
+        url: "../data/category_product.json"
+    }).then(
+        function success(response) {
+            $scope.blogs = response.data;
+            // $scope.selectProduct = response.data.find(function(value) {
+            //     return value.name == id;
+            // })
+        },
+        function error(response) {
+            $scope.error = response.statusText;
+        }
+    )
+})
