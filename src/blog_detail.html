@@ -17,7 +17,7 @@
 
     <!--Boostrap -->
     <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
-
+    <link rel="stylesheet" href="../css/blog.css">
     <link rel="stylesheet" href="../css/blog_detail.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js?fbclid=IwAR08_prufY-iqEwc4vj1AH9zaGtEQE8BUcawjBQlvBYWNWNHI_JaxzGpH30"></script>
     <script type="text/javascript" src="../javascript/render-blog.js"></script>
@@ -94,6 +94,26 @@
                 <p>Hi vọng bài viết này sẽ giúp bạn hiểu thêm về lối sống tối giản, cũng như là cách suy nghĩ của mình về lối sống này.</p>
                 <p>Stay focused, be present,</p>
                 <p>Délicat</p>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-lg-12 container__heading">
+                Các bài viết tương tự
+            </div>
+        </div>
+        <div class="row container__new-post">
+            <div ng-repeat="p in blogs| limitTo : 4:2" class="col-lg-3 container__new-post-item-wrap page">
+                <a href="blog_detail.html?productID={{p.name}}" class="bl">
+                    <div class="container__new-post-item">
+                        <span class="content--box">
+                        <img src="{{p.image}}" class="container__new-post-img">
+                        <div class="container__new-post-content">
+                            <p class="container__new-post-description">{{p.name}}</p>
+                            <p class="container__new-post-time">{{p.date}}</p>
+                        </div>
+                        </span>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
