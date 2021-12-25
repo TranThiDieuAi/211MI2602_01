@@ -1,6 +1,6 @@
 let urlparams = new URLSearchParams(location.search);
 var id = urlparams.get('productID');
-let app = angular.module("AngularApp", []);
+let app = angular.module("AngularApp", ['angularUtils.directives.dirPagination']);
 app.controller("DetailController", function($scope, $http) {
     $http({
         method: "GET",

@@ -27,6 +27,8 @@
 
     <script type="text/javascript" src="../javascript/render-products.js"></script>
 
+    <script type="text/javascript" src="../javascript/dirPagination.js"></script>
+
 </head>
 
 <body ng-app="AngularApp" ng-controller="DetailController" style="font-family: quicksand, sans-serif;">
@@ -118,14 +120,14 @@
                                 <button type="button" class="btn btn-cancel" onclick="closeForm()">Quay lại</button>
                             </div>
                             <div class="col-md-6">
-                                <button type="submit" class="btn btn-submit" onclick="closeForm()">
-                                    <a href="payment.html"><span class="font--color2">Hoàn thành</span></a>
+                                <button type="button" class="btn btn-cancel">
+                                    <a href="payment.html"><span class="font--color2 ">Thanh toán</span></a>
                                 </button>
                             </div>
                         </div>
                     </form>
                 </div>
-                <div class="container--information">
+                <div class="container--information ">
                     <h4> <b>MÔ TẢ SẢN PHẨM</b></h4>
                     <hr>
                     <p>
@@ -137,19 +139,19 @@
                 </div>
             </div>
         </div>
-        <div class="">
-            <div class="container container--col">
+        <div class=" ">
+            <div class="container container--col ">
                 <h4>#BESTSELLER</h4>
-                <div class="row">
-                    <div ng-repeat="p in products |limitTo : 6" class="col-12 col-sm-4 col-md-3 col-lg-2dot4 col-xl-2">
-                        <a href="productdetail.html?productID={{p.name}}">
-                            <div class="card bestseller--item">
-                                <div class="card-img-container">
-                                    <img src="{{p.icon_url}}" class="card-img-top bestseller--item-img">
+                <div class="row ">
+                    <div ng-repeat="p in products |limitTo : 6 " class="col-12 col-sm-4 col-md-3 col-lg-2dot4 col-xl-2 ">
+                        <a href="productdetail.html?productID={{p.name}} ">
+                            <div class="card bestseller--item ">
+                                <div class="card-img-container ">
+                                    <img src="{{p.icon_url}} " class="card-img-top bestseller--item-img ">
                                 </div>
-                                <div class="card-body bestseller--item-content">
-                                    <p class="card-text bestseller--item-name">{{p.name}}</p>
-                                    <p class="card-text bestseller--item-price">{{p.price}}</p>
+                                <div class="card-body bestseller--item-content ">
+                                    <p class="card-text bestseller--item-name ">{{p.name}}</p>
+                                    <p class="card-text bestseller--item-price ">{{p.price}}</p>
                                 </div>
                             </div>
                         </a>
@@ -159,12 +161,12 @@
         </div>
     </div>
     <!-- footer -->
-    <div w3-include-html="footer.html"></div>
+    <div w3-include-html="footer.html "></div>
 
     <script>
         w3.includeHTML()
     </script>
-    <script src="../javascript/search.js"></script>
+    <script src="../javascript/search.js "></script>
     </div>
 </body>
 
