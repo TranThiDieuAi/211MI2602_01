@@ -101,17 +101,17 @@
                     <form class="form-container">
                         <div class="container">
                             <div>
-                                <h4>MY CART</h4>
+                                <h4>Giỏ hàng</h4>
                             </div>
                             <div>
                                 <div class="row" ng-repeat="cart in carts" ng-init="setTotals(cart)">
                                     <div class="col-8">{{cart.name}}</div>
-                                    <div class="col-3">{{cart.price}}</div>
+                                    <div class="col-3">{{cart.price}}.000₫</div>
                                     <div><button class="button--cancel" type="button" ng-click="remove_cart(cart)"><span>X</span></button></div>
                                 </div>
                                 <div class="row">
                                     <div class="col-9">Total</div>
-                                    <div class="col-3">{{total}}</div>
+                                    <div class="col-3">{{total}}.000₫</div>
                                 </div>
                             </div>
                         </div>

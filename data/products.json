@@ -3,7 +3,7 @@
         "name": "Thảm lót sàn lông thỏ hình gấu",
         "icon_url": "../img/products/TRC_Tham_01.png",
         "url": "",
-        "price": "150000",
+        "price": "150.000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Thảm lót sàn"
     },
@@ -12,7 +12,7 @@
         "name": "Thảm lót sàn hoa hướng dương",
         "icon_url": "../img/products/TRC_Tham_02.png",
         "url": "",
-        "price": "120000",
+        "price": "120.000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Thảm lót sàn"
     },
@@ -21,7 +21,7 @@
         "name": "Thảm lót sàn hình quả đào",
         "icon_url": "../img/products/TRC_Tham_03.png",
         "url": "",
-        "price": "90000",
+        "price": "90.000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Thảm lót sàn"
     },
@@ -30,7 +30,7 @@
         "name": "Thảm lót sàn hình mèo lười",
         "icon_url": "../img/products/TRC_Tham_04.png",
         "url": "",
-        "price": "150000",
+        "price": "150.000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Thảm lót sàn"
     },
@@ -39,16 +39,16 @@
         "name": "Thảm lót sàn hình hổ dễ thương",
         "icon_url": "../img/products/TRC_Tham_06.png",
         "url": "",
-        "price": "150000",
+        "price": "150.000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Thảm lót sàn"
     },
     {
         "id": "",
-        "name": "Thảm lót sàn hình gấu dễ thuơng",
+        "name": "Thảm lót sàn hình gấu dễ thương",
         "icon_url": "../img/products/TRC_Tham_07.png",
         "url": "",
-        "price": "120000",
+        "price": "120.000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Thảm lót sàn"
     },
@@ -57,7 +57,7 @@
         "name": "Thảm lót sàn hình cầu cồng màu sắc",
         "icon_url": "../img/products/TRC_Tham_08.png",
         "url": "",
-        "price": "120000",
+        "price": "12.0000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Thảm lót sàn"
     },
@@ -69,7 +69,7 @@
         "name": "Rèm cửa sổ nền hồng hình thỏ",
         "icon_url": "../img/products/TRC_Rem_01.png",
         "url": "",
-        "price": "85000",
+        "price": "85.000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Rèm cửa sổ"
     },
@@ -78,7 +78,7 @@
         "name": "Rèm cửa sổ hình mèo nằm lười",
         "icon_url": "../img/products/TRC_Rem_02.png",
         "url": "",
-        "price": "85000",
+        "price": "85.000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Rèm cửa sổ"
     },
@@ -87,7 +87,7 @@
         "name": "Rèm cửa sổ hình mèo good night",
         "icon_url": "../img/products/TRC_Rem_03.png",
         "url": "",
-        "price": "85000",
+        "price": "85.000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Rèm cửa sổ"
     },
@@ -96,7 +96,7 @@
         "name": "Rèm cửa sổ hình mặt gấu bự",
         "icon_url": "../img/products/TRC_Rem_04.png",
         "url": "",
-        "price": "85000",
+        "price": "85.000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Rèm cửa sổ"
     },
@@ -105,7 +105,7 @@
         "name": "Rèm cửa sổ hình lọ hoa tím",
         "icon_url": "../img/products/TRC_Rem_05.png",
         "url": "",
-        "price": "85000",
+        "price": "85.000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Rèm cửa sổ"
     },
@@ -114,7 +114,7 @@
         "name": "Rèm cửa sổ hình lọ hoa màu hồng",
         "icon_url": "../img/products/TRC_Rem_06.png",
         "url": "",
-        "price": "85000",
+        "price": "85.000",
         "category": "Thảm, rèm cửa",
         "sub_category": "Rèm cửa sổ"
     },
@@ -913,7 +913,7 @@
     },
     {
         "id": "",
-        "name": "Protect Box",
+        "name": "Protect Box cực dễ thương",
         "icon_url": "../img/products/PKK_Khac_05.png",
         "url": "",
         "price": "86.000",
@@ -931,7 +931,7 @@
     },
     {
         "id": "",
-        "name": "Teddy yêu",
+        "name": "Teddy yêu cực dễ thương",
         "icon_url": "../img/products/PKK_Khac_07.png",
         "url": "",
         "price": "137.000",
@@ -949,73 +949,73 @@
     },
     {
         "id": "",
-        "name": "Cây để bàn_ Cẩm Nhung xanh ( Fittonia)",
+        "name": "Cẩm Nhung xanh (Fittonia)",
         "icon_url": "../img/products/CC_XuongRong2.png",
         "url": "",
-        "price": "50000",
+        "price": "50.000",
         "category": "Cây giả trang trí",
         "sub_category": "Cây cảnh để bàn"
     },
     {
         "id": "",
-        "name": "Cây để bàn_Sen đá xương rồng",
+        "name": "Sen đá xương rồng xinh",
         "icon_url": "../img/products/CC_XuongRong6.png",
         "url": "",
-        "price": "50000",
+        "price": "50.000",
         "category": "Cây giả trang trí",
         "sub_category": "Cây cảnh để bàn"
     },
     {
         "id": "",
-        "name": "Cây để bàn_Xương rồng nông dân",
+        "name": "Xương rồng nông dân",
         "icon_url": "../img/products/CC_XuongRong3.png",
         "url": "",
-        "price": "100000",
+        "price": "100.000",
         "category": "Cây giả trang trí",
         "sub_category": "Cây cảnh để bàn"
     },
     {
         "id": "",
-        "name": "Cây để bàn_Cây ngọc ngân",
+        "name": "Cây ngọc ngân dễ thương",
         "icon_url": "../img/products/CC_XuongRong4.png",
         "url": "",
-        "price": "200000",
+        "price": "200.000",
         "category": "Cây giả trang trí",
         "sub_category": "Cây cảnh để bàn"
     },
     {
         "id": "",
-        "name": "Cây để bàn_Bạc hà – chocomint (bầu)",
+        "name": "Bạc hà – Chocomint (bầu)",
         "icon_url": "../img/products/CC_XuongRong5.png",
         "url": "",
-        "price": "90000",
+        "price": "90.000",
         "category": "Cây giả trang trí",
         "sub_category": "Cây cảnh để bàn"
     },
     {
         "id": "",
-        "name": "Cây để bàn_Xương rồng tai thỏ",
+        "name": "Xương rồng tai thỏ xinh",
         "icon_url": "../img/products/CC_XuongRong01.png",
         "url": "",
-        "price": "90000",
+        "price": "90.000",
         "category": "Cây giả trang trí",
         "sub_category": "Cây cảnh để bàn"
     },
     {
         "id": "",
-        "name": "CÂY BÀNG SINGAPORE cỡ to cao trên 130cm",
+        "name": "Cây bàng Singapore cỡ to",
         "icon_url": "../img/products/CC_Caybang4.png",
         "url": "",
-        "price": "900000",
+        "price": "900.000",
         "category": "Cây giả trang trí",
         "sub_category": "Cây cảnh trang trí phòng"
     },
     {
         "id": "",
-        "name": "CÂY BÀNG SINGAPORE cỡ to cao trên 80cm",
+        "name": "Cây bàng Singapore cỡ nhỏ",
         "icon_url": "../img/products/CC_Caybang1.png",
         "url": "",
-        "price": "90000",
+        "price": "90.000",
         "category": "Cây giả trang trí",
         "sub_category": "Cây cảnh trang trí phòng"
     },
@@ -1024,16 +1024,16 @@
         "name": "Chậu lá cẩm nhung",
         "icon_url": "../img/products/CC_Caybang2.png",
         "url": "",
-        "price": "90000",
+        "price": "90.000",
         "category": "Cây giả trang trí",
         "sub_category": "Cây cảnh trang trí phòng"
     },
     {
         "id": "",
-        "name": "Trầu bà lá lỗ",
+        "name": "Trầu bà lá lỗ dễ thương",
         "icon_url": "../img/products/CC_Caybang3.png",
         "url": "",
-        "price": "90000",
+        "price": "90.000",
         "category": "Cây giả trang trí",
         "sub_category": "Cây cảnh trang trí phòng"
     }
