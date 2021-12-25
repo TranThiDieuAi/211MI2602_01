@@ -26,6 +26,10 @@
     transform: scale(1.025);
 }
 
+.sp {
+    text-decoration: none;
+}
+
 .bestseller--item-content p {
     font-family: quicksand;
     font-size: 0.9rem;
