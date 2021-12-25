@@ -15,8 +15,7 @@
         "url": "",
         "price": "120.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Thảm lót sàn",
-        "note": "none"
+        "sub_category": "Thảm lót sàn"
     },
     {
         "id": "",
@@ -25,9 +24,7 @@
         "url": "",
         "price": "90.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Thảm lót sàn",
-        "note": "none"
-
+        "sub_category": "Thảm lót sàn"
     },
     {
         "id": "",
@@ -36,8 +33,7 @@
         "url": "",
         "price": "150.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Thảm lót sàn",
-        "note": "none"
+        "sub_category": "Thảm lót sàn"
     },
     {
         "id": "",
@@ -46,8 +42,7 @@
         "url": "",
         "price": "150.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Thảm lót sàn",
-        "note": "bestseller"
+        "sub_category": "Thảm lót sàn"
     },
     {
         "id": "",
@@ -56,8 +51,7 @@
         "url": "",
         "price": "120.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Thảm lót sàn",
-        "note": "none"
+        "sub_category": "Thảm lót sàn"
     },
     {
         "id": "",
@@ -276,8 +270,7 @@
         "price": "85.000",
         "category": "Phụ kiện trang trí",
         "sub_category": "Đèn",
-        "note": "bestseller",
-        "note": 0
+        "note": "bestseller"
     },
     {
         "id": "",
@@ -885,8 +878,7 @@
         "url": "",
         "price": "29.000",
         "category": "Phụ kiện khác",
-        "sub_category": "Nến thơm",
-        "note": 1
+        "sub_category": "Nến thơm"
     },
     {
         "id": "",
@@ -895,8 +887,7 @@
         "url": "",
         "price": "38.000",
         "category": "Phụ kiện khác",
-        "sub_category": "Nến thơm",
-        "note": 1
+        "sub_category": "Nến thơm"
     },
     {
         "id": "",
@@ -905,8 +896,8 @@
         "url": "",
         "price": "30.000",
         "category": "Phụ kiện khác",
-        "sub_category": "Nến thơm",
-        "note": 0
+        "sub_category": "Nến thơm"
+
     },
     {
         "id": "",
