@@ -78,7 +78,7 @@
 
         <div class="row" ng-hide=type1>
             <div dir-paginate="p in products | itemsPerPage:1000 | filter:code" class="col-12 col-sm-4 col-md-3 col-lg-2dot4 col-xl-2">
-                <a href="productdetail.html?productID={{p.name}}">
+                <a href="productdetail.html?productID={{p.name}}" style="text-decoration: none">
                     <div class="card bestseller--item">
                         <div class="card-img-container">
                             <img src="{{p.icon_url}}" class="card-img-top bestseller--item-img">
