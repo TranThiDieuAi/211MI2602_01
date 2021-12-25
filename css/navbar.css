@@ -17,6 +17,10 @@
     justify-content: center;
 }
 
+.sp:hover {
+    text-decoration: none;
+}
+
 .nav-item {
     list-style: none;
 }
