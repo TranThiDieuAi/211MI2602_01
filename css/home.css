@@ -24,8 +24,7 @@
     }
     /* Slideshow container */
     
-    .slideshow-container {
-        max-width: 1000px;
+    .slideshow {
         position: relative;
         margin: auto;
     }
@@ -41,7 +40,7 @@
         margin-top: -22px;
         color: white;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 20px;
         transition: 0.6s ease;
         border-radius: 0 3px 3px 0;
         user-select: none;
@@ -49,14 +48,14 @@
     /* Position the "next button" to the right */
     
     .next {
-        right: 0;
+        right: 1rem;
         border-radius: 3px 0 0 3px;
     }
     /* On hover, add a grey background color */
     
     .prev:hover,
     .next:hover {
-        background-color: #f1f1f1;
+        background-color: rgba(0, 0, 0, 0.5);
         color: black;
     }
     /* banner */
