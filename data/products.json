@@ -15,8 +15,7 @@
         "url": "",
         "price": "120.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Thảm lót sàn",
-        "note": "none"
+        "sub_category": "Thảm lót sàn"
     },
     {
         "id": "",
@@ -25,9 +24,7 @@
         "url": "",
         "price": "90.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Thảm lót sàn",
-        "note": "none"
-
+        "sub_category": "Thảm lót sàn"
     },
     {
         "id": "",
@@ -36,8 +33,7 @@
         "url": "",
         "price": "150.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Thảm lót sàn",
-        "note": "none"
+        "sub_category": "Thảm lót sàn"
     },
     {
         "id": "",
@@ -46,8 +42,7 @@
         "url": "",
         "price": "150.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Thảm lót sàn",
-        "note": "bestseller"
+        "sub_category": "Thảm lót sàn"
     },
     {
         "id": "",
@@ -56,8 +51,7 @@
         "url": "",
         "price": "120.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Thảm lót sàn",
-        "note": "none"
+        "sub_category": "Thảm lót sàn"
     },
     {
         "id": "",
@@ -66,8 +60,7 @@
         "url": "",
         "price": "12.0000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Thảm lót sàn",
-        "note": 0
+        "sub_category": "Thảm lót sàn"
     },
 
 
@@ -79,8 +72,7 @@
         "url": "",
         "price": "85.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Rèm cửa sổ",
-        "note": 0
+        "sub_category": "Rèm cửa sổ"
     },
     {
         "id": "",
@@ -89,8 +81,7 @@
         "url": "",
         "price": "85.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Rèm cửa sổ",
-        "note": 0
+        "sub_category": "Rèm cửa sổ"
     },
     {
         "id": "",
@@ -99,8 +90,7 @@
         "url": "",
         "price": "85.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Rèm cửa sổ",
-        "note": 0
+        "sub_category": "Rèm cửa sổ"
     },
     {
         "id": "",
@@ -109,8 +99,8 @@
         "url": "",
         "price": "85.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Rèm cửa sổ",
-        "note": 0
+        "sub_category": "Rèm cửa sổ"
+
     },
     {
         "id": "",
@@ -119,8 +109,8 @@
         "url": "",
         "price": "85.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Rèm cửa sổ",
-        "note": 0
+        "sub_category": "Rèm cửa sổ"
+
     },
     {
         "id": "",
@@ -129,8 +119,8 @@
         "url": "",
         "price": "85.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Rèm cửa sổ",
-        "note": 0
+        "sub_category": "Rèm cửa sổ"
+
     },
     {
         "id": "",
@@ -139,8 +129,8 @@
         "url": "",
         "price": "85.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Rèm cửa sổ",
-        "note": 0
+        "sub_category": "Rèm cửa sổ"
+
     },
     {
         "id": "",
@@ -149,8 +139,8 @@
         "url": "",
         "price": "85.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Rèm cửa sổ",
-        "note": 0
+        "sub_category": "Rèm cửa sổ"
+
     },
 
 
@@ -162,8 +152,8 @@
         "url": "",
         "price": "95.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Khăn trải bàn",
-        "note": 0
+        "sub_category": "Khăn trải bàn"
+
     },
     {
         "id": "",
@@ -172,8 +162,8 @@
         "url": "",
         "price": "95.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Khăn trải bàn",
-        "note": 0
+        "sub_category": "Khăn trải bàn"
+
     },
     {
         "id": "",
@@ -182,8 +172,7 @@
         "url": "",
         "price": "95.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Khăn trải bàn",
-        "note": 0
+        "sub_category": "Khăn trải bàn"
     },
     {
         "id": "",
@@ -192,8 +181,8 @@
         "url": "",
         "price": "95.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Khăn trải bàn",
-        "note": 0
+        "sub_category": "Khăn trải bàn"
+
     },
     {
         "id": "",
@@ -202,8 +191,8 @@
         "url": "",
         "price": "75.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Khăn trải bàn",
-        "note": 0
+        "sub_category": "Khăn trải bàn"
+
     },
     {
         "id": "",
@@ -212,8 +201,8 @@
         "url": "",
         "price": "75.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Khăn trải bàn",
-        "note": 0
+        "sub_category": "Khăn trải bàn"
+
     },
     {
         "id": "",
@@ -222,8 +211,7 @@
         "url": "",
         "price": "75.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Khăn trải bàn",
-        "note": 0
+        "sub_category": "Khăn trải bàn"
     },
     {
         "id": "",
@@ -232,8 +220,7 @@
         "url": "",
         "price": "75.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Khăn trải bàn",
-        "note": "bestseller"
+        "sub_category": "Khăn trải bàn"
     },
 
 
@@ -245,8 +232,8 @@
         "url": "",
         "price": "31.000",
         "category": "Phụ kiện trang trí",
-        "sub_category": "Đèn",
-        "note": 0
+        "sub_category": "Đèn"
+
     },
     {
         "id": "",
@@ -255,8 +242,8 @@
         "url": "",
         "price": "45.000",
         "category": "Phụ kiện trang trí",
-        "sub_category": "Đèn",
-        "note": 0
+        "sub_category": "Đèn"
+
     },
     {
         "id": "",
@@ -265,8 +252,8 @@
         "url": "",
         "price": "30.000",
         "category": "Phụ kiện trang trí",
-        "sub_category": "Đèn",
-        "note": 0
+        "sub_category": "Đèn"
+
     },
     {
         "id": "",
@@ -276,8 +263,7 @@
         "price": "85.000",
         "category": "Phụ kiện trang trí",
         "sub_category": "Đèn",
-        "note": "bestseller",
-        "note": 0
+        "note": "bestseller"
     },
     {
         "id": "",
@@ -286,8 +272,8 @@
         "url": "",
         "price": "95.000",
         "category": "Phụ kiện trang trí",
-        "sub_category": "Đèn",
-        "note": 0
+        "sub_category": "Đèn"
+
     },
     {
         "id": "",
@@ -296,8 +282,8 @@
         "url": "",
         "price": "65.000",
         "category": "Phụ kiện trang trí",
-        "sub_category": "Đèn",
-        "note": 0
+        "sub_category": "Đèn"
+
     },
     {
         "id": "",
@@ -306,8 +292,8 @@
         "url": "",
         "price": "49.000",
         "category": "Phụ kiện trang trí",
-        "sub_category": "Đèn",
-        "note": 0
+        "sub_category": "Đèn"
+
     },
     {
         "id": "",
@@ -316,8 +302,8 @@
         "url": "",
         "price": "70.000",
         "category": "Phụ kiện trang trí",
-        "sub_category": "Đèn",
-        "note": 0
+        "sub_category": "Đèn"
+
     },
 
 
@@ -329,8 +315,8 @@
         "url": "",
         "price": "142.000",
         "category": "Phụ kiện trang trí",
-        "sub_category": "Đồng hồ",
-        "note": 0
+        "sub_category": "Đồng hồ"
+
     },
     {
         "id": "",
@@ -339,8 +325,8 @@
         "url": "",
         "price": "170.000",
         "category": "Phụ kiện trang trí",
-        "sub_category": "Đồng hồ",
-        "note": 0
+        "sub_category": "Đồng hồ"
+
     },
     {
         "id": "",
@@ -349,8 +335,8 @@
         "url": "",
         "price": "100.000",
         "category": "Phụ kiện trang trí",
-        "sub_category": "Đồng hồ",
-        "note": 0
+        "sub_category": "Đồng hồ"
+
     },
     {
         "id": "",
@@ -359,8 +345,8 @@
         "url": "",
         "price": "173.000",
         "category": "Phụ kiện trang trí",
-        "sub_category": "Đồng hồ",
-        "note": 0
+        "sub_category": "Đồng hồ"
+
     },
     {
         "id": "",
@@ -370,7 +356,7 @@
         "price": "145.000",
         "category": "Phụ kiện trang trí",
         "sub_category": "Đồng hồ",
-        "note": 0
+        "note": "bestseller"
     },
     {
         "id": "",
@@ -380,7 +366,8 @@
         "price": "178.000",
         "category": "Phụ kiện trang trí",
         "sub_category": "Đồng hồ",
-        "note": 0
+        "note": "bestseller"
+
     },
     {
         "id": "",
@@ -389,8 +376,8 @@
         "url": "",
         "price": "54.000",
         "category": "Phụ kiện trang trí",
-        "sub_category": "Đồng hồ",
-        "note": 0
+        "sub_category": "Đồng hồ"
+
     },
     {
         "id": "",
@@ -399,8 +386,8 @@
         "url": "",
         "price": "130.000",
         "category": "Phụ kiện trang trí",
-        "sub_category": "Đồng hồ",
-        "note": 0
+        "sub_category": "Đồng hồ"
+
     },
 
 
@@ -412,8 +399,8 @@
         "url": "",
         "price": "30.000",
         "category": "Phụ kiện trang trí",
-        "sub_category": "Tượng",
-        "note": 0
+        "sub_category": "Tượng"
+
     },
     {
         "id": "",
@@ -422,8 +409,8 @@
         "url": "",
         "price": "24.000",
         "category": "Phụ kiện trang trí",
-        "sub_category": "Tượng",
-        "note": 0
+        "sub_category": "Tượng"
+
     },
     {
         "id": "",
@@ -432,8 +419,8 @@
         "url": "",
         "price": "50.000",
         "category": "Phụ kiện trang trí",
-        "sub_category": "Tượng",
-        "note": 0
+        "sub_category": "Tượng"
+
     },
     {
         "id": "",
@@ -443,7 +430,8 @@
         "price": "70.000",
         "category": "Phụ kiện trang trí",
         "sub_category": "Tượng",
-        "note": 0
+        "note": "bestseller"
+
     },
     {
         "id": "",
@@ -452,8 +440,8 @@
         "url": "",
         "price": "27.000",
         "category": "Phụ kiện trang trí",
-        "sub_category": "Tượng",
-        "note": 0
+        "sub_category": "Tượng"
+
     },
     {
         "id": "",
@@ -462,8 +450,8 @@
         "url": "",
         "price": "80.000",
         "category": "Phụ kiện trang trí",
-        "sub_category": "Tượng",
-        "note": 0
+        "sub_category": "Tượng"
+
     },
     {
         "id": "",
@@ -473,7 +461,7 @@
         "price": "250.000",
         "category": "Phụ kiện trang trí",
         "sub_category": "Tượng",
-        "note": 0
+        "note": "bestseller"
     },
     {
         "id": "",
@@ -482,8 +470,8 @@
         "url": "",
         "price": "200.000",
         "category": "Phụ kiện trang trí",
-        "sub_category": "Tượng",
-        "note": 0
+        "sub_category": "Tượng"
+
     },
     {
         "id": "",
@@ -493,7 +481,8 @@
         "price": "100.000",
         "category": "Nội thất tiện ích",
         "sub_category": "Dụng cụ lưu trữ",
-        "note": 0
+        "note": "bestseller"
+
     },
     {
         "id": "",
@@ -502,8 +491,8 @@
         "url": "",
         "price": "150.000",
         "category": "Nội thất tiện ích",
-        "sub_category": "Dụng cụ lưu trữ",
-        "note": 0
+        "sub_category": "Dụng cụ lưu trữ"
+
     },
     {
         "id": "",
@@ -512,8 +501,8 @@
         "url": "",
         "price": "120.000",
         "category": "Nội thất tiện ích",
-        "sub_category": "Dụng cụ lưu trữ",
-        "note": 0
+        "sub_category": "Dụng cụ lưu trữ"
+
     },
     {
         "id": "",
@@ -522,8 +511,8 @@
         "url": "",
         "price": "200.000",
         "category": "Nội thất tiện ích",
-        "sub_category": "Dụng cụ lưu trữ",
-        "note": 0
+        "sub_category": "Dụng cụ lưu trữ"
+
     },
     {
         "id": "",
@@ -550,8 +539,7 @@
         "url": "",
         "price": "250.000",
         "category": "Nội thất tiện ích",
-        "sub_category": "Dụng cụ lưu trữ",
-        "note": "bestseller"
+        "sub_category": "Dụng cụ lưu trữ"
 
     },
     {
@@ -666,7 +654,8 @@
         "url": "",
         "price": "250.000",
         "category": "Nội thất tiện ích",
-        "sub_category": "Kệ, tủ"
+        "sub_category": "Kệ, tủ",
+        "note": "bestseller"
     },
     {
         "id": "",
@@ -757,7 +746,8 @@
         "url": "",
         "price": "93.000",
         "category": "Phụ kiện khác",
-        "sub_category": "Vật dụng bếp"
+        "sub_category": "Vật dụng bếp",
+        "note": "bestseller"
     },
     {
         "id": "",
@@ -838,7 +828,8 @@
         "url": "",
         "price": "147.000",
         "category": "Phụ kiện khác",
-        "sub_category": "Sáp thơm"
+        "sub_category": "Sáp thơm",
+        "note": "bestseller"
     },
     {
         "id": "",
@@ -847,7 +838,9 @@
         "url": "",
         "price": "70.000",
         "category": "Phụ kiện khác",
-        "sub_category": "Sáp thơm"
+        "sub_category": "Sáp thơm",
+        "note": "bestseller"
+
     },
     {
         "id": "",
@@ -883,8 +876,7 @@
         "url": "",
         "price": "29.000",
         "category": "Phụ kiện khác",
-        "sub_category": "Nến thơm",
-        "note": 1
+        "sub_category": "Nến thơm"
     },
     {
         "id": "",
@@ -893,8 +885,7 @@
         "url": "",
         "price": "38.000",
         "category": "Phụ kiện khác",
-        "sub_category": "Nến thơm",
-        "note": 1
+        "sub_category": "Nến thơm"
     },
     {
         "id": "",
@@ -903,8 +894,8 @@
         "url": "",
         "price": "30.000",
         "category": "Phụ kiện khác",
-        "sub_category": "Nến thơm",
-        "note": 0
+        "sub_category": "Nến thơm"
+
     },
     {
         "id": "",
@@ -949,7 +940,8 @@
         "url": "",
         "price": "423.000",
         "category": "Phụ kiện khác",
-        "sub_category": "Khác"
+        "sub_category": "Khác",
+        "note": "bestseller"
     },
     {
         "id": "",

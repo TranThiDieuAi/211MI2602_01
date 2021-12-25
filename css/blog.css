@@ -5,6 +5,14 @@
     z-index: 99;
 }
 
+.bl:hover {
+    text-decoration: none;
+}
+
+.page:hover {
+    transform: scale(1.025);
+}
+
 * {
     margin: 0;
     padding: 0;

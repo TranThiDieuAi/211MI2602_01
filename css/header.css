@@ -30,19 +30,20 @@
     height: 1.8rem;
 }
 
-.menu__item {
+.item {
     margin-top: 0.1rem;
     height: 1.5rem;
     background-color: rgba(114, 110, 110, 0.75);
 }
 
-#search__list {
-    height: 100px;
+#search--list {
+    height: 150px;
     overflow-y: auto;
     overflow-x: hidden;
     position: absolute;
     margin: 0.3rem;
     width: auto;
+    z-index: 100;
 }
 
 #sname {
