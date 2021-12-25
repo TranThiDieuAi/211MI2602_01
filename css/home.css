@@ -7,9 +7,18 @@
 
 /* banner */
 
-.home-salebanner img {
+.home-salebanner {
     width: 100%;
     margin-top: 25px;
+    transition: all .1s ease;
+}
+
+.home-salebanner img {
+    width: 100%;
+}
+
+.home-salebanner:hover {
+    transform: scale(1.025);
 }
 
 
@@ -167,9 +176,9 @@
 
 .home-debestie-blog--title {
     padding: 1rem 1rem 0rem;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.75);
     text-align: start;
-    font-size: 0.9rem;
+    font-size: 0.9375rem;
 }
 
 .home-debestie-blog--title p {
