@@ -33,7 +33,7 @@
     transform: scale(1.025);
 }
 
-.sp {
+.sp:hover {
     text-decoration: none;
 }
 

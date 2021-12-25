@@ -37,12 +37,13 @@
 }
 
 #search__list {
-    height: 100px;
+    height: 150px;
     overflow-y: auto;
     overflow-x: hidden;
     position: absolute;
     margin: 0.3rem;
     width: auto;
+    z-index: 100;
 }
 
 #sname {

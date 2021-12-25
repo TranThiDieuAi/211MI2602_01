@@ -5,7 +5,8 @@
         "url": "",
         "price": "150.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Thảm lót sàn"
+        "sub_category": "Thảm lót sàn",
+        "bestseller": "bestseller"
     },
     {
         "id": "",
@@ -14,7 +15,8 @@
         "url": "",
         "price": "120.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Thảm lót sàn"
+        "sub_category": "Thảm lót sàn",
+        "bestseller": "none"
     },
     {
         "id": "",
@@ -23,7 +25,8 @@
         "url": "",
         "price": "90.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Thảm lót sàn"
+        "sub_category": "Thảm lót sàn",
+        "bestseller": 0
     },
     {
         "id": "",
@@ -32,7 +35,8 @@
         "url": "",
         "price": "150.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Thảm lót sàn"
+        "sub_category": "Thảm lót sàn",
+        "bestseller": 1
     },
     {
         "id": "",
@@ -41,7 +45,8 @@
         "url": "",
         "price": "150.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Thảm lót sàn"
+        "sub_category": "Thảm lót sàn",
+        "bestseller": 0
     },
     {
         "id": "",
@@ -50,7 +55,8 @@
         "url": "",
         "price": "120.000",
         "category": "Thảm, rèm cửa",
-        "sub_category": "Thảm lót sàn"
+        "sub_category": "Thảm lót sàn",
+        "bestseller": 0
     },
     {
         "id": "",
@@ -828,7 +834,8 @@
         "url": "",
         "price": "29.000",
         "category": "Phụ kiện khác",
-        "sub_category": "Nến thơm"
+        "sub_category": "Nến thơm",
+        "bestseller": 1
     },
     {
         "id": "",
@@ -837,7 +844,8 @@
         "url": "",
         "price": "38.000",
         "category": "Phụ kiện khác",
-        "sub_category": "Nến thơm"
+        "sub_category": "Nến thơm",
+        "bestseller": 1
     },
     {
         "id": "",
@@ -846,7 +854,8 @@
         "url": "",
         "price": "30.000",
         "category": "Phụ kiện khác",
-        "sub_category": "Nến thơm"
+        "sub_category": "Nến thơm",
+        "bestseller": 0
     },
     {
         "id": "",

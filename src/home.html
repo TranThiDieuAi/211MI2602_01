@@ -62,51 +62,55 @@
         <h5>#BESTSELLER</h5>
         <div class="row">
             <div ng-repeat="p in products | limitTo : 12" class="col-12 col-sm-4 col-md-3 col-lg-2dot4 col-xl-2">
-                <a href="productdetail.html?productID={{p.name}}" style="text-decoration: none;">
-                    <div class="card bestseller--item">
-                        <div class="card-img-container">
-                            <img src="{{p.icon_url}}" class="card-img-top bestseller--item-img">
-                        </div>
-                        <div class="card-body bestseller--item-content">
-                            <p class="card-text bestseller--item-name">{{p.name}}</p>
-                            <p class="card-text bestseller--item-price">{{p.price}}₫</p>
-                        </div>
+                <a href="productdetail.html?productID={{p.name}}" class="sp">
+
+                    <div ng-repeat="p in products | limitTo : 12 | filter:bs" class="col-12 col-sm-4 col-md-3 col-lg-2dot4 col-xl-2">
+                        <a href="productdetail.html?productID={{p.name}}" style="text-decoration: none;">
+
+                            <div class="card bestseller--item">
+                                <div class="card-img-container">
+                                    <img src="{{p.icon_url}}" class="card-img-top bestseller--item-img">
+                                </div>
+                                <div class="card-body bestseller--item-content">
+                                    <p class="card-text bestseller--item-name">{{p.name}}</p>
+                                    <p class="card-text bestseller--item-price">{{p.price}}₫</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                </a>
+            </div>
+        </div>
+
+        <!-- DEbestie -->
+        <div class="container home-debestie">
+            <h5>#DÉBESTIE</h5>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                    <a href="blog.html" class="sp">
+                        <div class="home-debestie-banner">
+                            <img src="../img/homepage/debestie.png" alt="">
+                            <div class="debestie--banner--title">
+                                <h5>DAILY INSPIRATION</h5>
+                                <p>Những không gian đầy cảm xúc DÉ muốn chia sẻ cùng bạn</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-xl-4">
+                    <a href="#" class="sp">
+                        <div class="home-debestie-blog">
+                            <img src="../img/blog/1.jpg" alt="">
+                            <div class="home-debestie-blog--title">
+                                <p>
+                                    Bắt đầu cuộc sống mới bằng việc tổng hợp dọn dẹp căn phòng...
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
-
-    <!-- DEbestie -->
-    <div class="container home-debestie">
-        <h5>#DÉBESTIE</h5>
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-                <a href="blog.html" style="text-decoration: none;">
-                    <div class="home-debestie-banner">
-                        <img src="../img/homepage/debestie.png" alt="">
-                        <div class="debestie--banner--title">
-                            <h5>DAILY INSPIRATION</h5>
-                            <p>Những không gian đầy cảm xúc DÉ muốn chia sẻ cùng bạn</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-xl-4">
-                <a href="#" style="text-decoration: none;">
-                    <div class="home-debestie-blog">
-                        <img src="../img/blog/1.jpg" alt="">
-                        <div class="home-debestie-blog--title">
-                            <p>
-                                Bắt đầu cuộc sống mới bằng việc tổng hợp dọn dẹp căn phòng...
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-
     <!-- footer -->
     <div w3-include-html="footer.html"></div>
 
