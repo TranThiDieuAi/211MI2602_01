@@ -27,9 +27,10 @@
     <title>Home</title>
 
 
+
 </head>
 
-<body ng-app="AngularApp" ng-controller="productController">
+<body ng-app="AngularApp" ng-controller="productController" style="font-family: quicksand, sans-serif;">
     <!-- topbar -->
     <div w3-include-html="topbar.html"></div>
 
@@ -37,8 +38,7 @@
     <div w3-include-html="header.html"></div>
 
     <!-- navbar -->
-    <div w3-include-html="navbar.html"></div>
-
+    <div class="header" id="myHeader" w3-include-html="navbar.html"></div>
     <!-- HOME -->
 
     <!-- category -->
@@ -52,7 +52,7 @@
     <div class="container home-bestseller">
         <h5>#BESTSELLER</h5>
         <div class="row">
-            <div ng-repeat="p in products |limitTo : 12" class="col-12 col-sm-4 col-md-3 col-lg-2dot4 col-xl-2">
+            <div dir-paginate="p in products|itemsPerPage:30" class="col-12 col-sm-4 col-md-3 col-lg-2dot4 col-xl-2">
                 <a href="productdetail.html?productID={{p.name}}">
                     <div class="card bestseller--item">
                         <div class="card-img-container">
@@ -67,7 +67,6 @@
             </div>
         </div>
     </div>
-    <script src="../javascript/render-best-seller.js"></script>
 
     <!-- DEbestie -->
     <div class="container home-debestie">
@@ -107,7 +106,22 @@
         w3.includeHTML()
     </script>
     <script src="../javascript/search.js "></script>
-    </div>
+
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
 </body>
 
 </html>
