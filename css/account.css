@@ -8,6 +8,11 @@ body {
     margin-top: 10px;
 }
 
+.tk:hover {
+    text-decoration: none;
+    color: black;
+}
+
 .container a {
     color: #212529;
 }
