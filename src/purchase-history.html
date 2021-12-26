@@ -33,6 +33,7 @@
 
     <div class="container">
         <div class="row">
+
             <div class="col-lg-auto box box1">
                 <p class="row-title">TÀI KHOẢN CỦA BẠN</p>
                 <i class="fa fa-caret-right"></i>
@@ -43,66 +44,85 @@
                 <br>
                 <i class="fa fa-caret-right"></i>
                 <a href="home.html" class="tk">Thoát tài khoản</a>
-            </div>
-            <div class="col-lg-9 col-md-12">
-                <div class="row" id="title">
-                    <div class="col-md-6">
-                        <p class="row-title">SẢN PHẨM</p>
-                    </div>
-                    <div class="col-md-2">
-                        <p class="row-title">TỔNG TIỀN</p>
-                    </div>
-                    <div class="col-md-2">
-                        <p class="row-title">NGÀY MUA</p>
-                    </div>
-                    <div class="col-md-2">
-                        <p class="row-title">TRẠNG THÁI</p>
-                    </div>
+                <div class="col-12 navpro">
+                    <li class="nav-item dropdown dropdown-pro">
+                        <a class="nav-link" href="product.html">TÀI KHOẢN CỦA BẠN<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+
+                        <ul class="dropdown-content dropdown-content-pro">
+                            <li class="list-group-item">
+                                <a class="nav-link nav-link-pro" href="account.html">Quản lý tài khoản</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link nav-link-pro" href="purchase-history.html">Lịch sử mua hàng</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a class="nav-link nav-link-pro" href="home.html">Thoát tài khoản</a>
+                            </li>
+                        </ul>
+                    </li>
+
                 </div>
 
-                <div ng-controller="ProductController" ng-repeat="p in products|limitTo:4">
-                    <div class="box product-container">
-                        <div class="row">
-                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6 product-info">
-                                <img src="{{p.icon_url}}" alt="">
-                                <div>
-                                    <p><strong>{{p.name}}</strong></p>
-                                    <p class="content-desktop">Mã: {{p.id}}</p>
-                                    <p class="content-desktop">Số lượng: 1</p>
-                                    <p class="content-mobile">x1 &emsp; | &emsp; {{p.price}}đ</p>
-                                    <p class="content-mobile">Giao hàng thành công</p>
+
+                <div class="col-xl-12 main">
+                    <div class="row" id="title">
+                        <div class="col-md-6">
+                            <p class="row-title">SẢN PHẨM</p>
+                        </div>
+                        <div class="col-md-2">
+                            <p class="row-title">TỔNG TIỀN</p>
+                        </div>
+                        <div class="col-md-2">
+                            <p class="row-title">NGÀY MUA</p>
+                        </div>
+                        <div class="col-md-2">
+                            <p class="row-title">TRẠNG THÁI</p>
+                        </div>
+                    </div>
+
+                    <div ng-controller="ProductController" ng-repeat="p in products|limitTo:4">
+                        <div class="box product-container">
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6 product-info">
+                                    <img src="{{p.icon_url}}" alt="">
+                                    <div>
+                                        <p><strong>{{p.name}}</strong></p>
+                                        <p class="content-desktop">Mã: {{p.id}}</p>
+                                        <p class="content-desktop">Số lượng: 1</p>
+                                        <p class="content-mobile">x1 &emsp; | &emsp; {{p.price}}đ</p>
+                                        <p class="content-mobile">Giao hàng thành công</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-2">
-                                <p class="content-desktop"><strong>{{p.price}}đ</strong></p>
-                            </div>
-                            <div class="col-lg-2">
-                                <p class="content-desktop"><strong>02/06/2021</strong></p>
-                            </div>
-                            <div class="col-lg-2">
-                                <p class="content-desktop"><strong>Giao hàng thành công</strong></p>
+                                <div class="col-lg-2">
+                                    <p class="content-desktop"><strong>{{p.price}}đ</strong></p>
+                                </div>
+                                <div class="col-lg-2">
+                                    <p class="content-desktop"><strong>02/06/2021</strong></p>
+                                </div>
+                                <div class="col-lg-2">
+                                    <p class="content-desktop"><strong>Giao hàng thành công</strong></p>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item"><a class="page-link" href="#">Trang trước</a></li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Trang sau</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <nav aria-label="Page navigation example">
-                    <ul class="pagination">
-                        <li class="page-item"><a class="page-link" href="#">Trang trước</a></li>
-                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item"><a class="page-link" href="#">Trang sau</a></li>
-                    </ul>
-                </nav>
             </div>
         </div>
-    </div>
-    <div w3-include-html="footer.html "></div>
+        <div w3-include-html="footer.html "></div>
 
-    <script>
-        w3.includeHTML()
-    </script>
-    <script src="../javascript/search.js "></script>
+        <script>
+            w3.includeHTML()
+        </script>
+        <script src="../javascript/search.js "></script>
 </body>
 
 </html>
