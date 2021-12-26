@@ -11,6 +11,11 @@ body {
     z-index: 99;
 }
 
+.tk:hover {
+    text-decoration: none;
+    color: black;
+}
+
 .container a {
     color: #212529;
     text-decoration: none;
