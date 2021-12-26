@@ -361,7 +361,7 @@
     {
         "id": "037",
         "name": "Đồng hồ báo thức phong cách Bắc Âu",
-               "icon_url": "../img/products/PKTT_Dongho_06.png",
+        "icon_url": "../img/products/PKTT_Dongho_06.png",
         "url": "",
         "price": "178.000",
         "category": "Phụ kiện trang trí",
@@ -728,7 +728,8 @@
         "url": "",
         "price": "150.000",
         "category": "Phụ kiện khác",
-        "sub_category": "Vật dụng bếp"
+        "sub_category": "Vật dụng bếp",
+        "note": "bestseller"
     },
     {
         "id": "074",
@@ -838,8 +839,7 @@
         "url": "",
         "price": "70.000",
         "category": "Phụ kiện khác",
-        "sub_category": "Sáp thơm",
-        "note": "bestseller"
+        "sub_category": "Sáp thơm"
 
     },
     {
