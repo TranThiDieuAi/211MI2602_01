@@ -11,9 +11,29 @@ body {
     z-index: 99;
 }
 
-.container a {
-    color: #212529;
-    text-decoration: none;
+.navpro {
+    margin-top: 35px;
+    margin-left: -10px;
+}
+
+.nav-link-pro {
+    margin-left: 0;
+    font-size: 14px !important;
+    font-weight: lighter !important;
+}
+
+.fa-angle-down {
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.dropdown-content-pro {
+    min-width: 200px !important;
+    margin-left: 5px !important;
+}
+
+.dropdown-content-pro li {
+    padding-left: 0 !important;
 }
 
 .box {
@@ -30,7 +50,7 @@ body {
 }
 
 #title {
-    margin: 50px auto 10px auto;
+    margin: 15px auto 10px auto;
     padding: 10px 0;
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
@@ -38,8 +58,7 @@ body {
 }
 
 .row-title {
-    font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
     text-transform: uppercase;
     margin: 0;
 }

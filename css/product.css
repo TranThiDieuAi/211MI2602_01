@@ -16,11 +16,6 @@ body {
     justify-content: center;
 }
 
-.navbar-nav {
-    display: flex;
-    justify-content: start;
-}
-
 .navpro {
     margin-top: 35px;
     margin-left: -10px;
