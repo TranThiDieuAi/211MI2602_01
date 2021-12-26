@@ -1,18 +1,18 @@
 .header {
-    height: 11.25rem;
+    height: 180px;
 }
 
 
 /* socialmed */
 
 .header--left__socialmed {
-    height: 5rem;
-    line-height: 9rem;
+    height: 80px;
+    line-height: 144px;
 }
 
 .header--left__socialmed a img {
-    width: 1.5rem;
-    margin-right: 0.25rem;
+    width: 24px;
+    margin-right: 4px;
 }
 
 
@@ -20,14 +20,14 @@
 
 .header--left__search {
     position: relative;
-    padding-top: 1.75rem;
+    padding-top: 28px;
 }
 
 .menu--search {
     position: absolute;
-    margin: 0.35rem 0.5rem;
-    width: 1.8rem;
-    height: 1.8rem;
+    margin: 4px 8px;
+    width: 28px;
+    height: 28px;
 }
 
 .item {
@@ -41,7 +41,7 @@
     overflow-y: auto;
     overflow-x: hidden;
     position: absolute;
-    margin: 0.3rem;
+    margin: 5px;
     width: auto;
     z-index: 100;
 }
@@ -59,22 +59,22 @@
 
 .header--left__search i {
     position: absolute;
-    margin: 0.35rem;
-    font-size: 1.125rem;
+    margin: 5px;
+    font-size: 18px;
     color: #c4c4c4c4;
 }
 
 .header--left__search input {
-    width: 11.25rem;
-    height: 2.5rem;
-    margin-left: 0.25rem;
-    padding-left: 2.25rem;
-    border-radius: 0.25rem;
+    width: 180px;
+    height: 40px;
+    margin-left: 4px;
+    padding-left: 36px;
+    border-radius: 4px;
     border: 1px solid #c4c4c4c4;
 }
 
 input[type="text"]::placeholder {
-    font-size: 0.875rem;
+    font-size: 13px;
     color: rgba(0, 0, 0, 0.3);
     font-family: quicksand, sans-serif;
 }
@@ -83,8 +83,8 @@ input[type="text"]::placeholder {
 /* search mobile */
 
 .header--left-mobile__search {
-    height: 9.25rem;
-    line-height: 9.25rem;
+    height: 148px;
+    line-height: 148px;
     display: none;
 }
 
@@ -115,20 +115,20 @@ input[type="text"]::placeholder {
 }
 
 .header--right a i {
-    font-size: 1.45rem;
-    padding-left: 1.25rem;
+    font-size: 22px;
+    padding-left: 20px;
     color: rgba(0, 0, 0, 0.75);
 }
 
 @media (max-width:1023px) {
     .header {
-        height: 8rem;
+        height: 128px;
     }
     .header--center,
     .header--right,
     .header--left-mobile__search {
-        height: 8rem;
-        line-height: 8.5rem;
+        height: 128px;
+        line-height: 136px;
     }
     .header--left__socialmed,
     .header--left__search {

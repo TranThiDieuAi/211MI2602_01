@@ -1,3 +1,9 @@
+html,
+body {
+    font-family: quicksand;
+    font-size: 14px;
+}
+
 .sticky {
     position: -webkit-sticky;
     position: sticky;
@@ -5,12 +11,8 @@
     z-index: 99;
 }
 
-html,
-body {
-    font-size: 14px;
-    color: rgba(0, 0, 0, 0.75);
-    font-size: 14px;
-}
+
+/* aboutus */
 
 .box1,
 .box2 {
@@ -64,7 +66,7 @@ body {
 #img2 {
     width: 400px;
     height: 300px;
-    margin: 20px;
+    margin: 20px 5px;
 }
 
 .up {

@@ -1,5 +1,6 @@
 html,
 body {
+    font-family: quicksand;
     font-size: 14px;
 }
 
@@ -16,7 +17,7 @@ body {
 }
 
 .container--col {
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 .navbar-nav {
