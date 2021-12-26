@@ -1,6 +1,7 @@
 html,
 body {
     font-family: quicksand;
+    font-size: 15px;
 }
 
 .sticky {
@@ -75,7 +76,6 @@ body {
 
 .category--item-name {
     color: rgba(0, 0, 0, 0.75);
-    font-size: 0.9375rem;
     font-weight: bold;
     text-align: center;
     height: 70px;
@@ -105,10 +105,13 @@ body {
 
 .bestseller--item-content p {
     font-family: quicksand;
-    font-size: 0.875rem;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.85);
     margin-bottom: 0.4rem;
+}
+
+.bestseller--item-name {
+    font-weight: bold;
 }
 
 .bestseller--item img {
@@ -151,7 +154,6 @@ body {
     text-align: center;
     padding: 1rem;
     color: rgba(0, 0, 0, 0.75);
-    font-size: 0.9375rem;
 }
 
 @media (max-width: 575px) {
@@ -185,10 +187,14 @@ body {
 }
 
 .home-debestie-blog--title {
-    padding: 1rem;
+    padding: 1rem 1rem 0;
     color: rgba(0, 0, 0, 0.75);
     text-align: start;
-    font-size: 0.9375rem;
+}
+
+.home-debestie-blog--title h6 {
+    font-weight: bold;
+    padding-bottom: 0.5rem;
 }
 
 @media (max-width:992px) {

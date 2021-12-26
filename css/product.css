@@ -39,10 +39,13 @@
 
 .bestseller--item-content p {
     font-family: quicksand;
-    font-size: 0.9rem;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.75);
+    font-size: 0.875rem;
+    color: rgba(0, 0, 0, 0.85);
     margin-bottom: 0.4rem;
+}
+
+.bestseller--item-name {
+    font-weight: bold;
 }
 
 .bestseller--item img {
