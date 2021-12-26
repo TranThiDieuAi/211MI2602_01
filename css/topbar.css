@@ -5,11 +5,4 @@
     height: 50px;
     line-height: 50px;
     text-align: center;
-    font-size: 0.925rem;
-}
-
-@media (max-width: 334px) {
-    .topbar {
-        font-size: 0.875rem;
-    }
 }

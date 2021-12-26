@@ -27,7 +27,7 @@
     <script type="text/javascript" src="../javascript/render-products.js"></script>
     <script type="text/javascript" src="../javascript/dirPagination.js"></script>
 
-    <title>Home</title>
+    <title>Trang chủ | DÉlicat</title>
 
 </head>
 
@@ -56,6 +56,25 @@
         <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
     </div>
     <script>
+        /* Change img every 4 seconds */
+        var slideIndex1 = 0;
+        carousel();
+
+        function carousel() {
+            var a;
+            var b = document.getElementsByClassName("mySlides");
+            for (a = 0; a < b.length; a++) {
+                b[a].style.display = "none";
+            }
+            slideIndex1++;
+            if (slideIndex1 > b.length) {
+                slideIndex1 = 1
+            }
+            b[slideIndex1 - 1].style.display = "block";
+            setTimeout(carousel, 4000);
+        }
+
+        /* Change img when click prev, next */
         var slideIndex = [1, 1];
         var slideId = ["mySlides"]
         showSlides(1, 0);
@@ -85,7 +104,7 @@
     <!-- category -->
     <div class="container home-category" ng-controller="CategoryController">
         <div class="row" id="category_row">
-            <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3" ng-repeat="c in categorys">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3" ng-repeat="c in categorys" style="margin-bottom: 16px;">
                 <a class="sp" href="product.html" ng-click="selectCategory3()">
                     <div class="category--item">
                         <img src="{{c.icon_url}}">
@@ -95,7 +114,6 @@
             </div>
         </div>
     </div>
-    <!-- <script src="../javascript/render-category.js"></script> -->
 
 
     <!-- bestseller -->
@@ -139,6 +157,7 @@
                     <div class="home-debestie-blog">
                         <img src="../img/blog/1.jpg" alt="">
                         <div class="home-debestie-blog--title">
+                            <h6>New life</h6>
                             <p>
                                 Bắt đầu cuộc sống mới bằng việc tổng hợp dọn dẹp căn phòng...
                             </p>

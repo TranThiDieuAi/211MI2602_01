@@ -4,8 +4,10 @@
     margin-right: auto;
 }
 
-.body {
-    font-family: quicksand, sans-serif;
+html,
+body {
+    font-size: 14px;
+    font-family: quicksand;
 }
 
 .entry-title {

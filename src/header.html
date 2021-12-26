@@ -23,6 +23,8 @@
 <body>
     <div class="container">
         <div class="row">
+
+            <!-- left -->
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
                 <div class="header--left">
                     <div class="header--left__socialmed">
@@ -34,7 +36,7 @@
                         <div class="header--left__search">
                             <a class="menu--search">
                                 <i class="fa fa-search" aria-hidden="true"></i></a>
-                            <input onkeyup="search();" id="menu--search" placeholder="Search" onclick="loadDataSearch();" type="text">
+                            <input onkeyup="search();" onclick="loadDataSearch();" id="menu--search" placeholder="Search" type="text">
                             <div id="search--list"></div>
                         </div>
 
@@ -45,11 +47,15 @@
                     </div>
                 </div>
             </div>
+
+            <!-- logo -->
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 ">
                 <a href="home.html">
                     <div class="header--center"></div>
                 </a>
             </div>
+
+            <!-- right -->
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 ">
                 <div class="header--right ">
                     <a href="payment.html"><i class="fa fa-shopping-cart " aria-hidden="true" ></i></a>
@@ -57,7 +63,6 @@
             </div>
         </div>
     </div>
-
 </body>
 
 </html>

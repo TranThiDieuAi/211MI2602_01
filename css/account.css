@@ -1,5 +1,39 @@
+html,
 body {
-    font-size: 16px;
+    font-family: quicksand;
+    font-size: 14px;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.navpro {
+    margin-top: 35px;
+    margin-left: -10px;
+}
+
+.nav-link-pro {
+    margin-left: 0;
+    font-size: 14px !important;
+    font-weight: lighter !important;
+}
+
+.fa-angle-down {
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.dropdown-content-pro {
+    min-width: 200px !important;
+    margin-left: 5px !important;
+}
+
+.dropdown-content-pro li {
+    padding-left: 0 !important;
 }
 
 .img-user {
@@ -13,15 +47,14 @@ body {
     color: black;
 }
 
-.container a {
-    color: #212529;
+.tk {
+    color: rgba(0, 0, 0, 0.75);
 }
 
 .box {
-    border: 1px solid rgba(112, 96, 96, 0.2);
+    border: 1px solid rgba(0, 0, 0, .125);
     box-sizing: border-box;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
-    margin: 50px auto;
+    margin: 15px;
     padding: 20px;
     font-family: quicksand, sans-serif;
 }
@@ -33,7 +66,7 @@ body {
 .row-title {
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .info-row {
