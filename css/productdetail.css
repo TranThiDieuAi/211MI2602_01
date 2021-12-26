@@ -32,6 +32,10 @@ hr {
     border-radius: 5px;
 }
 
+.pm:hover {
+    text-decoration: none;
+}
+
 .font--color2 {
     color: white;
 }
