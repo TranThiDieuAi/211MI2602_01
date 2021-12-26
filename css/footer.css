@@ -14,21 +14,20 @@
     justify-content: center;
     height: 3rem;
     line-height: 3rem;
-    font-size: 0.925rem;
 }
 
 .footer__contact-icon {
     position: relative;
     margin: 0.5rem;
-    width: 2rem;
-    height: 2rem;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
     border: 1px solid white;
     text-align: center;
-    line-height: 1.85rem;
+    line-height: 26px;
 }
 
-@media (max-width: 334px) {
+@media (max-width: 345px) {
     .footer__contact {
         justify-content: start;
         margin: 0 -1.875rem;
