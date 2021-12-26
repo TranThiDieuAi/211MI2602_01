@@ -56,6 +56,25 @@
         <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
     </div>
     <script>
+        /* Change image every 4 seconds */
+        var myIndex1 = 0;
+        carousel();
+
+        function carousel() {
+            var a;
+            var b = document.getElementsByClassName("mySlides");
+            for (a = 0; a < b.length; a++) {
+                b[a].style.display = "none";
+            }
+            myIndex1++;
+            if (myIndex1 > b.length) {
+                myIndex1 = 1
+            }
+            b[myIndex1 - 1].style.display = "block";
+            setTimeout(carousel, 4000);
+        }
+
+        /* prev, next */
         var slideIndex = [1, 1];
         var slideId = ["mySlides"]
         showSlides(1, 0);
