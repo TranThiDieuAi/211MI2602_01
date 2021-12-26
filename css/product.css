@@ -37,6 +37,15 @@ body {
     color: rgba(0, 0, 0, 0.55);
 }
 
+.dropdown-content-pro {
+    min-width: 200px !important;
+    margin-left: 5px !important;
+}
+
+.dropdown-content-pro li {
+    padding-left: 0 !important;
+}
+
 
 /* products */
 
