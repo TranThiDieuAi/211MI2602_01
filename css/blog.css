@@ -10,6 +10,10 @@ body {
     z-index: 99;
 }
 
+.content--box {
+    color: #666666;
+}
+
 .bl:hover {
     text-decoration: none;
 }
@@ -26,30 +30,6 @@ body {
 
 .main {
     overflow-y: auto;
-}
-
-
-/* Slider */
-
-.slider {
-    position: relative;
-    margin-bottom: 25px !important;
-}
-
-.slider__background {
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: cover;
-    height: 550px;
-    width: 100%;
-    margin-top: 50px;
-}
-
-.slider__body {
-    text-align: center;
-    margin-top: 100px;
-    font-size: 50px;
-    margin-bottom: 0px;
 }
 
 
@@ -112,18 +92,9 @@ body {
     text-align: center;
 }
 
-
-/* Container post */
-
 .container__post-wrap {
     justify-content: space-between;
-    /* -ms-flex-direction: column; */
 }
-
-
-/* .flex--drirection {
-    display: flex;
-} */
 
 .container__post-special {
     margin-bottom: 50px;
@@ -316,16 +287,6 @@ body {
     margin: 15px 0 20px 0;
 }
 
-.container__sidebar-pro-description {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 22px;
-    text-align: center;
-    display: block;
-    margin: 0 auto 10px;
-    font-family: 'Quicksand';
-}
-
 .container__sidebar-pro-time {
     font-family: 'Quicksand';
     font-size: 12px;
@@ -386,51 +347,4 @@ body {
 
 .page {
     margin-top: 10px;
-}
-
-
-/* Mobile & Tablet */
-
-@media(max-width: 1023px) {
-    .container__new-post-item-wrap,
-    .container__main-post-item-wrap {
-        margin-bottom: 20px;
-    }
-    .container__post-special-description {
-        width: auto;
-    }
-}
-
-
-/* Tablet */
-
-@media(min-width: 740px) and (max-width: 1023px) {
-    .slider__body {
-        width: auto;
-    }
-}
-
-
-/* Mobile */
-
-@media(max-width: 739px) {
-    .slider__body {
-        width: auto;
-        font-size: 25px;
-        margin-top: 20px;
-    }
-    .container__main-post {
-        margin-bottom: 0;
-    }
-    .pagination-item:first-child {
-        display: none;
-    }
-    .pagination-item:last-child {
-        display: none;
-    }
-    .container__pagination {
-        width: 300px;
-        margin-left: calc((100% - 300px)/2);
-        padding: 10px 0;
-    }
 }
