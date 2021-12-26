@@ -19,4 +19,22 @@ fetch("../data/category_product.json")
     .catch(function(error) {
         alert("Error: " + error.message);
     });
-""
+// let urlparams = new URLSearchParams(location.search);
+// var id = urlparams.get('productID');
+let app = angular.module("angularApp", []);
+app.controller("CategoryController", function($scope, $http) {
+    $http({
+        method: "GET",
+        url: "../data/category_product.json"
+    }).then(
+        function success(response) {
+            $scope.blogs = response.data;
+            // $scope.selectProduct = response.data.find(function(value) {
+            //     return value.name == id;
+            // })
+        },
+        function error(response) {
+            $scope.error = response.statusText;
+        }
+    )
+})
