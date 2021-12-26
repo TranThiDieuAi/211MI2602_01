@@ -78,6 +78,7 @@ app.controller("CategoryController", function($scope, $http) {
             //     return value.name == id;
             // })
         },
+
         function error(response) {
             $scope.error = response.statusText;
         }

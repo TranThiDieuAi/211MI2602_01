@@ -25,7 +25,7 @@
     <div w3-include-html="navbar.html"></div>
     <div class="container">
         <div class="row">
-            <div class="col-md-auto box box1">
+            <div class="col-lg-auto box box1">
                 <p class="row-title">TÀI KHOẢN CỦA BẠN</p>
                 <i class="fa fa-caret-right"></i>
                 <a href="account.html">Quản lý tài khoản</a>
@@ -36,7 +36,7 @@
                 <i class="fa fa-caret-right"></i>
                 <a href="home.html">Thoát tài khoản</a>
             </div>
-            <div class="col-md-9">
+            <div class="col-lg-9 col-md-12">
                 <div class="row" id="title">
                     <div class="col-md-6">
                         <p class="row-title">SẢN PHẨM</p>
@@ -55,7 +55,7 @@
                 <div ng-controller="ProductController" ng-repeat="p in products|limitTo:4">
                     <div class="box product-container">
                         <div class="row">
-                            <div class="col-md-6 product-info">
+                            <div class="col-sm-12 col-xs-12 col-md-12 col-lg-6 product-info">
                                 <img src="{{p.icon_url}}" alt="">
                                 <div>
                                     <p><strong>{{p.name}}</strong></p>
@@ -65,13 +65,13 @@
                                     <p class="content-mobile">Giao hàng thành công</p>
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-lg-2">
                                 <p class="content-desktop"><strong>{{p.price}}đ</strong></p>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-lg-2">
                                 <p class="content-desktop"><strong>02/06/2021</strong></p>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-lg-2">
                                 <p class="content-desktop"><strong>Giao hàng thành công</strong></p>
                             </div>
                         </div>
