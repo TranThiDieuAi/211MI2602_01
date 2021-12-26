@@ -1,23 +1,21 @@
 html,
 body {
-    font-size: 16px;
     font-family: quicksand, sans-serif;
     font-size: 14px;
 }
 
 .box {
-    border: 1px solid rgba(112, 96, 96, 0.2);
+    border: 1px solid rgba(0, 0, 0, .125);
     box-sizing: border-box;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
     margin: 0 auto;
     padding: 20px;
     font-family: quicksand, sans-serif;
 }
 
 .box1 {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 50px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 35px;
 }
 
 hr {
@@ -26,7 +24,7 @@ hr {
 
 .row-title {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
     text-transform: uppercase;
     /* font-family: quicksand, sans-serif; */
 }
@@ -43,6 +41,11 @@ hr {
 .address-content,
 .bill-content {
     display: flex;
+    padding-top: 15px;
+}
+
+.bill {
+    height: 465px;
 }
 
 .address-content>p:first-child,
@@ -67,10 +70,19 @@ hr {
     color: white;
 }
 
+.checkbox {
+    margin: 35px;
+}
+
 .checkbox,
 .radio {
-    height: 20px;
-    width: 20px;
+    height: 18px;
+    width: 18px;
+    margin-top: 5px;
+}
+
+.radio_content {
+    padding-top: 0;
 }
 
 .product-container:hover {
@@ -89,12 +101,19 @@ hr {
 .product-name {
     color: rgba(0, 0, 0, 0.75);
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
+}
+
+.material-icons {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    margin-right: 8px;
 }
 
 .img-icon {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
+    padding-top: 0;
     margin: 0 10px;
 }
 
@@ -103,11 +122,11 @@ hr {
 }
 
 .pagination>li>button {
-    color: black;
+    color: rgba(0, 0, 0, 0.75);
 }
 
 .pagination>li>input {
-    color: black;
+    color: rgba(0, 0, 0, 0.75);
 }
 
 .page-link i {
@@ -129,8 +148,16 @@ hr {
     margin-bottom: 20px;
 }
 
+.mg15 {
+    margin-bottom: 20px;
+}
+
 .discount input {
     width: 100%;
+    margin: 15px 0;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
 }
 
 .discount span {

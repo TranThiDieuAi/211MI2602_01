@@ -145,7 +145,7 @@
                                             <br>
                                             <span>Mã: {{p.id}}</span>
                                             <br>
-                                            <span>Giá: <span id="price">{{p.price}}</span> đ</span>
+                                            <span>Giá: <span id="price">{{p.price}}</span>₫</span>
 
                                             <!-- quantity -->
                                             <div class="quantity-container">
@@ -179,7 +179,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 mg15">
                     <!-- discount -->
                     <div class="box discount">
                         <div class="row-title">
@@ -209,7 +209,7 @@
                             <br>
 
                             <input type="radio" id="momo" name="payment-method" value="momo" class="radio">
-                            <label for="momo"><img class="img-icon" src="../img/payment/momo-icon.png" alt="">Thanh toán bằng ví Momo</label>
+                            <label class="radio_content" for="momo"><img class="img-icon" src="../img/payment/momo-icon.png" alt="">Thanh toán bằng ví Momo</label>
                             <br>
 
                             <input type="radio" id="atm-card" class="radio" value="atm-card" name="payment-method">
@@ -227,21 +227,21 @@
                         <hr>
                         <div class="bill-content">
                             <p>Thành tiền:</p>
-                            <p id="total_amount">360.000<sup>đ</sup></p>
+                            <p id="total_amount">360.000<sup>₫</sup></p>
                         </div>
                         <div class="bill-content">
                             <p>Phí ship:</p>
-                            <p id="ship">40.000<sup>đ</sup></p>
+                            <p id="ship">40.000<sup>₫</sup></p>
                         </div>
                         <div class="bill-content">
                             <p>Khuyến mãi:</p>
-                            <p id="discount">10.000<sup>đ</sup></p>
+                            <p id="discount">10.000<sup>₫</sup></p>
                         </div>
-
+                        <br>
                         <hr>
                         <div class="bill-content">
                             <p class="row-title">TỔNG TIỀN:</p>
-                            <p id="total_bill">390.000<sup>đ</sup></p>
+                            <p id="total_bill">390.000<sup>₫</sup></p>
                         </div>
 
                         <!-- Button trigger modal -->
