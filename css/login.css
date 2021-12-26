@@ -19,7 +19,7 @@
     }
     
     #header {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: bold;
         text-align: center;
         margin-top: 30px;
@@ -28,7 +28,8 @@
     #phone,
     #pw {
         width: 100%;
-        border: 1px solid black;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        height: 30px;
     }
     
     #phone {
