@@ -114,7 +114,6 @@ article img {
     color: rgba(0, 0, 0, 0.75);
     display: block;
     padding: 8px 0;
-    font-size: 18px;
     font-weight: bold;
 }
 
@@ -139,15 +138,15 @@ article img {
 /* socialmed */
 
 .nav-mobile-socialmed {
-    height: 80px;
-    line-height: 100px;
+    height: 60px;
+    line-height: 80px;
     display: flex;
     margin-left: 32px;
 }
 
 .nav-mobile-socialmed a img {
-    width: 26px;
-    height: 26px;
+    width: 22px;
+    height: 22px;
     margin-right: 5px;
 }
 
@@ -165,7 +164,7 @@ article img {
 }
 
 .nav-mobile-acc a i {
-    font-size: 26px;
+    font-size: 24px;
     color: rgba(0, 0, 0, 0.8);
     margin-right: 15px;
 }
@@ -178,7 +177,7 @@ article img {
         display: none;
     }
     .nav-mobile-link {
-        font-size: 17px;
+        font-size: 16px;
     }
 }
 

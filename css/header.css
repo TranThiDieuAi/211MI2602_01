@@ -7,7 +7,7 @@
 
 .header--left__socialmed {
     height: 5rem;
-    line-height: 7.5rem;
+    line-height: 9rem;
 }
 
 .header--left__socialmed a img {
@@ -20,7 +20,7 @@
 
 .header--left__search {
     position: relative;
-    padding-top: 0.5rem;
+    padding-top: 1.75rem;
 }
 
 .menu--search {
@@ -110,7 +110,8 @@ input[type="text"]::placeholder {
     display: flex;
     justify-content: end;
     height: 11.25rem;
-    line-height: 11.25rem;
+    line-height: 14rem;
+    margin-right: 0.5rem;
 }
 
 .header--right a i {

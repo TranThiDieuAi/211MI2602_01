@@ -1,7 +1,7 @@
 html,
 body {
     font-family: quicksand;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .sticky {
@@ -80,6 +80,7 @@ body {
     text-align: center;
     height: 70px;
     line-height: 70px;
+    font-size: 15px;
 }
 
 
@@ -105,7 +106,6 @@ body {
 
 .bestseller--item-content p {
     font-family: quicksand;
-    font-size: 14px;
     color: rgba(0, 0, 0, 0.85);
     margin-bottom: 0.4rem;
 }
@@ -165,7 +165,10 @@ body {
     }
     .debestie--banner--title {
         text-align: start;
-        padding: 25px 10px 5px 15px;
+        padding: 0 15px;
+    }
+    .debestie--banner--title h5 {
+        margin-top: 20px;
     }
 }
 
@@ -187,14 +190,14 @@ body {
 }
 
 .home-debestie-blog--title {
-    padding: 1rem 1rem 0;
+    padding: 16px 16px 0;
     color: rgba(0, 0, 0, 0.75);
     text-align: start;
 }
 
 .home-debestie-blog--title h6 {
     font-weight: bold;
-    padding-bottom: 0.5rem;
+    padding-bottom: 8px;
 }
 
 @media (max-width:992px) {

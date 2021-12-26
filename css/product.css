@@ -1,3 +1,8 @@
+html,
+body {
+    font-size: 14px;
+}
+
 .sticky {
     position: -webkit-sticky;
     position: sticky;
@@ -21,8 +26,14 @@
 
 /* products */
 
+.home-bestseller h5,
+.home-debestie h5 {
+    font-weight: bold;
+    margin-top: 3rem;
+}
+
 .bestseller--item {
-    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
     width: 100%;
     height: 230px;
     display: block;
@@ -33,13 +44,7 @@
     transform: scale(1.025);
 }
 
-.sp:hover {
-    text-decoration: none;
-}
-
 .bestseller--item-content p {
-    font-family: quicksand;
-    font-size: 0.875rem;
     color: rgba(0, 0, 0, 0.85);
     margin-bottom: 0.4rem;
 }
@@ -57,14 +62,9 @@
     .bestseller--item {
         flex-direction: row !important;
         height: 8rem;
-        width: 100%;
     }
     .card-img-container img {
         width: 9rem !important;
         height: 100%;
     }
-}
-
-body {
-    font-family: quicksand, sans-serif;
 }
