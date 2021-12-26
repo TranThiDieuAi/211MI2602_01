@@ -1,6 +1,14 @@
 html,
 body {
+    font-family: quicksand;
     font-size: 14px;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 99;
 }
 
 .img-user {
@@ -14,9 +22,7 @@ body {
     color: black;
 }
 
-.container a {
-    color: #212529;
-}
+.container a {}
 
 .box {
     border: 1px solid rgba(112, 96, 96, 0.2);

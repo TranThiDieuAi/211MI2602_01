@@ -16,22 +16,29 @@ body {
     justify-content: center;
 }
 
-.container--col {
-    margin-top: 35px;
+.navbar-nav {
+    display: flex;
+    justify-content: start;
 }
 
-.navbar-nav {
-    margin-right: auto;
+.navpro {
+    margin-top: 35px;
+    margin-left: -10px;
+}
+
+.nav-link-pro {
+    margin-left: 0;
+    font-size: 14px !important;
+    font-weight: lighter !important;
+}
+
+.fa-angle-down {
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.55);
 }
 
 
 /* products */
-
-.home-bestseller h5,
-.home-debestie h5 {
-    font-weight: bold;
-    margin-top: 3rem;
-}
 
 .bestseller--item {
     margin-top: 1.5rem;
@@ -46,7 +53,7 @@ body {
 }
 
 .bestseller--item-content p {
-    color: rgba(0, 0, 0, 0.85);
+    color: rgba(0, 0, 0, 0.75);
     margin-bottom: 0.4rem;
 }
 

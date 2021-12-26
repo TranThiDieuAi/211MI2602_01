@@ -1,7 +1,14 @@
 html,
 body {
-    font-family: quicksand, sans-serif;
+    font-family: quicksand;
     font-size: 14px;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 99;
 }
 
 .box {

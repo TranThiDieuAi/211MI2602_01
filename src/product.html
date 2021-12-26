@@ -42,13 +42,14 @@
 
     <!-- navbar -->
     <div class="sticky" w3-include-html="navbar.html"></div>
+
+
     <div class="container">
-        <div class="col-12 container--col">
-            <div class="col-12">
-                <nav class="navbar navbar-expand-md navbar-light">
+        <div class="row">
+            <div class="col-12 navpro">
+                <!-- <nav class="navbar navbar-expand-md navbar-light">
                     <a href="#" class="navbar-brand"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-expanded="false" aria-controls="toggleMobileMenu" aria-label="Toggle navigation">
-                        <span class="">Danh mục</span>
                     </button>
                     <div class="collapse navbar-collapse" id="toggleMobileMenu">
                         <ul class="navbar-nav">
@@ -72,7 +73,31 @@
                             </li>
                         </ul>
                     </div>
-                </nav>
+                </nav> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="product.html">DANH MỤC<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+
+                    <ul class="dropdown-content">
+                        <li class="list-group-item">
+                            <a class="nav-link nav-link-pro" href="#" ng-click="selectCategory0()">Tất cả sản phẩm</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link nav-link-pro" href="#" ng-click="selectCategory3()">Nội thất tiện ích</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link nav-link-pro" href="#" ng-click="selectCategory2()">Phụ kiện trang trí</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link nav-link-pro" href="#" ng-click="selectCategory5()">Cây giả trang trí</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link nav-link-pro" href="#" ng-click="selectCategory1()">Thảm rèm cửa</a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link nav-link-pro" href="#" ng-click="selectCategory4()">Vật dụng khác</a>
+                        </li>
+                    </ul>
+                </li>
             </div>
         </div>
 
